@@ -18,6 +18,6 @@ export BASE_URL="https://$WEBSITE_HOSTNAME"
 #fi
 
 cd web
-pwd
+
 hugo_0.14_windows_amd64.exe --baseUrl=$BASE_URL -d $DEPLOYMENT_TARGET
-cp web.config $DEPLOYMENT_TARGET
+#cp web.config $DEPLOYMENT_TARGET
