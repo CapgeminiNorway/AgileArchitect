@@ -3,8 +3,7 @@ export TOOLS_ROOT_DIR=$HOME/site/deployments/tools
 export HUGOROOT=$TOOLS_ROOT_DIR/hugo
 export PATH=$PATH:$HUGOROOT
 #export GOPATH=$DEPLOYMENT_SOURCE
-#temp
-rm -rf "$HUGOROOT"
+
 if [ ! -e "$HUGOROOT" ]; then
   export HUGO_ARCHIVE_DIR=$HOME/tmp
   export HUGO_ARCHIVE=${HUGO_ARCHIVE_DIR}/hugo.zip
@@ -22,5 +21,5 @@ export BASE_URL="http://$WEBSITE_HOSTNAME"
 cd web
 
 hugo_0.15_windows_amd64.exe --baseUrl=$BASE_URL -d $DEPLOYMENT_TARGET
-ls -l $DEPLOYMENT_TARGET
+
 #cp web.config $DEPLOYMENT_TARGET
