@@ -21,6 +21,6 @@ export BASE_URL="http://$WEBSITE_HOSTNAME"
 
 cd web
 
-hugo_0.14_windows_amd64.exe --baseUrl=$BASE_URL -d $DEPLOYMENT_TARGET
+hugo_0.15_windows_amd64.exe --baseUrl=$BASE_URL -d $DEPLOYMENT_TARGET
 ls -l $DEPLOYMENT_TARGET
 #cp web.config $DEPLOYMENT_TARGET
