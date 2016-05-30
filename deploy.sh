@@ -12,7 +12,7 @@ if [ ! -e "$HUGOROOT" ]; then
   unzip -o $HUGO_ARCHIVE -d $HUGOROOT
 fi
 
-export BASE_URL="https://$WEBSITE_HOSTNAME"
+export BASE_URL="http://$WEBSITE_HOSTNAME"
 #if [ "$WEBSITE_HOSTNAME" == "opencontainers.azurewebsites.net" ]; then
 #  export BASE_URL="https://www.opencontainers.org"
 #fi

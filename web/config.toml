@@ -3,3 +3,11 @@ languageCode = "en-us"
 title = "The Agile Architect"
 contentdir = "../manuscript"
 theme = "hugo_theme_robust"
+
+# Needed by Theme demos in exampleSite.
+[params]
+#  DateForm = "Mon, Jan 2, 2006"
+#  github = "opencontainers" # optional
+#  headerCover = "images/ocf_background_144.png" # optional
+#  footerCover = "images/footerCover.png" # optional
+  googleAnalyticsUserID = "UA-78514643-1" # optional
