@@ -3,11 +3,13 @@ export TOOLS_ROOT_DIR=$HOME/site/deployments/tools
 export HUGOROOT=$TOOLS_ROOT_DIR/hugo
 export PATH=$PATH:$HUGOROOT
 #export GOPATH=$DEPLOYMENT_SOURCE
+#temp
+rm -rf "$HUGOROOT"
 if [ ! -e "$HUGOROOT" ]; then
   export HUGO_ARCHIVE_DIR=$HOME/tmp
   export HUGO_ARCHIVE=${HUGO_ARCHIVE_DIR}/hugo.zip
   mkdir -p ${HUGO_ARCHIVE_DIR}
-  curl -L https://github.com/spf13/hugo/releases/download/v0.14/hugo_0.14_windows_amd64.zip -o $HUGO_ARCHIVE
+  curl -L https://github.com/spf13/hugo/releases/download/v0.15/hugo_0.15_windows_amd64.zip -o $HUGO_ARCHIVE
   # This will take a while ...
   unzip -o $HUGO_ARCHIVE -d $HUGOROOT
 fi
