@@ -1,4 +1,5 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "http://arkitekturskolen.azurwebsites.net/"
 languageCode = "en-us"
 title = "The Agile Architect"
 contentdir = "../manuscript"
+theme = "hugo_theme_robust"
