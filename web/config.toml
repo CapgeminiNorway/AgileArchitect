@@ -10,4 +10,4 @@ theme = "hugo_theme_robust"
 #  github = "opencontainers" # optional
 #  headerCover = "images/ocf_background_144.png" # optional
 #  footerCover = "images/footerCover.png" # optional
-  googleAnalyticsUserID = "UA-78514643-1" # optional
+  GoogleAnalyticsUserID = "UA-78514643-1" # optional
