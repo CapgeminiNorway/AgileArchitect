@@ -1,6 +1,7 @@
 introduction.md
 Develop and Share.md
 guides.md
+ArchitectureRepository.md
 IAF.md
 tools.md
 ReferenceArchitectures.md
