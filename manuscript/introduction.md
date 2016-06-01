@@ -1,13 +1,3 @@
-<!--- Added comment to exclude TOML from Leanpub
-+++
-date = "2016-05-31T20:48:37+02:00"
-draft = false
-title = "Introduction"
-tags = ["guide"]
-categories = ["Manual"]
-
-+++
---->
 # Introduction
 
 Let us get Science and Reason into Enterprise Architecture. Todays Enterprise Architecture was a great idea at a time, but somewhere along the line it all went wrong. How can we fix this?
