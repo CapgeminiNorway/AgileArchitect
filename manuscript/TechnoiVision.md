@@ -1,4 +1,7 @@
-# Technology Building Blocks for Digital Transformation
+# Enabling Transformation  
+
+## Techno Vision  
+Technology Building Blocks for Digital Transformation
 
 Although the impact of digitization is not new, the digital economy is entering a new age that presents unprecedented challenges for all CEOs.
 Digital tools are invading the business environment, provoking significant changes in the way we work, communicate, and sell. This has given rise to new opportunities and challenges, and has triggered the Digital Transformation of enterprises.

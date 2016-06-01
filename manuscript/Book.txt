@@ -1,11 +1,13 @@
-introduction.md
-guides.md
+Introduction.md
+Guiding Principles.md
 ArchitectureRepository.md
+Guides.md
 IAF.md
-tools.md
+Tools.md
 ReferenceArchitectures.md
 References.md
 SecurityArchitecture.md
 CBK.md
 References.md
 TechnoVision.md
+Workflow.md
