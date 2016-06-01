@@ -1,4 +1,4 @@
-# Guding principles for an agile architect
+# Guding principles for Architecture the DevOps way  
 
 ## New initiatives start rarely, but evolve continually.
 

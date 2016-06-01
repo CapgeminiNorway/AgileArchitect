@@ -1,11 +1,12 @@
-introduction.md
-guides.md
-ArchitectureRepository.md
-IAF.md
-tools.md
-ReferenceArchitectures.md
-References.md
-SecurityArchitecture.md
-CBK.md
-References.md
-TechnoVision.md
+1. Introduction.md
+2. Guiding Principles.md
+3. Architecture Disciplines.md
+4. ArchitectureRepository.md
+5. Guides.md
+6. CBK.md
+7. Tools.md
+8. ReferenceArchitectures.md
+9. References.md
+10. Workflow.md
+11. Enabling Transformation.md
+12. IAF.md
