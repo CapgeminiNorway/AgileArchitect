@@ -9,4 +9,5 @@
 9. References.md
 10. Workflow.md
 11. Enabling Transformation.md
-12. IAF.md
+12. DigitalDeliveryMethod.md
+13. IAF.md
