@@ -7,4 +7,4 @@ Content from the Manuscript folder is published to https://leanpub.com/devopsfor
 
 
 # Images  
-All images are created and stored as .SVG in the /manuscript/images folder. There are some online tools for SVG editing. One of them is from Google: https://svg-edit.github.io/svgedit/releases/svg-edit-2.8.1/svg-editor.html
+All images are ideally created and stored as .SVG in the /manuscript/images folder. There are some online tools for SVG editing. One of them is from Google: https://svg-edit.github.io/svgedit/releases/svg-edit-2.8.1/svg-editor.html. For now, we need to stick to PNG/JPG because we hae an issue with LeanPub on SVG.
