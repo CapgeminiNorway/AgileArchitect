@@ -12,3 +12,4 @@
 12. DigitalDeliveryMethod.md
 13. IAF.md
 14. RuggedDevOps.md
+15. FutureModeOfOperation.md
