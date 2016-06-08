@@ -9,25 +9,41 @@
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 <style>
 body {
-  background-image: url("img/earth.jpg");
-  background-repeat: no-repeat;
+  background-color: #90C3D4;
   background-size: cover;
   }
 </style>
 </head>
 <body>
+  <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">The Agile Architect</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Page 1</a></li>
+      <li><a href="#">Page 2</a></li>
+      <li><a href="#">Page 3</a></li>
+    </ul>
+  </div>
+</nav>
 <div class="container">
-  <h1 class="text-center">The Agile Architect</h1>
 <div class="row">
-  <br>
-  <br>
-  <br>
-  <div class="col-md-2"></div>
-  <div class="col-md-10">
-    <canvas id="canvas" width="200" height="200"
-    style="background-color:transparent">
-    </canvas>
-    <script src="scripts/clock.js"></script>
+  <div class="col-md-12">
+    Header
+  </div>
+  <div class="col-md-2">
+    Navigation Menu Left
+  </div>
+  <div class="col-md-8">
+    Content
+  </div>
+  <div class="col-md-2">
+    Navigation Menu Right
+  </div>
+  <div class="col-md-12">
+    Footer
   </div>
 </div>
 </div>
