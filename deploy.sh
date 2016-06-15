@@ -4,8 +4,8 @@ export MKDOCS_DIR=$TOOLS_ROOT_DIR/Python35/Scripts/
 export PATH=$MKDOCS_DIR
 
 echo $PATH
-mkdocs --version
-
+mkdocs.exe --version
+$MKDOCS_DIR/mkdocs.exe --version
 #export BASE_URL="http://$WEBSITE_HOSTNAME"
 #if [ "$WEBSITE_HOSTNAME" == "opencontainers.azurewebsites.net" ]; then
 #  export BASE_URL="https://www.opencontainers.org"
