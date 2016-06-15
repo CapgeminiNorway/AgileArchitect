@@ -1,25 +1,17 @@
 # Install go if needed
 export TOOLS_ROOT_DIR=$HOME/site/deployments/tools
-export HUGOROOT=$TOOLS_ROOT_DIR/hugo
-export PATH=$PATH:$HUGOROOT
-#export GOPATH=$DEPLOYMENT_SOURCE
+export MKDOCS_DIR=$TOOLS_ROOT_DIR/Python35/Scripts/
+export PATH=$MKDOCS_DIR
 
-if [ ! -e "$HUGOROOT" ]; then
-  export HUGO_ARCHIVE_DIR=$HOME/tmp
-  export HUGO_ARCHIVE=${HUGO_ARCHIVE_DIR}/hugo.zip
-  mkdir -p ${HUGO_ARCHIVE_DIR}
-  curl -L https://github.com/spf13/hugo/releases/download/v0.15/hugo_0.15_windows_amd64.zip -o $HUGO_ARCHIVE
-  # This will take a while ...
-  unzip -o $HUGO_ARCHIVE -d $HUGOROOT
-fi
+echo $PATH
+mkdocs --version
 
-export BASE_URL="http://$WEBSITE_HOSTNAME"
+#export BASE_URL="http://$WEBSITE_HOSTNAME"
 #if [ "$WEBSITE_HOSTNAME" == "opencontainers.azurewebsites.net" ]; then
 #  export BASE_URL="https://www.opencontainers.org"
 #fi
 
-cd web
-
-hugo_0.15_windows_amd64.exe --baseUrl=$BASE_URL -d $DEPLOYMENT_TARGET
+#cd web
+#hugo_0.15_windows_amd64.exe --baseUrl=$BASE_URL -d $DEPLOYMENT_TARGET
 
 #cp web.config $DEPLOYMENT_TARGET
