@@ -1,9 +1,11 @@
 # Install go if needed
 export TOOLS_ROOT_DIR=$HOME/site/deployments/tools
-export MKDOCS_DIR=$TOOLS_ROOT_DIR/Python35/Scripts/
+export MKDOCS_DIR=$TOOLS_ROOT_DIR/Python35/Scripts
 export PATH=$MKDOCS_DIR
 
 echo $PATH
+ls -l $TOOLS_ROOT_DIR
+ld -l $MKDOCS_DIR
 mkdocs.exe --version
 $MKDOCS_DIR/mkdocs.exe --version
 #export BASE_URL="http://$WEBSITE_HOSTNAME"
