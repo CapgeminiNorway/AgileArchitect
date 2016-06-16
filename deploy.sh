@@ -7,7 +7,8 @@ export PATH=$PYTHON_DIR:$MKDOCS_DIR:$PATH
 echo $PATH
 ls -l $TOOLS_ROOT_DIR
 ls -l $MKDOCS_DIR
-mkdocs.exe --version
+mkdocs --version
+$MKDOCS_DIR/mkdocs --version
 $MKDOCS_DIR/mkdocs.exe --version
 #export BASE_URL="http://$WEBSITE_HOSTNAME"
 #if [ "$WEBSITE_HOSTNAME" == "opencontainers.azurewebsites.net" ]; then
