@@ -3,8 +3,15 @@
 This lesson is the introduction to the tools and methods we use as architects to develop, share and publish content.
 
 ## Lesson title
+Agile Tools and methods
 
 ## Intended students
+Developers who want to become true architects  
+Architects who want to become agile and embrace DevOps  
+
+## Learning objectives  
+Distributed production of content with continuous publish  
+
 
 ## Duration
 3 hours
@@ -12,8 +19,9 @@ This lesson is the introduction to the tools and methods we use as architects to
 ## Classroom
 Virtual and onsite
 
-## Prerequisits
-None
+## Prerequisits and recommended reading
+Basic understanding of Git  
+
 
 ## Required test to pass
 Yes, virtual exam with tracking
