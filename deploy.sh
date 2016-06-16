@@ -7,7 +7,7 @@ export MKDOCS_DIR=D:\home\Python35\Scripts
 export PATH=$MKDOCS_DIR:$PATH
 
 ls -l $HOME
-ls -l D:\home
+ls -l D:/home
 
 echo $PATH
 ls -l $MKDOCS_DIR
