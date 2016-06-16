@@ -22,7 +22,7 @@ $MKDOCS_DIR/mkdocs.exe --version
 #fi
 
 cd web-mkdocs
-$MKDOCS_DIR/mkdocs build --clean --site-dir $TARGET_DIR
+$MKDOCS_DIR/mkdocs build --clean --site-dir $TEMP
 #hugo_0.15_windows_amd64.exe --baseUrl=$BASE_URL -d $DEPLOYMENT_TARGET
 
 #cp web.config $DEPLOYMENT_TARGET
