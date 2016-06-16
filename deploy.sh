@@ -1,15 +1,18 @@
 # Install go if needed
-export TOOLS_ROOT_DIR=$HOME/site/deployments/tools
-export MKDOCS_DIR=$TOOLS_ROOT_DIR/Python35/Scripts
-export PYTHON_DIR=$TOOLS_ROOT_DIR/Python35
-export PATH=$PYTHON_DIR:$MKDOCS_DIR:$PATH
+#export TOOLS_ROOT_DIR=$HOME/site/deployments/tools
+#export MKDOCS_DIR=$TOOLS_ROOT_DIR/Python35/Scripts
+#export PYTHON_DIR=$TOOLS_ROOT_DIR/Python35
+#export PATH=$PYTHON_DIR:$MKDOCS_DIR:$PATH
+export PIP_ROOT=$SystemDrive/Python34/Scripts
+export PATH=$PIP_ROOT:$PATH
 
 echo $PATH
-ls -l $TOOLS_ROOT_DIR
-ls -l $MKDOCS_DIR
+ls -l $PIP_ROOT
+pip install mkdocs
+ls -l $PIP_ROOT
 mkdocs --version
-$MKDOCS_DIR/mkdocs --version
-$MKDOCS_DIR/mkdocs.exe --version
+$PIP_ROOT/mkdocs --version
+$PIP_ROOT/mkdocs.exe --version
 #export BASE_URL="http://$WEBSITE_HOSTNAME"
 #if [ "$WEBSITE_HOSTNAME" == "opencontainers.azurewebsites.net" ]; then
 #  export BASE_URL="https://www.opencontainers.org"
