@@ -2,7 +2,7 @@
 The Agile Architect is a an initiative to train and transform the way architects work and deliver value.
 
 # Browing content  
-For easy browsing, content from master branch is published to http://agilearchitect.azurewebsites.net/. Content from develop branch is published to http://agilearchitect.dev-azurewebsites.net/ Deployment is automatic, it happens within a few seconds after pushed and merged. (Deployment slots will be added soon...)
+For easy browsing, content from master branch is published to http://agilearchitect.azurewebsites.net/. Content from develop branch is published to http://mkdocstest.azurewebsites.net/ Deployment is automatic, it happens within a few seconds after pushed to GitHub.
 
 # Content as readable files
 Content is managed using GitHub and published to readable format like PDF, Epub and Kindle files. We use Pandoc and Kindlegen for this. See https://puppet.com/blog/how-we-automated-our-ebook-builds-pandoc-and-kindlegen
