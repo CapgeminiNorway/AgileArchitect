@@ -12,7 +12,7 @@ pages:
 - Lessons:
     - Template Lessons: 'lessons/0. TemplateLessons.md'
 - Guides:
-    - Business Continuity: 'guides/1. Business Continuity.md'
+    - Business Continuity: 'guides/1_Business_Continuity.md'
     #- 'Styling your docs': 'user-guide/styling-your-docs.md'
 #- About:
 #    - 'License': 'about/license.md'
