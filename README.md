@@ -3,7 +3,7 @@ The Agile Architect is a an initiative to train and transform the way architects
 Content is managed using GitHub and published to readable format using LeanPub. LeanPub publishes PDF, Epub and Kindle files.
 For easy browsing, content from master branch is published to http://agilearchitect.azurewebsites.net/. Content from develop branch is published to http://agilearchitect.dev-azurewebsites.net/ Deployment is automatic, it happens within a few seconds after pushed and merged. (Deployment slots will be added soon...)
 
-Content from the Manuscript folder is published to https://leanpub.com/devopsforarchitects/preview whenever anything is committed to Develop branch. It is published as PDF, Kindle, Epub and Online. For now it is a private space. register a user and send an email to thorbjorn.ellefsen@capgemini.com to be added. Multiple roles is possible: admin, author, contributor and reader. We are investigating a slightly better option for this. Stay tuned.
+Content from the Manuscript folder is published to https://leanpub.com/devopsforarchitects/preview whenever anything is committed to Develop branch. It is published as PDF, Kindle, Epub and Online. For now it is a private space. register a user and send an email to thorbjorn.ellefsen@capgemini.com to be added. Multiple roles is possible: admin, author, contributor and reader. We are investigating a slightly better option for this. After some browsing and testing, the use of Pandoc and Kindlegen looks very useful. Issue created to get this approach as the way to go.
 
 
 # Images  
