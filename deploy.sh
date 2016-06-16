@@ -1,6 +1,6 @@
 # Install go if needed
 #export TOOLS_ROOT_DIR=$HOME/site/deployments/tools
-export MKDOCS_DIR=$HOME/Python35/Scripts
+export MKDOCS_DIR=D:/home/Python35/Scripts
 #export PYTHON_DIR=$TOOLS_ROOT_DIR/Python35
 #export PATH=$PYTHON_DIR:$MKDOCS_DIR:$PATH
 
