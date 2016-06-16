@@ -3,7 +3,8 @@
 #export MKDOCS_DIR=$TOOLS_ROOT_DIR/Python35/Scripts
 #export PYTHON_DIR=$TOOLS_ROOT_DIR/Python35
 #export PATH=$PYTHON_DIR:$MKDOCS_DIR:$PATH
-export PIP_ROOT=$SystemDrive/Python34/Scripts
+
+export PIP_ROOT=D:/Python34/Scripts
 export PATH=$PIP_ROOT:$PATH
 
 echo $PATH
