@@ -10,7 +10,7 @@ export PATH=$PIP_ROOT:$PATH
 echo $PATH
 ls -l $PIP_ROOT
 cd $PIP_ROOT
-pip install mkdocs
+$PIP_ROOT/pip install mkdocs
 ls -l $PIP_ROOT
 mkdocs --version
 $PIP_ROOT/mkdocs --version
