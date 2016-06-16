@@ -13,7 +13,6 @@ ls -l D:/home
 
 echo $PATH
 ls -l $MKDOCS_DIR
-cd $MKDOCS_DIR
 
 $MKDOCS_DIR/mkdocs --version
 $MKDOCS_DIR/mkdocs.exe --version
