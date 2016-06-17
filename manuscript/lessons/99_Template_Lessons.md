@@ -1,9 +1,12 @@
 <!--Template for classes  -->
 
-## Class title
+## Lesson title
 Name class with an intuitive name that represents the content  
 ## Intended students
 List intended students based on which architectual discipline should attend
+
+## Learning objectives  
+Forcem ipsum 
 
 ## Duration
 Set the duration of the lesson in hours
@@ -11,7 +14,7 @@ Set the duration of the lesson in hours
 ## Classroom
 Choose Virtual and/or Onsite
 
-## Prerequisits
+## Prerequisits and recommended reading
 List all prerequisits
 
 ## Required test to pass

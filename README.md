@@ -1,6 +1,9 @@
 # The Agile Architect
 The Agile Architect is a an initiative to train and transform the way architects work and deliver value.
 
+# Browsing content  
+For easy browsing, content from master branch is published to http://agilearchitect.azurewebsites.net/. Content from develop branch is published to http://agilearchitect.dev-azurewebsites.net/ Deployment is automatic, it happens within a few seconds after pushed and merged. (Deployment slots will be added soon...)
+
 # Browing content  
 For easy browsing, content from master branch is published to http://agilearchitect.azurewebsites.net/. Content from develop branch is published to http://mkdocstest.azurewebsites.net/ Deployment is automatic, it happens within a few seconds after pushed to GitHub.
 
