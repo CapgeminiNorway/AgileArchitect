@@ -4,8 +4,8 @@ pages:
 - DevOps for Architecture: 'index.md'
 - Introduction:
   - Background: '1_Introduction.md'
-  - Guiding principles: '2. Guiding Principles.md'
-  - Workflow: '10. Workflow.md'
+  - Guiding principles: '2_Guiding_Principles.md'
+  - Workflow: '3_Workflow.md'
 - Lessons:
     - Introduction: 'lessons/0_Introduction.md'
     - Tools and Techniques: 'lessons/1_Tools_and_Techniques.md'
@@ -16,13 +16,16 @@ pages:
     - Identity Management Architecture: 'lessons/6_Identity_Management_Architecture.md'
     - Software Architecture Patterns: 'lessons/7_Software_architecture_patterns.md'
 - Guides:
+    - Overarching guide: 'guides/0_Overarching_Guide.md'
     - Business Continuity: 'guides/1_Business_Continuity.md'
     - Information  Security Requirements: 'guides/2_Information_Security_Requirements.md'
     - Stakeholder Communication: 'guides/3_Stakeholder_Communication.md'
     - Software Architecture Patterns: 'guides/4_Software_Architecture_Patterns.md'
     - Architecture Repository: 'guides/5_Architecture_Repository.md'
     #- 'Styling your docs': 'user-guide/styling-your-docs.md'
-#- About:
-#    - 'License': 'about/license.md'
-#    - 'Release Notes': 'about/release-notes.md'
+- About:
+    - The Community: 'about/community.md'
+    - License: 'about/license.md'
+    - Release Notes: 'about/release_notes.md'
+
 theme: readthedocs #cosmo
