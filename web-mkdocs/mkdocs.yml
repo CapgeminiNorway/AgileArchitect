@@ -1,18 +1,26 @@
-site_name: AgileArchitect
+site_name: The Agile Architect
 docs_dir: ../manuscript/
 pages:
-- Architecture: 'index.md'
-- Architecture Repository:
-    - Introduction: '1. Introduction.md'
-    - Guiding principles: '2. Guiding Principles.md'
-    - Workflow: '10. Workflow.md'
-    - Digital Delivery Method: '12. DigitalDeliveryMethod.md'
-    - IAF: '13. IAF.md'
-    - Rugged DevOps: '14. RuggedDevOps.md'
+- DevOps for Architecture: 'index.md'
+- Introduction:
+  - Background: '1_Introduction.md'
+  - Guiding principles: '2. Guiding Principles.md'
+  - Workflow: '10. Workflow.md'
 - Lessons:
-    - Template Lessons: 'lessons/0. TemplateLessons.md'
+    - Introduction: 'lessons/0_Introduction.md'
+    - Tools and Techniques: 'lessons/1_Tools_and_Techniques.md'
+    - Digital Delivery Method: 'lessons/2_Digital_Delivery_Method.md'
+    - Rugged DevOps: 'lessons/3_Rugged_DevOps.md'
+    - Practical Archimate: 'lessons/4_Practical_Archimate.md'
+    - Information Architecture: 'lessons/5_Information_Architecture.md'
+    - Identity Management Architecture: 'lessons/6_Identity_Management_Architecture.md'
+    - Software Architecture Patterns: 'lessons/7_Software_architecture_patterns.md'
 - Guides:
     - Business Continuity: 'guides/1_Business_Continuity.md'
+    - Information  Security Requirements: 'guides/2_Information_Security_Requirements.md'
+    - Stakeholder Communication: 'guides/3_Stakeholder_Communication.md'
+    - Software Architecture Patterns: 'guides/4_Software_Architecture_Patterns.md'
+    - Architecture Repository: 'guides/5_Architecture_Repository.md'
     #- 'Styling your docs': 'user-guide/styling-your-docs.md'
 #- About:
 #    - 'License': 'about/license.md'

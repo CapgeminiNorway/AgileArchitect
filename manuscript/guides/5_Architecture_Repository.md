@@ -19,4 +19,4 @@ Master document for an Architecture Repository
 Documentation for tools used to maintain and use the repository  
 
 ## Terms and definitions  
-Terms and definitions used in this document. 
+Terms and definitions used in this document.
