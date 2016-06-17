@@ -10,7 +10,7 @@ Is it relevant to compare with a building architect? The concept of blueprints s
 In a constantly changing world we need anchor points. Fixed an solid points in a rough sea where we can anchor up and take a look around.
 
 ## Develop and share content   
-We have designed a way to use a set of tools to develop and share content. This is thoroughly described in [Chapter 10](10. Workflow.md).
+We have designed a way to use a set of tools to develop and share content. This is thoroughly described in [Chapter 10](3_Workflow.md).
 
 ### Create content
 Forcem ipsum
