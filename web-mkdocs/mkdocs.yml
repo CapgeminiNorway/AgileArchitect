@@ -1,6 +1,7 @@
 site_name: The Agile Architect
 google_analytics: ['UA-78514643-1', 'agilearchitect.azurewebsites.net']
 docs_dir: ../manuscript/
+extra_css: [css/style.css]
 pages:
 - DevOps for Architecture: 'index.md'
 - Introduction:
@@ -8,7 +9,6 @@ pages:
   - Guiding principles: '2_Guiding_Principles.md'
   - Workflow: '3_Workflow.md'
 - Lessons:
-    - Introduction: 'lessons/0_Introduction.md'
     - Tools and Techniques: 'lessons/1_Tools_and_Techniques.md'
     - Digital Delivery Method: 'lessons/2_Digital_Delivery_Method.md'
     - Rugged DevOps: 'lessons/3_Rugged_DevOps.md'
