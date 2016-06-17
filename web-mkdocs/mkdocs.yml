@@ -1,4 +1,5 @@
 site_name: The Agile Architect
+google_analytics: ['UA-78514643-1', 'agilearchitect.azurewebsites.net']
 docs_dir: ../manuscript/
 pages:
 - DevOps for Architecture: 'index.md'
@@ -22,6 +23,7 @@ pages:
     - Stakeholder Communication: 'guides/3_Stakeholder_Communication.md'
     - Software Architecture Patterns: 'guides/4_Software_Architecture_Patterns.md'
     - Architecture Repository: 'guides/5_Architecture_Repository.md'
+
     #- 'Styling your docs': 'user-guide/styling-your-docs.md'
 - About:
     - The Community: 'about/community.md'
