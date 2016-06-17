@@ -1,18 +1,33 @@
 site_name: AgileArchitect
+google_analytics: ['UA-78514643-1', 'agilearchitect.azurewebsites.net']
 docs_dir: ../manuscript/
 pages:
 - Architecture: 'index.md'
 - Architecture Repository:
-    - Introduction: '1. Introduction.md'
-    - Guiding principles: '2. Guiding Principles.md'
-    - Workflow: '10. Workflow.md'
-    - Digital Delivery Method: '12. DigitalDeliveryMethod.md'
-    - IAF: '13. IAF.md'
-    - Rugged DevOps: '14. RuggedDevOps.md'
+    - 1. Introduction: '1. Introduction.md'
+    - 2. Guiding Principles: '2. Guiding Principles.md'
+    - 3. Architecture Disciplines: '3. Architecture Disciplines.md'
+    - 4. Architecture Repository: '4. ArchitectureRepository.md'
+    - 5. Workflow: '10. Workflow.md'
+    - 6. Enabling Transformation: '11. Enabling Transformation.md'
+    - 7. Digital Delivery Method: '12. DigitalDeliveryMethod.md'
+    - 8. IAF: '13. IAF.md'
+    - 9. Rugged DevOps: '14. RuggedDevOps.md'
+    - 10. Future Mode of Operation : '15. FutureModeOfOperation.md'
 - Lessons:
     - Template Lessons: 'lessons/0. TemplateLessons.md'
+    - Tools and Methods for Collaboration: 'lessons/1. Tools and methods for collaboration.md'
+    - Digital Delivery Method: 'lessons/2. Digital Delivery Method.md'
+    - Rugged DevOps: 'lessons/3. Rugged DevOps.md'
+    - Practical Archimate: 'lessons/4. Practical Archimate.md'
+    - Infromation Architecture: 'lessons/5. Information Architecture.md'
+    - Identity Management Architecture: 'lessons/6. Identity Management Architecture.md'
+    - Software Architecture Patterns: 'lessons/7. Software architecture patterns.md'
 - Guides:
     - Business Continuity: 'guides/1_Business_Continuity.md'
+    - Information Security Requirements: 'guides/2. Information Security Requirements.md'
+    - Stakeholder Communication: 'guides/3. Stakeholder Communication.md'
+    - Software Architecture Patterns: 'guides/4. Software Architecture Patterns.md'
     #- 'Styling your docs': 'user-guide/styling-your-docs.md'
 #- About:
 #    - 'License': 'about/license.md'
