@@ -23,6 +23,9 @@ pages:
     - Stakeholder Communication: 'guides/3_Stakeholder_Communication.md'
     - Software Architecture Patterns: 'guides/4_Software_Architecture_Patterns.md'
     - Architecture Repository: 'guides/5_Architecture_Repository.md'
+    - Information Architecture: guides/6_Information_Architecture.md
+    - Business processes: 'guides/7_Business_Processes.md'
+    - Security Architecture - Rugged DevOps: 'guides/8_Rugged_DevOps.md'
 
     #- 'Styling your docs': 'user-guide/styling-your-docs.md'
 - About:

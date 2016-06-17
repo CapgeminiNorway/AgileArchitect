@@ -5,16 +5,15 @@ How to communicate and share architecture with stakeholders?
 
 [Read more ...](3_Stakeholder_Communication.md)
 
-## Information Architecture
-Information Architecture .....
+## Information Architecture  
+How to work as an Information Architect  
 
-[Read more ...](/guides/6_Information_Architecture.md)
-
+[Read more ...](6_Information_Architecture.md)
 
 ## Security Architecture
 Security Architecture...
 
-Read more
+[Read more...](8_Rugged_DevOps.md)
 
 ## Information Security Requirements
 How to work with Information Security Requirements? Create a guide and share with The Open Group.
@@ -23,8 +22,11 @@ The OpenGroup need a guide for this in the security practitioner project. Thorbj
 [Read more ...](2_Information_Security_Requirements.md)
 
 ## Business Architecture
+
 ### Business Processes  
 Lorem ipsum
+
+[Read more ...](7_Business_Processes.md)
 
 
 ### Business Continuity

@@ -1,3 +1,3 @@
-# Information Architecture  
+## Information Architecture  
 
 Lorem ipsum
