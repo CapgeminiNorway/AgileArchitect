@@ -8,6 +8,8 @@ pages:
   - Background: '1_Introduction.md'
   - Guiding principles: '2_Guiding_Principles.md'
   - Workflow: '3_Workflow.md'
+  - Architecture Disciplines: '4_Architecture_Disciplines.md'
+  - Common Body of Knowledge: '6_CBK.md'
 - Lessons:
   - Tools and Techniques: 'lessons/1_Tools_and_Techniques.md'
   - Digital Delivery Method: 'lessons/2_Digital_Delivery_Method.md'
