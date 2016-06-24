@@ -5,12 +5,20 @@ The student shall demonstrate practical use of Archimate
 The student present an architectual model
 
 ## Intended students
+All architects requested to create vizualisations, models and diagrams to communicate with stakeholders
 
 ## Duration
 3 hours
 
+## Content  
+- Archimate
+
+
 ## Classroom
-Virtual and onsite
+Onsite
 
 ## Prerequisits  
-Archimate 3.0 certfication
+Read Archimate introduction paper
+
+## Objectives
+Practical use of Archimate  
