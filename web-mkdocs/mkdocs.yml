@@ -33,6 +33,4 @@ pages:
     - Release Notes: 'about/release_notes.md'
     - Acknowledgements: 'about/acknowledgements.md'
 
-  #- 'Styling your docs': 'user-guide/styling-your-docs.md'
-
 theme: readthedocs #cosmo
