@@ -1,11 +1,11 @@
 # Acknowledgements
 
-The following people have contributed to the material shared on this site:
+The following people have contributed to the setup and content shared on this site:
 
-Annamarie Preg  
-Anders Nordin  
-Marte Tårnes  
-Giovanni
-Geoff  
-Sarina  
-Thorbjørn Ellefsen
+Giovanni Traverso, Huawei
+Geoff Halprin, Huawei
+Sarina Viljoen, Huawei
+Annamarie Preg, Capgemini Norway
+Anders Nordin, Capgemini Norway  
+Marte Tårnes, Capgemini Norway
+Thorbjørn Ellefsen, Capgemini Norway
