@@ -29,6 +29,8 @@ pages:
   - Information Architecture: guides/6_Information_Architecture.md
   - Business processes: 'guides/7_Business_Processes.md'
   - Security Architecture: 'guides/8_Rugged_DevOps.md'
+  - Risk Management: 'guides/9_Risk_Management.md'
+  - Guide Template: 'guides/99_Template.md'
 - About:
   - The Community: 'about/community.md'
   - License: 'about/license.md'

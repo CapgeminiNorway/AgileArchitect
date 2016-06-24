@@ -1,4 +1,4 @@
-# Architecture Tools
+# Tools we use  
 
 Tools we use to create and share content that also can be used for internal and external deliveries.
 
@@ -13,5 +13,3 @@ Tools we use to create and share content that also can be used for internal and 
 ## Kindlegen  
 
 ## Azure  
-
-  
