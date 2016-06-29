@@ -1,3 +1,0 @@
-# Business Processes
-
-Lorem ipsum

@@ -27,7 +27,7 @@ pages:
   - Software Architecture Patterns: 'guides/4_Software_Architecture_Patterns.md'
   - Architecture Repository: 'guides/5_Architecture_Repository.md'
   - Information Architecture: guides/6_Information_Architecture.md
-  - Business processes: 'guides/7_Business_Processes.md'
+  - Business Architecture: 'guides/7_Business_Architecture.md'
   - Security Architecture: 'guides/8_Rugged_DevOps.md'
   - Risk Management: 'guides/9_Risk_Management.md'
   - Guide Template: 'guides/99_Template.md'
