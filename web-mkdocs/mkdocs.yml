@@ -5,12 +5,13 @@ theme: readthedocs
 pages:
 - DevOps for Architecture: 'index.md'
 - Introduction:
-  - Background: '1_Introduction.md'
-  - Guiding principles: '2_Guiding_Principles.md'
-  - Workflow: '3_Workflow.md'
-  - Architecture Disciplines: '4_Architecture_Disciplines.md'
-  - Common Body of Knowledge: '6_CBK.md'
-  - Tools: '7_Tools.md'
+  - Background: 'introduction/1_Introduction.md'
+  - Guiding principles: 'introduction/2_Guiding_Principles.md'
+  - Workflow: 'introduction/3_Workflow.md'
+  - Architecture Disciplines: 'introduction/4_Architecture_Disciplines.md'
+  - Social Science Analysis: 'introduction/5_Social_Science_Analysis.md'
+  - Common Body of Knowledge: 'introduction/6_CBK.md'
+  - Tools: 'introduction/7_Tools.md'
 - Lessons:
   - Tools and Techniques: 'lessons/1_Tools_and_Techniques.md'
   - Digital Delivery Method: 'lessons/2_Digital_Delivery_Method.md'
