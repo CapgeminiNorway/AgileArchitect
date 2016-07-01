@@ -6,6 +6,15 @@ Tools we use to create and share content that also can be used for internal and 
 Opensource package running on your PC/MAC.
 Command line interface  
 
+## Basic commands you need
+command | purpose
+---|---
+git pull | pull latest update from central repository
+git push | pull you content to central repository
+git status | status of content
+git add | add local files to your next commit  
+git commit | staging fiels and content for commit
+
 # GitHub Dekstop
 Local client for PC/MAC
 Graphical user interface..
