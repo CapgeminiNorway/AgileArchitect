@@ -16,9 +16,9 @@ We truly acknowledge the contributions and commitment from people regardless of:
 
 No name mentioned - No names forgotten
 
-Conformance requirements to be part of this community:
-- Support and embrace Free Thinking
+Conformance requirements to be part of this community:  
+- Support and embrace Free Thinking  
 - Support and embrace Critical Thinking  
-- Support and embrace Reason
-- Support and embrace Science
-- Support and embrace Respect
+- Support and embrace Reason  
+- Support and embrace Science  
+- Support and embrace Respect  
