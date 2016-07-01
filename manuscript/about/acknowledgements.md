@@ -1,11 +1,24 @@
 # Acknowledgements
 
-The following people have contributed to the setup and content shared on this site:
+We truly acknowledge the contributions and commitment from people regardless of:
 
-Giovanni Traverso, Huawei  
-Geoff Halprin, Huawei  
-Sarina Viljoen, Huawei  
-Annamarie Preg, Capgemini Norway  
-Anders Nordin, Capgemini Norway  
-Marte Tårnes, Capgemini Norway  
-Thorbjørn Ellefsen, Capgemini Norway  
+- Country
+- Company
+- Gender
+- Age  
+- Etnic origin
+- Social position  
+- Personal status  
+- Financial strength  
+- Political views
+- Religious views
+- Professional views  
+
+No name mentioned - No names forgotten
+
+Conformance requirements to be part of this community:
+- Support and embrace Free Thinking
+- Support and embrace Critical Thinking  
+- Support and embrace Reason
+- Support and embrace Science
+- Support and embrace Respect
