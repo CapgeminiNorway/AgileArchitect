@@ -15,10 +15,9 @@ git status | status of content
 git add | add local files to your next commit  
 git commit | staging fiels and content for commit
 
-# GitHub Dekstop
+# GitHub Desktop
 Local client for PC/MAC
-Graphical user interface..
-
+Graphical user interface..x
 ## Install   
 You need a GitHub user account to configure your profile
 Install GitHub Dekstop for Windows or MAC from https://desktop.github.com/
