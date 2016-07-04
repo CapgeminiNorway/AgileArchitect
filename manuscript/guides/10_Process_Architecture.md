@@ -24,7 +24,7 @@
     <meta name="viewport" content="width=device-width">
     
     
-    <title>Architecture/mkdocs.yml at e5b2752a88a0dfb1acd91769c3e8dc2e738a752e · CapgeminiNorway/Architecture</title>
+    <title>Architecture/10_Process_Architecture.md at e5b2752a88a0dfb1acd91769c3e8dc2e738a752e · CapgeminiNorway/Architecture</title>
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
     <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -44,7 +44,7 @@
       <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
     <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
     <link rel="assets" href="https://assets-cdn.github.com/">
-    <link rel="web-socket" href="wss://live.github.com/_sockets/MTE2NjM1ODY6NTMwZDIzZWY1ZDM0MmZkOWZkYTE5NTM1ZGNlODFlYTE6NzhmMzFlZDQ3NWUxMTY0ZWE0YjJiMTViZDBmNzExMTFiODliOWMyMDY4ODlkY2RkNjk4ZjdkYjQ0ODU1YTQ5NA==--a8f239d89b9fa8a5366b97afb5ebaf90ca163608">
+    <link rel="web-socket" href="wss://live.github.com/_sockets/MTE2NjM1ODY6NTMwZDIzZWY1ZDM0MmZkOWZkYTE5NTM1ZGNlODFlYTE6YThjNjgxYjllODc0MDdiNmRiNTA3N2Q4MWRkMTJkNDMyNzY2MzhlOWFiN2ExZmYwZmUyYWI3OGU3NzdiY2UyZg==--13b1eae2d5a41009fa294dc7c0d399b55cdf1be5">
     <meta name="pjax-timeout" content="1000">
     <link rel="sudo-modal" href="/sessions/sudo_modal">
 
@@ -56,7 +56,7 @@
 <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
     <meta name="google-analytics" content="UA-3769691-2">
 
-<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="C1EAF732:5FE0:7178927:577A59BF" name="octolytics-dimension-request_id" /><meta content="11663586" name="octolytics-actor-id" /><meta content="thellef" name="octolytics-actor-login" /><meta content="0ffbc39ff06154998a5e645b7bb9a8b321b06a67c45b34f9e7b66e9f02c1b282" name="octolytics-actor-hash" />
+<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="C1EAF732:5FE2:8CAFF54:577A59AA" name="octolytics-dimension-request_id" /><meta content="11663586" name="octolytics-actor-id" /><meta content="thellef" name="octolytics-actor-login" /><meta content="0ffbc39ff06154998a5e645b7bb9a8b321b06a67c45b34f9e7b66e9f02c1b282" name="octolytics-actor-hash" />
 <meta content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" name="analytics-location" />
 
 
@@ -69,7 +69,7 @@
     <meta name="user-login" content="thellef">
 
         <meta name="expected-hostname" content="github.com">
-      <meta name="js-proxy-site-detection-payload" content="NDZhODEyYjUwYzI3YmYwMTljZjQwYTE4OTIyOTdlYWQ2MjVhOTYzYjYxMTM3ZWFjODhlNjViM2QyMmE5NjE0Znx7InJlbW90ZV9hZGRyZXNzIjoiMTkzLjIzNC4yNDcuNTAiLCJyZXF1ZXN0X2lkIjoiQzFFQUY3MzI6NUZFMDo3MTc4OTI3OjU3N0E1OUJGIiwidGltZXN0YW1wIjoxNDY3NjM2MTYyfQ==">
+      <meta name="js-proxy-site-detection-payload" content="M2E5NTI5NGFiZjkxMjYxZmJlYzRlMzg2ODU0MzVjZTdlZmIyNWViY2Q3ZTJiN2UwZjMxNWZhMGYxZmJlNzE5NHx7InJlbW90ZV9hZGRyZXNzIjoiMTkzLjIzNC4yNDcuNTAiLCJyZXF1ZXN0X2lkIjoiQzFFQUY3MzI6NUZFMjo4Q0FGRjU0OjU3N0E1OUFBIiwidGltZXN0YW1wIjoxNDY3NjM2MTQ0fQ==">
 
 
       <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#4078c0">
@@ -89,7 +89,7 @@
   <link href="https://github.com/CapgeminiNorway/Architecture/commits/e5b2752a88a0dfb1acd91769c3e8dc2e738a752e.atom" rel="alternate" title="Recent Commits to Architecture:e5b2752a88a0dfb1acd91769c3e8dc2e738a752e" type="application/atom+xml">
 
 
-      <link rel="canonical" href="https://github.com/CapgeminiNorway/Architecture/blob/e5b2752a88a0dfb1acd91769c3e8dc2e738a752e/web-mkdocs/mkdocs.yml" data-pjax-transient>
+      <link rel="canonical" href="https://github.com/CapgeminiNorway/Architecture/blob/e5b2752a88a0dfb1acd91769c3e8dc2e738a752e/manuscript/guides/10_Process_Architecture.md" data-pjax-transient>
   </head>
 
 
@@ -246,7 +246,7 @@
           Settings
         </a>
 
-        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/logout" class="logout-form" data-form-nonce="9828a558a4294079e33b77cf229533fb26f9b27e" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="AQGivkaK5/wHh0CnbBUQjspGiMpSn9dB8m/p3md1rc6fb0CJ+f5/N0CegxnuXEs1WZzI4zqLa8GzfOjHh2/EtQ==" /></div>
+        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/logout" class="logout-form" data-form-nonce="9828a558a4294079e33b77cf229533fb26f9b27e" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="Idxd359v1QBiPQn/XNp3P1YPQkLr9Xzini9E4J22dPXF7ljrRC1K67hoRyxUGOwSNbXt62cDQhALmsl38SYlDg==" /></div>
           <button class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -282,7 +282,7 @@
 <ul class="pagehead-actions">
 
   <li>
-        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-form-nonce="9828a558a4294079e33b77cf229533fb26f9b27e" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="j7Y8kxEcP6FLi9uW2M7uh/TZV00vmP8FF4eATOAomeXCUohtsJQofIUS/Murdqz/3SAebzN88DmQTnFXhyzdMw==" /></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="59986797" />
+        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-form-nonce="9828a558a4294079e33b77cf229533fb26f9b27e" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="6ehk9Q46+8E4odeF7rdQvXccXcaJ9ofI+76lvuG/wIwOPDKb5L9QNnm2GUjzcaeozBbgylmBLxtbXuYYL+5EwA==" /></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="59986797" />
 
         <div class="select-menu js-menu-container js-select-menu">
           <a href="/CapgeminiNorway/Architecture/subscription"
@@ -357,7 +357,7 @@
     
   <div class="js-toggler-container js-social-container starring-container ">
 
-    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/CapgeminiNorway/Architecture/unstar" class="starred" data-form-nonce="9828a558a4294079e33b77cf229533fb26f9b27e" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="gyVadvLv+9pXdY+asz9C+cwxzhiauUtGmn47HQ781dCXC8eweL4JzQ6bs/T2Xzd2JRhmT3uHmt4UjH4ihmDWlA==" /></div>
+    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/CapgeminiNorway/Architecture/unstar" class="starred" data-form-nonce="9828a558a4294079e33b77cf229533fb26f9b27e" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="6EUFFvgK0N3n2R2gXWpIRhhqMEeZHJqwub1YsF38wDLCBhQBYJz03dYL/Z8spHlf81A4LAZT5KSqkY+b9QRtRw==" /></div>
       <button
         class="btn btn-sm btn-with-count js-toggler-target"
         aria-label="Unstar this repository" title="Unstar CapgeminiNorway/Architecture"
@@ -369,7 +369,7 @@
           0
         </a>
 </form>
-    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/CapgeminiNorway/Architecture/star" class="unstarred" data-form-nonce="9828a558a4294079e33b77cf229533fb26f9b27e" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="9HNS3lXAD0+L8TZNCQc5IedkC4RetxcjpUg5DUSIbEXYneKJZJyNDfzd5YHtZI19PwCzKFY+TKamadocuFgOSg==" /></div>
+    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/CapgeminiNorway/Architecture/star" class="unstarred" data-form-nonce="9828a558a4294079e33b77cf229533fb26f9b27e" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="no1W3Al46Paimd1yRTNhaAZ+SNM9METQ+7HeNShBpAe4w9E2Fzc+10J9Shi6HLSIv4FQlPFAUx0ZO7eRWIArYg==" /></div>
       <button
         class="btn btn-sm btn-with-count js-toggler-target"
         aria-label="Star this repository" title="Star CapgeminiNorway/Architecture"
@@ -473,9 +473,9 @@
 
     
 
-<a href="/CapgeminiNorway/Architecture/blob/e5b2752a88a0dfb1acd91769c3e8dc2e738a752e/web-mkdocs/mkdocs.yml" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
+<a href="/CapgeminiNorway/Architecture/blob/e5b2752a88a0dfb1acd91769c3e8dc2e738a752e/manuscript/guides/10_Process_Architecture.md" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
 
-<!-- blob contrib key: blob_contributors:v21:9b9b9d9d82af6333ddf579c49de58bc6 -->
+<!-- blob contrib key: blob_contributors:v21:5a1f77a7647a74f8803edbb70d708e74 -->
 
 <div class="file-navigation js-zeroclipboard-container">
   
@@ -517,7 +517,7 @@
 
 
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/CapgeminiNorway/Architecture/blob/develop/web-mkdocs/mkdocs.yml"
+               href="/CapgeminiNorway/Architecture/blob/develop/manuscript/guides/10_Process_Architecture.md"
                data-name="develop"
                data-skip-pjax="true"
                rel="nofollow">
@@ -527,7 +527,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/CapgeminiNorway/Architecture/blob/johnerik/web-mkdocs/mkdocs.yml"
+               href="/CapgeminiNorway/Architecture/blob/johnerik/manuscript/guides/10_Process_Architecture.md"
                data-name="johnerik"
                data-skip-pjax="true"
                rel="nofollow">
@@ -537,7 +537,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/CapgeminiNorway/Architecture/blob/master/web-mkdocs/mkdocs.yml"
+               href="/CapgeminiNorway/Architecture/blob/master/manuscript/guides/10_Process_Architecture.md"
                data-name="master"
                data-skip-pjax="true"
                rel="nofollow">
@@ -547,7 +547,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/CapgeminiNorway/Architecture/blob/rugged/web-mkdocs/mkdocs.yml"
+               href="/CapgeminiNorway/Architecture/blob/rugged/manuscript/guides/10_Process_Architecture.md"
                data-name="rugged"
                data-skip-pjax="true"
                rel="nofollow">
@@ -557,7 +557,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/CapgeminiNorway/Architecture/blob/sarina/web-mkdocs/mkdocs.yml"
+               href="/CapgeminiNorway/Architecture/blob/sarina/manuscript/guides/10_Process_Architecture.md"
                data-name="sarina"
                data-skip-pjax="true"
                rel="nofollow">
@@ -568,7 +568,7 @@
             </a>
         </div>
 
-          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/CapgeminiNorway/Architecture/branches" class="js-create-branch select-menu-item select-menu-new-item-form js-navigation-item js-new-item-form" data-form-nonce="9828a558a4294079e33b77cf229533fb26f9b27e" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="PtPszEQdMCmOODYfGT4GBGdKImSkRd8TI7V5UKabPdgo9Ppy1Uck4z7hSSEWByF/7NE5cn+13ruRNKeF9E4i8w==" /></div>
+          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/CapgeminiNorway/Architecture/branches" class="js-create-branch select-menu-item select-menu-new-item-form js-navigation-item js-new-item-form" data-form-nonce="9828a558a4294079e33b77cf229533fb26f9b27e" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="FGvHcw+iVyL8hGXGKKiG21omDH2PflC9qsiN3W/+22dI7GbFS6X5H2vmIl35wz4Z4R/310dwAP69sRIc01V5XQ==" /></div>
           <svg aria-hidden="true" class="octicon octicon-git-branch select-menu-item-icon" height="16" version="1.1" viewBox="0 0 10 16" width="10"><path d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
             <div class="select-menu-item-text">
               <span class="select-menu-item-heading">Create branch: <span class="js-new-item-name"></span></span>
@@ -576,7 +576,7 @@
             </div>
             <input type="hidden" name="name" id="name" class="js-new-item-value">
             <input type="hidden" name="branch" id="branch" value="e5b2752a88a0dfb1acd91769c3e8dc2e738a752e">
-            <input type="hidden" name="path" id="path" value="web-mkdocs/mkdocs.yml">
+            <input type="hidden" name="path" id="path" value="manuscript/guides/10_Process_Architecture.md">
 </form>
       </div>
 
@@ -603,51 +603,28 @@
     <button aria-label="Copy file path to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button">Copy path</button>
   </div>
   <div class="breadcrumb js-zeroclipboard-target">
-    <span class="repo-root js-repo-root"><span class="js-path-segment"><a href="/CapgeminiNorway/Architecture/tree/e5b2752a88a0dfb1acd91769c3e8dc2e738a752e"><span>Architecture</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a href="/CapgeminiNorway/Architecture/tree/e5b2752a88a0dfb1acd91769c3e8dc2e738a752e/web-mkdocs"><span>web-mkdocs</span></a></span><span class="separator">/</span><strong class="final-path">mkdocs.yml</strong>
+    <span class="repo-root js-repo-root"><span class="js-path-segment"><a href="/CapgeminiNorway/Architecture/tree/e5b2752a88a0dfb1acd91769c3e8dc2e738a752e"><span>Architecture</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a href="/CapgeminiNorway/Architecture/tree/e5b2752a88a0dfb1acd91769c3e8dc2e738a752e/manuscript"><span>manuscript</span></a></span><span class="separator">/</span><span class="js-path-segment"><a href="/CapgeminiNorway/Architecture/tree/e5b2752a88a0dfb1acd91769c3e8dc2e738a752e/manuscript/guides"><span>guides</span></a></span><span class="separator">/</span><strong class="final-path">10_Process_Architecture.md</strong>
   </div>
 </div>
 
-
-  <div class="commit-tease">
-      <span class="right">
-        <a class="commit-tease-sha" href="/CapgeminiNorway/Architecture/commit/e5b2752a88a0dfb1acd91769c3e8dc2e738a752e" data-pjax>
-          e5b2752
-        </a>
-        <relative-time datetime="2016-07-04T08:19:27Z">Jul 4, 2016</relative-time>
-      </span>
-      <div>
-        <img alt="@thellef" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/11663586?v=3&amp;s=40" width="20" />
-        <a href="/thellef" class="user-mention" rel="contributor">thellef</a>
-          <a href="/CapgeminiNorway/Architecture/commit/e5b2752a88a0dfb1acd91769c3e8dc2e738a752e" class="message" data-pjax="true" title="Added new guide">Added new guide</a>
-      </div>
-
-    <div class="commit-tease-contributors">
-      <button type="button" class="btn-link muted-link contributors-toggle" data-facebox="#blob_contributors_box">
-        <strong>1</strong>
-         contributor
-      </button>
-      
-    </div>
-
-    <div id="blob_contributors_box" style="display:none">
-      <h2 class="facebox-header" data-facebox-id="facebox-header">Users who have contributed to this file</h2>
-      <ul class="facebox-user-list" data-facebox-id="facebox-description">
-          <li class="facebox-user-list-item">
-            <img alt="@thellef" height="24" src="https://avatars2.githubusercontent.com/u/11663586?v=3&amp;s=48" width="24" />
-            <a href="/thellef">thellef</a>
-          </li>
-      </ul>
-    </div>
+<include-fragment class="commit-tease" src="/CapgeminiNorway/Architecture/contributors/e5b2752a88a0dfb1acd91769c3e8dc2e738a752e/manuscript/guides/10_Process_Architecture.md">
+  <div>
+    Fetching contributors&hellip;
   </div>
 
+  <div class="commit-tease-contributors">
+    <img alt="" class="loader-loading left" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" />
+    <span class="loader-error">Cannot retrieve contributors at this time</span>
+  </div>
+</include-fragment>
 <div class="file">
   <div class="file-header">
   <div class="file-actions">
 
     <div class="btn-group">
-      <a href="/CapgeminiNorway/Architecture/raw/e5b2752a88a0dfb1acd91769c3e8dc2e738a752e/web-mkdocs/mkdocs.yml" class="btn btn-sm " id="raw-url">Raw</a>
-        <a href="/CapgeminiNorway/Architecture/blame/e5b2752a88a0dfb1acd91769c3e8dc2e738a752e/web-mkdocs/mkdocs.yml" class="btn btn-sm js-update-url-with-hash">Blame</a>
-      <a href="/CapgeminiNorway/Architecture/commits/e5b2752a88a0dfb1acd91769c3e8dc2e738a752e/web-mkdocs/mkdocs.yml" class="btn btn-sm " rel="nofollow">History</a>
+      <a href="/CapgeminiNorway/Architecture/raw/e5b2752a88a0dfb1acd91769c3e8dc2e738a752e/manuscript/guides/10_Process_Architecture.md" class="btn btn-sm " id="raw-url">Raw</a>
+        <a href="/CapgeminiNorway/Architecture/blame/e5b2752a88a0dfb1acd91769c3e8dc2e738a752e/manuscript/guides/10_Process_Architecture.md" class="btn btn-sm js-update-url-with-hash">Blame</a>
+      <a href="/CapgeminiNorway/Architecture/commits/e5b2752a88a0dfb1acd91769c3e8dc2e738a752e/manuscript/guides/10_Process_Architecture.md" class="btn btn-sm " rel="nofollow">History</a>
     </div>
 
         <a class="btn-octicon tooltipped tooltipped-nw"
@@ -666,194 +643,106 @@
   </div>
 
   <div class="file-info">
-      45 lines (44 sloc)
+      80 lines (46 sloc)
       <span class="file-info-divider"></span>
-    2.19 KB
+    10.5 KB
   </div>
 </div>
 
   
+  <div id="readme" class="readme blob instapaper_body">
+    <article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content-how-to-build-the-process-architecture" class="anchor" href="#how-to-build-the-process-architecture" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>How to build the Process Architecture</h1>
 
-  <div itemprop="text" class="blob-wrapper data type-yaml">
-      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
-      <tr>
-        <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-s"><span class="pl-ent">site_name:</span> <span class="pl-s">The Agile Architect</span></span></td>
-      </tr>
-      <tr>
-        <td id="L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="LC2" class="blob-code blob-code-inner js-file-line"><span class="pl-s"><span class="pl-ent">google_analytics:</span> <span class="pl-s">[&#39;UA-78514643-1&#39;, &#39;agilearchitect.azurewebsites.net&#39;]</span></span></td>
-      </tr>
-      <tr>
-        <td id="L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="LC3" class="blob-code blob-code-inner js-file-line"><span class="pl-s"><span class="pl-ent">docs_dir:</span> <span class="pl-s">../manuscript/</span></span></td>
-      </tr>
-      <tr>
-        <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
-        <td id="LC4" class="blob-code blob-code-inner js-file-line"><span class="pl-s"><span class="pl-ent">theme:</span> <span class="pl-s">readthedocs</span></span></td>
-      </tr>
-      <tr>
-        <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
-        <td id="LC5" class="blob-code blob-code-inner js-file-line"><span class="pl-s"><span class="pl-ent">pages:</span></span></td>
-      </tr>
-      <tr>
-        <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
-        <td id="LC6" class="blob-code blob-code-inner js-file-line"><span class="pl-s">- <span class="pl-ent">DevOps for Architecture:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>index.md<span class="pl-pds">&#39;</span></span></span></td>
-      </tr>
-      <tr>
-        <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
-        <td id="LC7" class="blob-code blob-code-inner js-file-line"><span class="pl-s">- <span class="pl-ent">Introduction:</span></span></td>
-      </tr>
-      <tr>
-        <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
-        <td id="LC8" class="blob-code blob-code-inner js-file-line">  <span class="pl-s">- <span class="pl-ent">Background:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>introduction/1_Introduction.md<span class="pl-pds">&#39;</span></span></span></td>
-      </tr>
-      <tr>
-        <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
-        <td id="LC9" class="blob-code blob-code-inner js-file-line">  <span class="pl-s">- <span class="pl-ent">Guiding principles:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>introduction/2_Guiding_Principles.md<span class="pl-pds">&#39;</span></span></span></td>
-      </tr>
-      <tr>
-        <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
-        <td id="LC10" class="blob-code blob-code-inner js-file-line">  <span class="pl-s">- <span class="pl-ent">Workflow:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>introduction/3_Workflow.md<span class="pl-pds">&#39;</span></span></span></td>
-      </tr>
-      <tr>
-        <td id="L11" class="blob-num js-line-number" data-line-number="11"></td>
-        <td id="LC11" class="blob-code blob-code-inner js-file-line">  <span class="pl-s">- <span class="pl-ent">Architecture Disciplines:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>introduction/4_Architecture_Disciplines.md<span class="pl-pds">&#39;</span></span></span></td>
-      </tr>
-      <tr>
-        <td id="L12" class="blob-num js-line-number" data-line-number="12"></td>
-        <td id="LC12" class="blob-code blob-code-inner js-file-line">  <span class="pl-s">- <span class="pl-ent">Social Science Analysis:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>introduction/5_Social_Science_Analysis.md<span class="pl-pds">&#39;</span></span></span></td>
-      </tr>
-      <tr>
-        <td id="L13" class="blob-num js-line-number" data-line-number="13"></td>
-        <td id="LC13" class="blob-code blob-code-inner js-file-line">  <span class="pl-s">- <span class="pl-ent">Common Body of Knowledge:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>introduction/6_CBK.md<span class="pl-pds">&#39;</span></span></span></td>
-      </tr>
-      <tr>
-        <td id="L14" class="blob-num js-line-number" data-line-number="14"></td>
-        <td id="LC14" class="blob-code blob-code-inner js-file-line">  <span class="pl-s">- <span class="pl-ent">Tools:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>introduction/7_Tools.md<span class="pl-pds">&#39;</span></span></span></td>
-      </tr>
-      <tr>
-        <td id="L15" class="blob-num js-line-number" data-line-number="15"></td>
-        <td id="LC15" class="blob-code blob-code-inner js-file-line"><span class="pl-s">- <span class="pl-ent">Lessons:</span></span></td>
-      </tr>
-      <tr>
-        <td id="L16" class="blob-num js-line-number" data-line-number="16"></td>
-        <td id="LC16" class="blob-code blob-code-inner js-file-line">  <span class="pl-s">- <span class="pl-ent">Tools and Techniques:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>lessons/1_Tools_and_Techniques.md<span class="pl-pds">&#39;</span></span></span></td>
-      </tr>
-      <tr>
-        <td id="L17" class="blob-num js-line-number" data-line-number="17"></td>
-        <td id="LC17" class="blob-code blob-code-inner js-file-line">  <span class="pl-s">- <span class="pl-ent">Digital Delivery Method:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>lessons/2_Digital_Delivery_Method.md<span class="pl-pds">&#39;</span></span></span></td>
-      </tr>
-      <tr>
-        <td id="L18" class="blob-num js-line-number" data-line-number="18"></td>
-        <td id="LC18" class="blob-code blob-code-inner js-file-line">  <span class="pl-s">- <span class="pl-ent">Rugged DevOps:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>lessons/3_Rugged_DevOps.md<span class="pl-pds">&#39;</span></span></span></td>
-      </tr>
-      <tr>
-        <td id="L19" class="blob-num js-line-number" data-line-number="19"></td>
-        <td id="LC19" class="blob-code blob-code-inner js-file-line">  <span class="pl-s">- <span class="pl-ent">Practical Archimate:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>lessons/4_Practical_Archimate.md<span class="pl-pds">&#39;</span></span></span></td>
-      </tr>
-      <tr>
-        <td id="L20" class="blob-num js-line-number" data-line-number="20"></td>
-        <td id="LC20" class="blob-code blob-code-inner js-file-line">  <span class="pl-s">- <span class="pl-ent">Information Architecture:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>lessons/5_Information_Architecture.md<span class="pl-pds">&#39;</span></span></span></td>
-      </tr>
-      <tr>
-        <td id="L21" class="blob-num js-line-number" data-line-number="21"></td>
-        <td id="LC21" class="blob-code blob-code-inner js-file-line">  <span class="pl-s">- <span class="pl-ent">Identity Management Architecture:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>lessons/6_Identity_Management_Architecture.md<span class="pl-pds">&#39;</span></span></span></td>
-      </tr>
-      <tr>
-        <td id="L22" class="blob-num js-line-number" data-line-number="22"></td>
-        <td id="LC22" class="blob-code blob-code-inner js-file-line">  <span class="pl-s">- <span class="pl-ent">Software Architecture Patterns:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>lessons/7_Software_architecture_patterns.md<span class="pl-pds">&#39;</span></span></span></td>
-      </tr>
-      <tr>
-        <td id="L23" class="blob-num js-line-number" data-line-number="23"></td>
-        <td id="LC23" class="blob-code blob-code-inner js-file-line"><span class="pl-s">- <span class="pl-ent">Guides:</span></span></td>
-      </tr>
-      <tr>
-        <td id="L24" class="blob-num js-line-number" data-line-number="24"></td>
-        <td id="LC24" class="blob-code blob-code-inner js-file-line">  <span class="pl-s">- <span class="pl-ent">Overarching guide:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>guides/0_Overarching_Guide.md<span class="pl-pds">&#39;</span></span></span></td>
-      </tr>
-      <tr>
-        <td id="L25" class="blob-num js-line-number" data-line-number="25"></td>
-        <td id="LC25" class="blob-code blob-code-inner js-file-line">  <span class="pl-s">- <span class="pl-ent">Business Continuity:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>guides/1_Business_Continuity.md<span class="pl-pds">&#39;</span></span></span></td>
-      </tr>
-      <tr>
-        <td id="L26" class="blob-num js-line-number" data-line-number="26"></td>
-        <td id="LC26" class="blob-code blob-code-inner js-file-line">  <span class="pl-s">- <span class="pl-ent">Information  Security Requirements:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>guides/2_Information_Security_Requirements.md<span class="pl-pds">&#39;</span></span></span></td>
-      </tr>
-      <tr>
-        <td id="L27" class="blob-num js-line-number" data-line-number="27"></td>
-        <td id="LC27" class="blob-code blob-code-inner js-file-line">  <span class="pl-s">- <span class="pl-ent">Stakeholder Communication:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>guides/3_Stakeholder_Communication.md<span class="pl-pds">&#39;</span></span></span></td>
-      </tr>
-      <tr>
-        <td id="L28" class="blob-num js-line-number" data-line-number="28"></td>
-        <td id="LC28" class="blob-code blob-code-inner js-file-line">  <span class="pl-s">- <span class="pl-ent">Software Architecture Patterns:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>guides/4_Software_Architecture_Patterns.md<span class="pl-pds">&#39;</span></span></span></td>
-      </tr>
-      <tr>
-        <td id="L29" class="blob-num js-line-number" data-line-number="29"></td>
-        <td id="LC29" class="blob-code blob-code-inner js-file-line">  <span class="pl-s">- <span class="pl-ent">Architecture Repository:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>guides/5_Architecture_Repository.md<span class="pl-pds">&#39;</span></span></span></td>
-      </tr>
-      <tr>
-        <td id="L30" class="blob-num js-line-number" data-line-number="30"></td>
-        <td id="LC30" class="blob-code blob-code-inner js-file-line">  <span class="pl-s">- <span class="pl-ent">Information Architecture:</span> <span class="pl-s">guides/6_Information_Architecture.md</span></span></td>
-      </tr>
-      <tr>
-        <td id="L31" class="blob-num js-line-number" data-line-number="31"></td>
-        <td id="LC31" class="blob-code blob-code-inner js-file-line">  <span class="pl-s">- <span class="pl-ent">Business Architecture:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>guides/7_Business_Architecture.md<span class="pl-pds">&#39;</span></span></span></td>
-      </tr>
-      <tr>
-        <td id="L32" class="blob-num js-line-number" data-line-number="32"></td>
-        <td id="LC32" class="blob-code blob-code-inner js-file-line">  <span class="pl-s">- <span class="pl-ent">Security Architecture:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>guides/8_Rugged_DevOps.md<span class="pl-pds">&#39;</span></span></span></td>
-      </tr>
-      <tr>
-        <td id="L33" class="blob-num js-line-number" data-line-number="33"></td>
-        <td id="LC33" class="blob-code blob-code-inner js-file-line">  <span class="pl-s">- <span class="pl-ent">Risk Management:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>guides/9_Risk_Management.md<span class="pl-pds">&#39;</span></span></span></td>
-      </tr>
-      <tr>
-        <td id="L34" class="blob-num js-line-number" data-line-number="34"></td>
-        <td id="LC34" class="blob-code blob-code-inner js-file-line">  <span class="pl-s">- <span class="pl-ent">Process Architetcure:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>guides/10_Process_Architecture.md<span class="pl-pds">&#39;</span></span></span></td>
-      </tr>
-      <tr>
-        <td id="L35" class="blob-num js-line-number" data-line-number="35"></td>
-        <td id="LC35" class="blob-code blob-code-inner js-file-line">  <span class="pl-s">- <span class="pl-ent">Guide Template:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>guides/99_Template.md<span class="pl-pds">&#39;</span></span></span></td>
-      </tr>
-      <tr>
-        <td id="L36" class="blob-num js-line-number" data-line-number="36"></td>
-        <td id="LC36" class="blob-code blob-code-inner js-file-line"><span class="pl-s">- <span class="pl-ent">Reference Architectures:</span></span></td>
-      </tr>
-      <tr>
-        <td id="L37" class="blob-num js-line-number" data-line-number="37"></td>
-        <td id="LC37" class="blob-code blob-code-inner js-file-line">  <span class="pl-s">- <span class="pl-ent">Introduction:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>refarch/0_Introduction.md<span class="pl-pds">&#39;</span></span></span></td>
-      </tr>
-      <tr>
-        <td id="L38" class="blob-num js-line-number" data-line-number="38"></td>
-        <td id="LC38" class="blob-code blob-code-inner js-file-line">  <span class="pl-s">- <span class="pl-ent">Security Architecture:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>refarch/1_Security_Architecture.md<span class="pl-pds">&#39;</span></span></span></td>
-      </tr>
-      <tr>
-        <td id="L39" class="blob-num js-line-number" data-line-number="39"></td>
-        <td id="LC39" class="blob-code blob-code-inner js-file-line"><span class="pl-s">- <span class="pl-ent">About:</span></span></td>
-      </tr>
-      <tr>
-        <td id="L40" class="blob-num js-line-number" data-line-number="40"></td>
-        <td id="LC40" class="blob-code blob-code-inner js-file-line">  <span class="pl-s">- <span class="pl-ent">The Community:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>about/community.md<span class="pl-pds">&#39;</span></span></span></td>
-      </tr>
-      <tr>
-        <td id="L41" class="blob-num js-line-number" data-line-number="41"></td>
-        <td id="LC41" class="blob-code blob-code-inner js-file-line">  <span class="pl-s">- <span class="pl-ent">License:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>about/license.md<span class="pl-pds">&#39;</span></span></span></td>
-      </tr>
-      <tr>
-        <td id="L42" class="blob-num js-line-number" data-line-number="42"></td>
-        <td id="LC42" class="blob-code blob-code-inner js-file-line">  <span class="pl-s">- <span class="pl-ent">Release Notes:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>about/release_notes.md<span class="pl-pds">&#39;</span></span></span></td>
-      </tr>
-      <tr>
-        <td id="L43" class="blob-num js-line-number" data-line-number="43"></td>
-        <td id="LC43" class="blob-code blob-code-inner js-file-line">  <span class="pl-s">- <span class="pl-ent">Acknowledgements:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>about/acknowledgements.md<span class="pl-pds">&#39;</span></span></span></td>
-      </tr>
-      <tr>
-        <td id="L44" class="blob-num js-line-number" data-line-number="44"></td>
-        <td id="LC44" class="blob-code blob-code-inner js-file-line">  <span class="pl-s">- <span class="pl-ent">References:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>about/references.md<span class="pl-pds">&#39;</span></span></span></td>
-      </tr>
-</table>
+<h2><a id="user-content-basic-principles-of-process-architecture" class="anchor" href="#basic-principles-of-process-architecture" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Basic Principles of Process Architecture</h2>
 
+<h3><a id="user-content-process-definition" class="anchor" href="#process-definition" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Process definition</h3>
+
+<p>The basic definition of a process are the activities that transform input into output. The definition can be expanded, but for our purpose, this basic definition is sufficient. All processes have a main output, but can also have secondary outputs. The main output is the reason the process exist, and its name is often reflected in the name of the process itself. For example the “Hire employee” process has a name that corresponds to its main output which is to produce a new employee.  Secondary outputs may be additional outputs like a report, a receipt, and similar. All activities produce some output, but not all of them are directed towards achieving the main output of the process as a whole.</p>
+
+<p><a href="/CapgeminiNorway/Architecture/blob/e5b2752a88a0dfb1acd91769c3e8dc2e738a752e/manuscript/images/publish/Process_Def.png" target="_blank"><img src="/CapgeminiNorway/Architecture/raw/e5b2752a88a0dfb1acd91769c3e8dc2e738a752e/manuscript/images/publish/Process_Def.png" alt="" style="max-width:100%;"></a></p>
+
+<h3><a id="user-content-output-focus" class="anchor" href="#output-focus" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Output focus</h3>
+
+<p>Focus on the output is of crucial importance for correct scoping and framing of a process. It helps us to include the activities, inputs and other variables that must be present to produce the outputs, and it help us to exclude those that doesn’t.</p>
+
+<p>Outputs are primarily produced and refined in one of two ways; construction or state change. Construction means that the output is created by putting together, assemble or otherwise merge parts into a new whole. For example building a chair from parts of armrests, backrest, seat, etc. State change means that the output in large has the same form, but go through different states of completion, approval, refinement etc. An example may be a plan that from the first process is in state “draft”, and after the second process is in state “final draft”, and after the third process is in state “completed”. A generic name for input and output objects are Business Objects.</p>
+
+<h3><a id="user-content-process-structure" class="anchor" href="#process-structure" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Process structure</h3>
+
+<p>By definition, a process are those activities that transform inputs into an output, for one instance of such value creation. This is true from the most granular level, a specific activity, to the most abstract level, an entire value chain. Structurally, in relation to each other, the parts of a process can only be sequential or parallel towards producing the main output. The structure is not concerned with triggers or time other than steps being sequential or parallel.</p>
+
+<p><a href="/CapgeminiNorway/Architecture/blob/e5b2752a88a0dfb1acd91769c3e8dc2e738a752e/manuscript/images/publish/Process_Structure.png" target="_blank"><img src="/CapgeminiNorway/Architecture/raw/e5b2752a88a0dfb1acd91769c3e8dc2e738a752e/manuscript/images/publish/Process_Structure.png" alt="" style="max-width:100%;"></a></p>
+
+<h3><a id="user-content-start--end" class="anchor" href="#start--end" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Start &amp; End</h3>
+
+<p>The start and end of a process are marked by states. The start state is often referred to as trigger, and the end is often referred to as end state. States are not the same as inputs and outputs. States are points in time where certain things are true and/or false, while inputs and outputs are things.</p>
+
+<p><a href="/CapgeminiNorway/Architecture/blob/e5b2752a88a0dfb1acd91769c3e8dc2e738a752e/manuscript/images/publish/Start_End.png" target="_blank"><img src="/CapgeminiNorway/Architecture/raw/e5b2752a88a0dfb1acd91769c3e8dc2e738a752e/manuscript/images/publish/Start_End.png" alt="" style="max-width:100%;"></a></p>
+
+<p>A trigger can be automatic or manual, but always contains some criteria. Typical criteria are related to time, inputs and aspects of these inputs. Three example trigger states are “Order received”, “Time to initiate planning”, and “Chair requested”. Examples of ending states are “Chair completed”, “Package delivered”, or “Plan finished”. Because of the similarities in naming between states and input / output, these concepts are often confused. As the purpose of a process is to use some input to produce some output, it is natural that the state names reflect this.</p>
+
+<h3><a id="user-content-roles-responsibility-and-link-to-departments" class="anchor" href="#roles-responsibility-and-link-to-departments" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Roles, Responsibility and link to departments</h3>
+
+<p>At some level of detail, it is natural to visualize responsibility for activities, and such an illustration is referred to as a workflow diagram. This is often reserved for the most granular level of modeling because when processes are at  higher levels of abstraction they often span multiple departments / functions of a company. The entity responsible for performing an activity in a process is called a role. Like in a play, a role can be filled by multiple actors. The actors in this case are positions that belong to departments. Positions are filled by people. Such diagrams only visualize actual actions, and as such the roles that are set to perform activities are those who actually perform it, and are not just accountable.</p>
+
+<p><a href="/CapgeminiNorway/Architecture/blob/e5b2752a88a0dfb1acd91769c3e8dc2e738a752e/manuscript/images/publish/Roles.png" target="_blank"><img src="/CapgeminiNorway/Architecture/raw/e5b2752a88a0dfb1acd91769c3e8dc2e738a752e/manuscript/images/publish/Roles.png" alt="" style="max-width:100%;"></a></p>
+
+<h2><a id="user-content-levels-and-types-of-processes-in-the-process-architecture" class="anchor" href="#levels-and-types-of-processes-in-the-process-architecture" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Levels and types of processes in the Process Architecture</h2>
+
+<h3><a id="user-content-levels-of-abstraction" class="anchor" href="#levels-of-abstraction" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Levels of abstraction</h3>
+
+<p>A process can be decomposed to reveal its underlying details, which are sub-processes. This decomposition can be done multiple times over, from a very abstract level of process to an extremely detailed level of process. The basic principles of process applies at all levels of abstraction.</p>
+
+<p>What number of levels is appropriate? That varies depending on factors such as cost/benefit, complexity of a given area, the amount of work, the problem to solve, and desire to standardize. What is a level? A level should be counted as number of breakdowns, and the first level is 0. As an example, due to the amount and complexity of the work, it is natural that the “develop” process of an oil &amp; gas exploration and production value chain is deeper than the “hire employee” process of a “Provide HR-services” process area.</p>
+
+<p><a href="/CapgeminiNorway/Architecture/blob/e5b2752a88a0dfb1acd91769c3e8dc2e738a752e/manuscript/images/publish/Process_Levels.png" target="_blank"><img src="/CapgeminiNorway/Architecture/raw/e5b2752a88a0dfb1acd91769c3e8dc2e738a752e/manuscript/images/publish/Process_Levels.png" alt="" style="max-width:100%;"></a></p>
+
+<p>A rule of tumb is that most process architectures have from 3-5 levels, where most of processes only need 3 levels to reach the detail level suitable for using workflow diagrams. Larger corporations with multiple value chains might require more levels of the architecture is decided to encompass the whole corporation and not to be made for each division / value chain.</p>
+
+<p>NB: Even dough we give processes different names depending on level of abstraction, like call it a sub-process or activity, they all mean the same thing and adhere to the same basic rules.</p>
+
+<p>The following is another example of a normal breakdown:</p>
+
+<p><a href="/CapgeminiNorway/Architecture/blob/e5b2752a88a0dfb1acd91769c3e8dc2e738a752e/manuscript/images/publish/Process_Levels_2.png" target="_blank"><img src="/CapgeminiNorway/Architecture/raw/e5b2752a88a0dfb1acd91769c3e8dc2e738a752e/manuscript/images/publish/Process_Levels_2.png" alt="" style="max-width:100%;"></a></p>
+
+<h3><a id="user-content-top-down--bottom-up-discovery-and-mapping" class="anchor" href="#top-down--bottom-up-discovery-and-mapping" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Top down &amp; bottom up discovery and mapping</h3>
+
+<p>It is possible to approach process architecture from a top down or bottom up approach. Top down means to begin at a high and abstract level to be able to capture the full with of the company’s processes, and then in the next step start to decompose to more detail. Bottom up means to begin at a detailed and concrete level, and then proceed to aggregate multiple detailed activities into processes.</p>
+
+<p><a href="/CapgeminiNorway/Architecture/blob/e5b2752a88a0dfb1acd91769c3e8dc2e738a752e/manuscript/images/publish/Top_Down.png" target="_blank"><img src="/CapgeminiNorway/Architecture/raw/e5b2752a88a0dfb1acd91769c3e8dc2e738a752e/manuscript/images/publish/Top_Down.png" alt="" style="max-width:100%;"></a></p>
+
+<p>The bottom up approach is prone to duplications and overlaps due to often missing the big picture. It is only natural such problems increase in likelihood when working at a very high level of detail. The top down approach can be criticized of portraying things too simplified, as management want it to be, and not as they really are. The solution to avoid these problems are to start top down, but as processes are decomposed to quickly involve stakeholders that know the intricate details of work really gets done.</p>
+
+<h3><a id="user-content-management--core--and-enabling-processes" class="anchor" href="#management--core--and-enabling-processes" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Management-, core-, and enabling processes</h3>
+
+<p>When looking at all the steps required to produce outputs, one often naturally exclude several activities which actually contribute. What are included are most often those activities that directly contribute to the production or refinement of the product. Activities that are often excluded are those that provide things that enable the production, and those that provide rules, guidance and control for the production. An example; when listing activities needed to produce a cake, would you include those activities which are needed to provide you with an oven, electricity, or flour? What about those activities which provide rules on type of cake, or how you and your friend should divide responsibility between yourself?</p>
+
+<p>Activities that directly contribute to the value creation are labeled core processes. Those that provide guidance, rules, constraints and control are labeled management processes. Those that enable or support the value creation indirectly are called enabling / supporting processes. BPTrends sum this nicely up in the IGOE model, which stands for Inputs, Guides, Outputs and Enablers.</p>
+
+<p><a href="/CapgeminiNorway/Architecture/blob/e5b2752a88a0dfb1acd91769c3e8dc2e738a752e/manuscript/images/publish/IGOE.png" target="_blank"><img src="/CapgeminiNorway/Architecture/raw/e5b2752a88a0dfb1acd91769c3e8dc2e738a752e/manuscript/images/publish/IGOE.png" alt="" style="max-width:100%;"></a></p>
+
+<p>When looking at the top level of the process architecture, we can use the same logic to divide work into these groups based on how they contribute to the value creation. Management processes are those which plan and control, core processes those which directly contribute to producing the products of the company, and supporting / enabling processes are all the other processes which indirectly contribute to value creation.</p>
+
+<p><a href="/CapgeminiNorway/Architecture/blob/e5b2752a88a0dfb1acd91769c3e8dc2e738a752e/manuscript/images/publish/PDCA_2.png" target="_blank"><img src="/CapgeminiNorway/Architecture/raw/e5b2752a88a0dfb1acd91769c3e8dc2e738a752e/manuscript/images/publish/PDCA_2.png" alt="" style="max-width:100%;"></a></p>
+
+<p>This logic also follows the scientific PDCA method, in that for one turn of value creation, the management processes on the top level provide the Plan, Check and Act steps, while the rest are the Do step.</p>
+
+<h3><a id="user-content-supporting-vs-enabling-processes" class="anchor" href="#supporting-vs-enabling-processes" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Supporting vs Enabling processes</h3>
+
+<p>There is no definite standard established on whether to use supporting processes or enabling processes. However, several companies have differentiated their use by saying that supporting process are more general service areas supporting the whole company, while enabling processes are value chain specific. An example might be how “drill well” is a value chain specific enabling process being called upon multiple times during one round of value creation. Another example from a hospital might be the enabling process “analyze blood samples”, which may be called upon multiple times during the value chain of treating a patient.</p>
+
+<h3><a id="user-content-management-processes" class="anchor" href="#management-processes" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Management processes</h3>
+
+<p>There are several ways of looking at management processes. The “losest” approach is one where companies bundle together all processes management are involved in. Another approach is trying to focus more exclusively on those management processes which provide guides and constraints for other processes. Finally, one approach focus on management processes as being the Plan, Check &amp; Act from PDCA. These approaches are not mutually exclusive and are in practice combined.</p>
+
+<h3><a id="user-content-management---supporting-processes-across-levels" class="anchor" href="#management---supporting-processes-across-levels" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Management- &amp; Supporting processes across levels</h3>
+
+<p>Should we only have management and supporting processes divided on the top level? Once more, several different approaches exist. One approach is to say that all process areas find their management processes in the shared area on the top level. For example, that yearly planning is a shared process that to which all management must adhere. Another approach is to say that when decomposing a process, the top level management and supporting processes are inherited down, but another process specific layer of management and/or supporting processes are introduced as needed.</p>
+
+<p><a href="/CapgeminiNorway/Architecture/blob/e5b2752a88a0dfb1acd91769c3e8dc2e738a752e/manuscript/images/publish/PDCA_3.png" target="_blank"><img src="/CapgeminiNorway/Architecture/raw/e5b2752a88a0dfb1acd91769c3e8dc2e738a752e/manuscript/images/publish/PDCA_3.png" alt="" style="max-width:100%;"></a></p>
+
+<p>An example of this may be that a core process called “develop”, in which an oil &amp; gas company develops an oilfield to make it ready for production. In addition to the management processes that are shared by the entire value chain, there exist some process specific management process in terms of project management. </p>
+</article>
   </div>
 
 </div>
@@ -891,7 +780,7 @@
       <svg aria-hidden="true" class="octicon octicon-mark-github" height="24" version="1.1" viewBox="0 0 16 16" width="24"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
 </a>
     <ul class="site-footer-links">
-      <li>&copy; 2016 <span title="0.08116s from github-fe126-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+      <li>&copy; 2016 <span title="0.16292s from github-fe128-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
         <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
         <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
         <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
