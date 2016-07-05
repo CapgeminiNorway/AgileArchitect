@@ -1,4 +1,4 @@
-# Guding principles for Architecture the DevOps way  
+# Guding principles for Architecture the Agile way  
 These are the guiding principles for an agile architect  
 
 ## Principle no 1
