@@ -5,9 +5,9 @@ These are the guiding principles for an agile architect
   |  |
 ---|---
 **Name** | New initiatives start rarely, but evolves continuously
-**Statement** | Forcem ipsum
+**Statement** | The focus for initiatives moves from creating new initiatives for everything we want to achieve, to cycling through solutions continuously. This allows for the evolution of solutions rather than the creation of overarching projects to deliver on requirements.
 **Rationale** | Forcem Ipsum
-**Implications** | Forcem ipsum
+**Implications** | The nature of team change to accommodate a tighter relationship and deliver in short timeboxes. Traditional project management is replaced with agile techniques (e.g. Kanban and Scrum) to facilitate delivery. Governance changes to accommodate ownership for solutions at a service level where decisions for changes are made on the fly. Cculture of "fail fast" and accepting risk is supported from the top  
 
 ## Principle no 2
 |  |
