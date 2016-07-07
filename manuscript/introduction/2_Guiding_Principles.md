@@ -2,7 +2,7 @@
 These are the guiding principles for an agile architect  
 
 ## Principle no 1
-  |  |
+ | |
 ---|---
 **Name** | New initiatives start rarely, but evolves continuously
 **Statement** | The focus for initiatives moves from creating new initiatives for everything we want to achieve, to cycling through solutions continuously. This allows for the evolution of solutions rather than the creation of overarching projects to deliver on requirements.
@@ -20,7 +20,7 @@ These are the guiding principles for an agile architect
 ## Principel no 3
 |  |
 ---|---
-**Name** | All work shall be transparent to relevant parties
+**Name** | x
 **Statement** | Forcem ipsum
 **Rationale** | Forcem Ipsum
 **Implications** | Forcem ipsum

@@ -32,6 +32,7 @@ pages:
   - Security Architecture: 'guides/8_Rugged_DevOps.md'
   - Risk Management: 'guides/9_Risk_Management.md'
   - Process Architetcure: 'guides/10_process_Architecture.md'
+  - TechnoVision: 'guides/11_Technovision.md'
   - Guide Template: 'guides/99_Template.md'
 - Reference Architectures:
   - Introduction: 'refarch/0_Introduction.md'
