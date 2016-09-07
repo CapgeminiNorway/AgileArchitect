@@ -9,3 +9,8 @@ What can we learn from semantics? Semantic web?
 
 ## Demonstrate conformance  
 How can conformance and compliance to requirements be demonstrated?
+
+## Non-functional requirements  
+
+## Functional requirements  
+Shall this guide talk about functional requirements?  
