@@ -37,7 +37,7 @@ This style of integration makes two systems talk to each other via a database. A
 This pattern is composed of all types of RPC style communication. Common examplesof this type of communication can be REST, SOAP or XML. It works by letting two systems talk to each other with what seems to be local calls. These calls are processed and serialized on one side, sent over the network, and then processed and deserialized on the other side. There are numerous ways to do this, but one example can be the use of stubs and skeletons. 
 This style gives a very good encapsulation, and it is also very mature with tons of tools and frameworks to help you do this kind of integartion style. However, it leads to a fairly tight coupling between the systems, you might need knowledge on service availability and location (which can be solved with service discovery to some extent) and also can have poor asynchronous communication. Latency and system failures needs to be addressed somehow.
 
-Richardson REST maturity model - something about this ?
+Richardson REST maturity model - something about this?
 
 ### Messaging based architecture
 This integration style lets systems communicate via a message bus. This leads to asynchronous and reliable messaging, highly decoupled systems, has excellent scalability and monitoring options, but adds some complexity. It is also hard to do this type of integration across firewalls.
