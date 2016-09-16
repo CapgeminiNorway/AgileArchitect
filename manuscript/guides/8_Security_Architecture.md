@@ -5,10 +5,10 @@ In the early days of the Internet it was unlikely that someone would abuse it fo
 
 This chapter contains a guide for how to build robust and secure software by introducing tools that have been found to very useful to achieve *secure-by-design*. The chapter starts with introducing the BSIMM framework, a tool for measuring the security maturity in the organization. Next, the chapter discuss OWASP Application Security Verification Standard, an the practical use of it. Furthermore, the chapter describe two secure development lifecycles, one from OWASP and one from Microsoft. Finally, Rugged DevOps is explained and gives hands-on tips how security can become an enabler when building software.
 
-## BSIMM
-(@Marte will add more content here)
+## Building Security In Maturity Model (BSIMM)
+(Marte or Marley will add more content here)
 - How it works?
-- Measure maturinty
+- Measure maturity
 - Compare against similar companies in the industry
 - Scoring
 
@@ -23,18 +23,32 @@ The authors of this guide strongly recommend to fork or clone the repository fro
  - [OWASP ASVS pdf](https://www.owasp.org/images/6/67/OWASPApplicationSecurityVerificationStandard3.0.pdf)
  - [OWASP ASVS GitHub](https://github.com/OWASP/ASVS)
 
-## Secure Software Development Life Cycle (S-SDLC)
+## Secure Software Development Lifecycle (S-SDLC)
+"If you do not have a
+published SDLC for
+your organization
+then you will NOT
+be successful. "
+
+
 - Microsoft SDL
 - OWASP Secure SDLC.
 - Whats the difference?
 - How to become agile and still use S-SDLC?
+  Which steps are used in agile? E.g. Maintaining the threat model
 - How does our approach look like?
 - Nice picture: Cost of software bugs related to each phase
 
-### Awareness and Training
-- What data is going to be processed?
-- SPI / PII --> Privacy Laws
-- CSSLP for developers
+### Training
+Training is about raising awareness in the team regarding security. It is more of a prerequisite than an actual step in the development lifecycle. By informing the team about certains legal demands which will affect the software can help raise the security in the application. An example could be a web application handling customer credit cards and other sensitive data, the training phase could therefore including a session on privacy laws or the payment card industry data security standard (PCI DSS).
+
+Not all developers have an deep understanding for how their code will behave when published. This lack of understanding can introduce a lot of different vulnerabilities in the finalized product. Therefore, it can be preferred to host certain events which targets developers and secure coding. OWASP Top 10 is a great starting point for this, which talks about the 10 most common vulnerabilites in web applications today. However, the OWASP Top 10 list just scratches the surface of all vulnerabilities one should be aware of. In order for the developers to get practical understanding, one could arrange so-called CTF or hackathons in which the developers can compete in hacking vulnerable applications, a good platform for this is OWASP Shepherd (https://www.owasp.org/index.php/OWASP_Security_Shepherd)
+Another tool that can be used is OWASP Security Knowledge Framework (https://www.owasp.org/index.php/OWASP_Security_Knowledge_Framework).
+
+The last section is training is certifications. Certifications like the Certified Secure Software Lifecycle Professional (CSSLP) is a broad and acknowledged certification that is aimed directly for the software developers. https://www.isc2.org/csslp/default.aspx
+
+- Rewards
+- Instructor-led
 
 ### Requirements
 - Bug Bars
@@ -43,13 +57,29 @@ The authors of this guide strongly recommend to fork or clone the repository fro
 
 ### Design
 - Threat modelling
+- "Think like an attacker"
+- Microsoft Threat Modeling Tool
+- Integration into TFS For .NET projects
+- Card game from SINTEF
+- Elevation of Privilege Card Game and Cornucoppia (learn team members how to threat model)
 
 ### Implementation
-- Static testing
-- Code Review, checklists(OWASP has a code review checklist)
+- Static testing (SonarQube, FxCOP, HP Fortify, IBM AppScan)
+- Byte-code Vs. Bitcode scanning Vs. Directly in IDE
+- Code Review, checklists (OWASP has a code review checklist):
+- Checklist should be MAX 1-2 pages otherwise overlooked by developers...
+- Wiki / Confluense...
+ https://www.owasp.org/images/0/08/OWASP_SCP_Quick_Reference_Guide_v2.pdf
 
 ### Verification
-- Dynamic Testing / Pentesting
+- Dynamic Application Security Testing (DAST) will be introduced in the Chapter about automated security testing. Where we speak about tools and how to introduce it into CI.
+
+- Retire.js by Erlend Oftedal (Javascript Vulnerabilities). Because there exists no SAST FOR JAVASCRIPT!!
+
+Penetration testing or pentesting....
+-Whitebox / GrayBox / BlackBox testing
+-Infrastucture assessment
+-Normally conducted by an external party but can also be conducted by internal resources depending on the business goal and available resources.
 
 ### Release
 - Verify
@@ -57,7 +87,11 @@ The authors of this guide strongly recommend to fork or clone the repository fro
 - Plan for handling incidents
 
 ### In Production / Maintain
-- Follow plan.
+- Incident handling
+- Nessus for checking the environment
+- SPLUNK / ELK Stack for monitoring
+- Centralized Logging
+- Ref to change management and patch management
 - Other stuff?
 
 ## Rugged DevOps
