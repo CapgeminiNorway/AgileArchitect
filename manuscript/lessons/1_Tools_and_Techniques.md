@@ -12,7 +12,6 @@ Architects who want to become agile and embrace DevOps
 ## Learning objectives  
 Distributed production of content with continuous publish  
 
-
 ## Duration
 3 hours
 
@@ -20,8 +19,9 @@ Distributed production of content with continuous publish
 Virtual and onsite
 
 ## Prerequisits and recommended reading
-Basic understanding of Git  
-
+Basic understanding of Git
+Basic understanding of Scrum
+Basic understanding of Trello  
 
 ## Required test to pass
 Yes, virtual exam with tracking
@@ -47,6 +47,7 @@ Commits
 Conflict management
 
 ### Publish  
+
 Web
 PDF
 Kindle

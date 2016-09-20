@@ -3,7 +3,7 @@ google_analytics: ['UA-78514643-1', 'agilearchitect.azurewebsites.net']
 docs_dir: ../manuscript/
 theme: readthedocs
 pages:
-- DevOps for Architecture: 'index.md'
+- The Architecture Academy: 'index.md'
 - Introduction:
   - Background: 'introduction/1_Introduction.md'
   - Guiding principles: 'introduction/2_Guiding_Principles.md'
