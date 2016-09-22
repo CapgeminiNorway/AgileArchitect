@@ -20,8 +20,8 @@ These are the guiding principles for an agile architect
 ## Principel no 3
 |  |
 ---|---
-**Name** | x
-**Statement** | Forcem ipsum
+**Name** | Simplicity
+**Statement** | Henrik will add some content here
 **Rationale** | Forcem Ipsum
 **Implications** | Forcem ipsum
 
