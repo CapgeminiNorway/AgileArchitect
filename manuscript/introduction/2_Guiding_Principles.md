@@ -1,5 +1,5 @@
-# Guding principles for Architecture the Agile way  
-These are the guiding principles for an agile architect  
+# Guding principles for Architecture the Agile way
+These are the guiding principles for an agile architect
 
 ## Principle no 1
  | |
@@ -7,15 +7,15 @@ These are the guiding principles for an agile architect
 **Name** | New initiatives start rarely, but evolves continuously
 **Statement** | The focus for initiatives moves from creating new initiatives for everything we want to achieve, to cycling through solutions continuously. This allows for the evolution of solutions rather than the creation of overarching projects to deliver on requirements.
 **Rationale** | Forcem Ipsum
-**Implications** | The nature of team change to accommodate a tighter relationship and deliver in short timeboxes. Traditional project management is replaced with agile techniques (e.g. Kanban and Scrum) to facilitate delivery. Governance changes to accommodate ownership for solutions at a service level where decisions for changes are made on the fly. Cculture of "fail fast" and accepting risk is supported from the top  
+**Implications** | The nature of team change to accommodate a tighter relationship and deliver in short timeboxes. Traditional project management is replaced with agile techniques (e.g. Kanban and Scrum) to facilitate delivery. Governance changes to accommodate ownership for solutions at a service level where decisions for changes are made on the fly. Cculture of "fail fast" and accepting risk is supported from the top
 
 ## Principle no 2
 |  |
 ---|---
-**Name** | Content shall be published to enable crowdsourcing
+**Name** | Content shall be shared, peer reviewed and published
 **Statement** | Forcem ipsum
 **Rationale** | Forcem Ipsum
-**Implications** | Forcem ipsum
+**Implications** | Information with IPR attached to it, can not be published
 
 ## Principel no 3
 |  |
@@ -62,5 +62,5 @@ These are the guiding principles for an agile architect
 ---|---
 **Name** | Interchangeable perspectives
 **Statement** | The ability and, just as importantly, the willingness to change perspectives and points of view are major drivers of the evolution of architecture disciplines
-**Rationale** | Ability and willingnes to change and align with other stakeholders  
+**Rationale** | Ability and willingnes to change and align with other stakeholders
 **Implications** | Forcem ipsum
