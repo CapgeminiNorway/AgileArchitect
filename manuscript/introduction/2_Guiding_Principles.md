@@ -28,9 +28,25 @@ These are the guiding principles for an agile architect
 ## Principle no 4
 |  |
 ---|---
-**Name** | All works shall embrace agile methods
+**Name** | Adoptability
 **Statement** | Forcem ipsum
 **Rationale** | Forcem Ipsum
+**Implications** | Forcem ipsum
+
+## Principle no 5
+|  |
+---|---
+**Name** | Flexibility
+**Statement** | Forcem ipsum
+**Rationale** | Forcem Ipsum
+**Implications** | Forcem ipsum
+
+## Principle no 6
+|  |
+---|---
+**Name** | Evolutionary
+**Statement** | Architetcure shall evolve to support enterprise evolution
+**Rationale** | The enterprise need blueprints to govern digital enablement
 **Implications** | Forcem ipsum
 
 ## Principle no 5
