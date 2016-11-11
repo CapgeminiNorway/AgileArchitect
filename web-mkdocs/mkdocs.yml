@@ -38,6 +38,8 @@ pages:
 - Reference Architectures:
   - Introduction: 'refarch/0_Introduction.md'
   - Security Architecture: 'refarch/1_Security_Architecture.md'
+- Ideas:
+    - Ideas: 'ideas/README.md'
 - About:
   - The Community: 'about/community.md'
   - License: 'about/license.md'
