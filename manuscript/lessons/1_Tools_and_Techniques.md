@@ -28,6 +28,7 @@ Yes, virtual exam with tracking
 Score for passing, 80%
 
 ## Content
+<iframe src="https://app.ardoq.com/presentation/capgemini/5826c8629f2a26664f6e0d8a" height="400" width="600"></iframe>
 
 ### Work in Progress
 Kanban boards
