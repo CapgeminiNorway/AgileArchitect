@@ -17,7 +17,7 @@ The figure below  illustrates the problem and suggest how to solve it:
 <rect x="0" y="100" width="570" height="50" style="fill:rgb(255,255,255);stroke-width:3;stroke:rgb(0,0,0)"></rect>
 <text x="150" y="130" fill="black">Business opportunities, drivers and requirements</text>
 <rect x="0" y="190" width="570" height="50" style="fill:rgb(255,255,255);stroke-width:3;stroke:rgb(0,0,0)"></rect>
-<polyline points="255,153 255,180 250,180 258,190 268,180 262,180 262,153"/>
+<polyline points="250,145 268,145 258,135 250,145 255,145 255,195 250,195 258,205 268,195 262,195 262,145"/>
 <text x="180" y="220" fill="black">Architectural  Blueprints</text>
 
 </svg>
