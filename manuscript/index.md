@@ -2,24 +2,11 @@
 
 The chasm between enterprise architects and DevOps teams prevents new digital techniques from leveraging architecture benefits, and from enterprises seeing the benefits of modern software development approaches. The result has been a "bi-modal" contrast of "new" versus "old"
 
-The figure below  illustrates the problem and suggest how to solve it:
+The figure below illustrates the problem and suggest how to resolve it:
 
-<svg height="250" width="600">
-<rect x="0" y="0" width="100" height="50" style="fill:rgb(255,255,255);stroke-width:3;stroke:rgb(0,0,0)"></rect>
-<text x="18" y="27" fill="black">An Idea</text>
-<polyline points="110,20 150,20 150,15 160,23 150,31 150,26 110,26"/>
-<rect x="170" y="0" width="180" height="50" style="fill:rgb(255,255,255);stroke-width:3;stroke:rgb(0,0,0)"></rect>
-<text x="180" y="27" fill="black">Explore over Justify</text>
-<polyline points="325,20 400,20 400,15 410,23 400,31 400,26 325,26"/>
-<polyline points="205,35 205,90 200,90 208,100 217,90 212,90 212,35"/>
-<rect x="420" y="0" width="150" height="50" style="fill:rgb(255,255,255);stroke-width:3;stroke:rgb(0,0,0)"></rect>
-<text x="440" y="27" fill="black">Business Case</text>
-<rect x="0" y="100" width="570" height="50" style="fill:rgb(255,255,255);stroke-width:3;stroke:rgb(0,0,0)"></rect>
-<text x="150" y="130" fill="black">Business opportunities, drivers and requirements</text>
-<rect x="0" y="190" width="570" height="50" style="fill:rgb(255,255,255);stroke-width:3;stroke:rgb(0,0,0)"></rect>
-<polyline points="250,145 268,145 258,135 250,145 255,145 255,195 250,195 258,205 268,195 262,195 262,145"/>
-<text x="180" y="220" fill="black">Architectural  Blueprints</text>
-
+<svg width="600" height="100" version="1.1"
+     xmlns="http://www.w3.org/2000/svg" xmlns:xlink= "http://www.w3.org/1999/xlink">
+	<image xlink:href="introduction/idea.svg" x="100" y="0" height="100px" width="400px"/>
 </svg>
 
 <h3>What is The Architecture Academy?</h3>
