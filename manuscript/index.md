@@ -4,9 +4,9 @@ The chasm between enterprise architects and DevOps teams prevents new digital te
 
 The figure below illustrates the problem and suggest how to resolve it:
 
-<svg width="600" height="100" version="1.1"
+<svg width="600" height="600" version="1.1"
      xmlns="http://www.w3.org/2000/svg" xmlns:xlink= "http://www.w3.org/1999/xlink">
-	<image xlink:href="introduction/idea.svg" x="100" y="0" height="100px" width="400px"/>
+	<image xlink:href="introduction/Idea2Run.svg" x="25" y="0" height="500px" width="500px"/>
 </svg>
 
 <h3>What is The Architecture Academy?</h3>
