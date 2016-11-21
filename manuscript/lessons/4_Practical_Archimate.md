@@ -1,24 +1,27 @@
-# Lesson title - Practical Archimate
+# Lesson title - Archimate Introduction
 
 ## Introduction  
-The student shall demonstrate practical use of Archimate
-The student present an architectual model
+ArchiMate Enterprise Architecture modeling language, a visual language with a set of default iconography for describing, analyzing, and communicating many concerns of Enterprise Architectures as they change over time. The standard provides a set of entities and relationships with their corresponding iconography for the representation of Architecture Descriptions.
 
 ## Intended students
-All architects requested to create vizualisations, models and diagrams to communicate with stakeholders
+People requested to create visualizations, models and diagrams to communicate with stakeholders
 
 ## Duration
 3 hours
 
 ## Content  
-- Archimate
-
+- Archimate 3.0
+  - The Framework
+  - The Metamodel
+  - The Language
 
 ## Classroom
-Onsite
+Onsite and virtual
 
 ## Prerequisits  
-Read Archimate introduction paper
+Read Archimate introduction paper - To be produced
 
 ## Objectives
+Understand the Archimate Standard and how it can bes used
+Understand and explain basic models in Archimate
 Practical use of Archimate  

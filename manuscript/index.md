@@ -1,18 +1,19 @@
-<h3>The Agile Architect</h3>
+<h3>Current situation and the way ahead</h3>
 
 The chasm between enterprise architects and DevOps teams prevents new digital techniques from leveraging architecture benefits, and from enterprises seeing the benefits of modern software development approaches. The result has been a "bi-modal" contrast of "new" versus "old"
+
+The figure below illustrates the problem and suggest how to resolve it:
+
+<svg width="600" height="600" version="1.1"
+     xmlns="http://www.w3.org/2000/svg" xmlns:xlink= "http://www.w3.org/1999/xlink">
+	<image xlink:href="introduction/Idea2Run.svg" x="25" y="0" height="500px" width="500px"/>
+</svg>
+
+<h3>What is The Architecture Academy?</h3>
+The Architecture Academy is an initiative to help public and private enterprises with Digital Enablement. For architects to be useful in this context, we want to crowdsource the design and production of whatever it takes to turn architects into more helpful advisors for their stakeholders. The Academy will focus on what kind of lessons and guides is needed for the first phase of this journey. It is not a journey with an end, but more about evolution.
 
 <h3>Evolutionary Architecture</h3>
 Architects must find ways to continuously deliver products and services to internal and external stakeholders. The products and services will evolve over time and consist of generic and specialized elements with their relationships
 
-<h3>Let´s get up to speed </h3>
-Let us get Science, Reason and DevOps into Architecture. Todays Enterprise Architecture was a great idea at a time, but somewhere along the line it all went wrong. This site is about how we fix this and start evolving in an agile way. For simplicity, Let's call our self Architects for now. Specific Architecture Disciplines will be covered in another chapter.
-
-> "Understanding the nature of things and the causes of effects is what science is designed to do, and ever since the Scientific Revolution there has been a systematic effort by thinkers in all fields to apply the methods of science— which include the philosophical tools of reason and critical thinking— to understanding ourselves and the world in which we live, including and especially the social, political, and economic worlds, with an end toward the betterment of humanity"
- _Shermer, Michael. The Moral Arc: How Science Makes Us Better People_
-
-<h3>Reinventing the wheel are we</h3>
-Absolutely not. A number of people have come up with great ideas and concepts for how to work as an architect. Some say they can science the crap out of various legacy methods. This initiative is mostly about bringing them all together to evolve
-
 <h3>What about building architects</h3>
-Is it relevant to compare with a building architect? The concept of blueprints should work for EA
+Is it relevant to compare with a building architect? The concept of blueprints should work for EA. maybe someone should interview some building architects and see if there are things to learn?

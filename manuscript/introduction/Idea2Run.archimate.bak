@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="Idea 2 Run" id="8042d496" version="4.0.0">
+  <folder name="Strategy" id="ea63e3c9" type="strategy">
+    <element xsi:type="archimate:Resource" name="Resource" id="240b1bb2"/>
+  </folder>
+  <folder name="Business" id="006e7076" type="business">
+    <element xsi:type="archimate:BusinessRole" name="Business Role" id="cfc6e172"/>
+  </folder>
+  <folder name="Application" id="74513a9f" type="application"/>
+  <folder name="Technology &amp; Physical" id="4c92af6d" type="technology"/>
+  <folder name="Motivation" id="7059a618" type="motivation"/>
+  <folder name="Implementation &amp; Migration" id="03dd48a3" type="implementation_migration"/>
+  <folder name="Other" id="1db51205" type="other"/>
+  <folder name="Relations" id="b598ad9f" type="relations">
+    <element xsi:type="archimate:AssociationRelationship" id="f8a6982d" source="240b1bb2" target="cfc6e172"/>
+  </folder>
+  <folder name="Views" id="fc61cd34" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="a65c00e0"/>
+    <element xsi:type="archimate:SketchModel" name="New Sketch" id="58af7437" background="0">
+      <child xsi:type="archimate:SketchModelSticky" id="e5f2033f" name="Sticky" lineColor="#5c5c5c" textAlignment="1" fillColor="#ffffff">
+        <bounds x="36" y="72" width="145" height="49"/>
+        <sourceConnection id="6bed6d15" source="e5f2033f" target="420c82f8" type="1"/>
+        <content>An idea</content>
+      </child>
+      <child xsi:type="archimate:SketchModelSticky" id="420c82f8" name="Sticky" targetConnections="6bed6d15" lineColor="#5c5c5c" textAlignment="1">
+        <bounds x="228" y="72" width="157" height="49"/>
+        <sourceConnection id="d84e05d1" source="420c82f8" target="a1cd55fb" type="1"/>
+        <content>Explore over Justify</content>
+      </child>
+      <child xsi:type="archimate:SketchModelSticky" id="a1cd55fb" name="Sticky" targetConnections="d84e05d1" lineColor="#5c5c5c" textAlignment="1" fillColor="#ffffff">
+        <bounds x="444" y="72" width="157" height="49"/>
+        <content>Business Case</content>
+      </child>
+      <child xsi:type="archimate:SketchModelSticky" id="3636877c" name="Sticky" lineColor="#5c5c5c" textAlignment="1" fillColor="#ffffff">
+        <bounds x="48" y="192" width="541" height="85"/>
+        <content>Architecture Blueprints</content>
+      </child>
+      <child xsi:type="archimate:SketchModelSticky" id="6027b150" name="Sticky" lineColor="#5c5c5c" textAlignment="1" fillColor="#ffffff">
+        <bounds x="48" y="300" width="541" height="97"/>
+        <content>Technical Architecture</content>
+      </child>
+      <child xsi:type="archimate:SketchModelSticky" id="d53aa3f5" name="Sticky" lineColor="#5c5c5c" textAlignment="1" fillColor="#ffffff">
+        <bounds x="48" y="432" width="553" height="109"/>
+        <content>Solution Design</content>
+      </child>
+      <child xsi:type="archimate:SketchModelSticky" id="61bf3d9c" name="Sticky" lineColor="#5c5c5c" textAlignment="1" fillColor="#ffffff">
+        <bounds x="48" y="576" width="553" height="85"/>
+        <content>Build</content>
+      </child>
+      <child xsi:type="archimate:SketchModelSticky" id="23adb7e2" name="Sticky" lineColor="#5c5c5c" textAlignment="1" fillColor="#ffffff">
+        <bounds x="48" y="672" width="541" height="133"/>
+        <content>Run</content>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="New ArchiMate View" id="df64e85a"/>
+  </folder>
+</archimate:model>

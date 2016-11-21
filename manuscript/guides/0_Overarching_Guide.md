@@ -13,7 +13,7 @@ How to work as an Information Architect
 ## Security Architecture
 Security Architecture...
 
-[Read more...](8_Rugged_DevOps.md)
+[Read more...](8_Security_Architecture.md)
 
 ## Information Security Requirements
 How to work with Information Security Requirements? Create a guide and share with The Open Group.

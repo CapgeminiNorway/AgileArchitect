@@ -5,20 +5,22 @@ We truly acknowledge the contributions and commitment from people regardless of:
 - Country
 - Company
 - Gender
-- Age  
+- Age
 - Etnic origin
-- Social position  
-- Personal status  
-- Financial strength  
+- Social position
+- Personal status
+- Financial strength
 - Political views
 - Religious views
-- Professional views  
+- Professional views
+- Years of experience
 
-No name mentioned - No names forgotten
+No name mentioned - No names forgotten - Except from:
 
-Conformance requirements to be part of this community:  
-- Support and embrace Free Thinking  
-- Support and embrace Critical Thinking  
-- Support and embrace Reason  
-- Support and embrace Science  
-- Support and embrace Respect  
+Conformance requirements to be part of this community:
+
+- Support and embrace Free Thinking
+- Support and embrace Critical Thinking
+- Support and embrace Reason
+- Support and embrace Science
+- Support and embrace Respect
