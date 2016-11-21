@@ -10,4 +10,4 @@ Content is managed using GitHub and published to readable format like PDF, Epub 
 # Images  
 All images are ideally created and stored as .SVG in the /manuscript/images folder. There are some online tools for SVG editing. One of them is from Google: https://svg-edit.github.io/svgedit/releases/svg-edit-2.8.1/svg-editor.html. For now, we need to stick to PNG/JPG because we have an issue with LeanPub on SVG. Powerpoint files can be used as placeholders for editable images.
 
-It is also possible to collect models from Ardoq and store them as snapshots or live models. More details will be shared soon......
+It is also possible to collect models from Ardoq and store them as snapshots or live models. More details will be shared soon.
