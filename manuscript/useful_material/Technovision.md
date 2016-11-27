@@ -1,4 +1,7 @@
 # Introduction to TechnoVision
+
+**Need a complete rewrite**  
+
 Digital transformation is challenging for all established businesses. The old steady known competitive evolution pace with known competitors is changing to a more disruptive and uncertain mutative race, with new and unheard of competitors. Competitors that are effective in copying and delivering products and services that they did not invent, yet they are defining new rules for production and delivery through new approaches to how to interact with customers and clients.
 
 This is a development where it seems that market knowledge, customer relationships and tradition seems less important. However, it is actually the traditional businesses slow adoption of new technology and their lack of understanding how important it is to satisfy the customers and clients expectations to how to consume, that creates a gap in the market that new competitors can fill. The newcomers are hacking the established business models, but it’s actually established businesses that make their business models hackable, while they are focusing on building unhackable it-solutions.  Established businesses are stuck in their old thinking and principles how to build, manage and run their business. Stuck in thinking that all employee’s competence is bound to their operating business model and the solutions that supports it.

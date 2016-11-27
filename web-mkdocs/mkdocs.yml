@@ -29,7 +29,12 @@ pages:
   - Stakeholder Communication: 'lessons/Stakeholder_Communication.md'
 - Guides:
   - Architecture Repository: 'guides/Architecture_Repository.md'
-  - Business Architetcure: 'guides/Business_Architecture.md'
+  - Business Architecture:
+    - Introduction: 'guides/Business_Architecture/Business_Architecture.md'
+    - What is it: 'guides/Business_Architecture/WhatIsBA.md'
+    - Why Process Oriented: 'guides/Business_Architecture/Why_PO_BA.md'
+    - Central Concepts: 'guides/Business_Architecture/CentralConcepts.md'
+    - Howto Build: 'guides/Business_Architecture/HowtoBuildPOBA.md'
   - Identity Architecture: 'guides/Identity_Architecture.md'
   - Information Architecture: 'guides/Information_Architecture.md'
   - Integration Architecture: 'guides/Integration_Architecture.md'
@@ -42,7 +47,7 @@ pages:
   - Agile Manifesto: 'useful_material/Agile_Manifesto.md'
   - Archimate: 'useful_material/Archimate.md'
   - TechnoVision: 'useful_material/Technovision.md'
-  - Global Identity Foundation: 'useful_material/Global_Identity_Foundation.md'  
+  - Global Identity Foundation: 'useful_material/Global_Identity_Foundation.md'
 - Ideas:
     - Ideas: 'ideas/README.md'
 - About:
