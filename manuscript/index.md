@@ -6,7 +6,7 @@
 
 
 <body>
-<h3>Current situation and the way ahead</h3>
+<h3>Current observations</h3>
 
 The chasm between enterprise architects and DevOps teams prevents new digital techniques from leveraging architecture benefits, and from enterprises seeing the benefits of modern software development approaches. The result has been a "bi-modal" contrast of "new" versus "old"
 
