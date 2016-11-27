@@ -9,12 +9,10 @@
 The chasm between enterprise architects and DevOps teams prevents new digital techniques from leveraging architecture benefits, and from enterprises seeing the benefits of modern software development approaches. The result has been a "bi-modal" contrast of "new" versus "old"
 
 The figure below illustrates the problem and suggest how to solve it:
-
-<svg width="600" height="600" version="1.1"
+<svg width="700" height="700" version="1.1"
      xmlns="http://www.w3.org/2000/svg" xmlns:xlink= "http://www.w3.org/1999/xlink">
-	<image xlink:href="introduction/Idea2Run.svg" x="25" y="0" height="500px" width="500px"/>
+	<image xlink:href="introduction/Idea2Run.svg" x="25" y="0" height="650px" width="650px"/>
 </svg>
-
 <h3>What is The Architecture Academy?</h3>
 The Architecture Academy is an initiative to help public and private enterprises with Digital Enablement. For architects to be useful in this context, we want to crowdsource the design and production of whatever it takes to turn architects into more helpful advisors for their stakeholders. The Academy will focus on what kind of lessons and guides is needed for the first phase of this journey. It is not a journey with an end, but more about evolution.
 
