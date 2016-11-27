@@ -30,7 +30,6 @@ pages:
 - Guides:
   - Architecture Repository: 'guides/Architecture_Repository.md'
   - Business Architecture:
-    - Introduction: 'guides/Business_Architecture/Business_Architecture.md'
     - What is it: 'guides/Business_Architecture/WhatIsBA.md'
     - Why Process Oriented: 'guides/Business_Architecture/Why_PO_BA.md'
     - Central Concepts: 'guides/Business_Architecture/CentralConcepts.md'
