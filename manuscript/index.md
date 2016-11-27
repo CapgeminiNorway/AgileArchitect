@@ -3,10 +3,8 @@
 <script type="text/javascript" src="https://capgemini.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-T/-ulp2nw/100021/c/1000.0.11/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-UK&collectorId=73c91f30">
 </script>
 
-
-
 <body>
-<h3>Current observations</h3>
+<h3>Current Observations</h3>
 
 The chasm between enterprise architects and DevOps teams prevents new digital techniques from leveraging architecture benefits, and from enterprises seeing the benefits of modern software development approaches. The result has been a "bi-modal" contrast of "new" versus "old"
 
