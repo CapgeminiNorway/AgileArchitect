@@ -20,4 +20,4 @@ and strategies.
 
 Enjoy and we remain eager for your feedback. [Read more about TechnoVision...](https://www.capgemini.com/resource-file-access/resource/pdf/technovision_2016.pdf)
 
-![Techno Vision](../images/publish/TechnoVision2015.png)
+![Techno Vision](../images/TechnoVision2015.png)
