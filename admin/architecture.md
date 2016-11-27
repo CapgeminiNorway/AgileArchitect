@@ -1,5 +1,6 @@
 ## This document describes the architecture for the collaboration platform
 
+This infomation is not to be published, but for internal use only
 The collaboration platform looks like this:
 
 Insert diagram here
