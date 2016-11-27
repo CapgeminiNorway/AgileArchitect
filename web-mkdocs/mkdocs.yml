@@ -3,7 +3,7 @@ google_analytics: ['UA-78514643-1', 'agilearchitect.azurewebsites.net']
 docs_dir: ../manuscript/
 theme: readthedocs
 pages:
-- Architecture Academy:
+- Table of Content:
   - Introduction: 'index.md'
   - Culture of Collaboration: 'introduction/DevOps.md'
   - Social Science Analysis: 'introduction/Social_Science_Analysis.md'
@@ -29,11 +29,7 @@ pages:
   - Stakeholder Communication: 'lessons/Stakeholder_Communication.md'
 - Guides:
   - Architecture Repository: 'guides/Architecture_Repository.md'
-  - Business Architecture:
-    - What is it: 'guides/Business_Architecture/WhatIsBA.md'
-    - Why Process Oriented: 'guides/Business_Architecture/Why_PO_BA.md'
-    - Central Concepts: 'guides/Business_Architecture/CentralConcepts.md'
-    - Howto Build: 'guides/Business_Architecture/HowtoBuildPOBA.md'
+  - Business Architecture: 'guides/Business_Architecture.md'
   - Identity Architecture: 'guides/Identity_Architecture.md'
   - Information Architecture: 'guides/Information_Architecture.md'
   - Integration Architecture: 'guides/Integration_Architecture.md'
