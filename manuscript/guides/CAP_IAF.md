@@ -1,7 +1,3 @@
-# Cross functional lessons
-The following lessons are independent of Architecture Discipline. They may serve both as a baseline training and specialized knowledge.
-
-## Capgemini IAF
 The Capgemini Integrated Architecture Framework (**IAF**) has been the
 cornerstone of architecture led engagements across most of Capgemini for
 many years. To date, IAF is used at many customers, used and developed
@@ -22,9 +18,4 @@ used for this dissemination process. It is necessary to present a
 definitive version and interpretation of IAF Artifacts[^1] in order to
 support this initiative.
 
-## Archimate
-The objective of the Archimate standard and the ArchiMate Enterprise Architecture modeling language, is to be a visual language with a set of default iconography for describing, analyzing, and communicating many concerns of Enterprise Architectures as they change over time. The standard provides a set of entities and relationships with their corresponding iconography for the representation of Architecture Descriptions.
-
-Archimate training must comply to The Open Group specifications and requirements. For more information on this, go to their [Website](http://www.opengroup.org/certifications/archimate/training)
-
-Want to play with the Archimate metamodell?  Take a look: <a href= "https://app.ardoq.com/presentation/capgemini/583bdceb72fa6d6f4bb73c8d/slide/0/" target="_blank">ArchImate Live"</a>
+The IAF will be published here(very soon)

@@ -1,4 +1,4 @@
-site_name: DEF Architecture 
+site_name: DEF Architecture
 google_analytics: ['UA-78514643-1', 'agilearchitect.azurewebsites.net']
 docs_dir: ../manuscript/
 theme: readthedocs
@@ -42,8 +42,10 @@ pages:
 - Useful Material:
   - Agile Manifesto: 'useful_material/Agile_Manifesto.md'
   - Archimate: 'useful_material/Archimate.md'
-  - TechnoVision: 'useful_material/Technovision.md'
+  - Fair Institute: 'useful_material/FairInstitute.md'
   - Global Identity Foundation: 'useful_material/Global_Identity_Foundation.md'
+  - TechnoVision: 'useful_material/Technovision.md'
+
 - Ideas:
     - Going DEF: 'ideas/Going DEF.md'
 - About:
