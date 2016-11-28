@@ -1556,27 +1556,24 @@ height="3.670157480314961in"}
 ![](media/image11.png){width="6.413195538057742in"
 height="4.167237532808399in"}
 
-## 7.3 Information Domain {#information-domain .ListParagraph}
-------------------
+## 7.3 Information Domain
 
-### Definition {#definition-1 .ListParagraph}
+### 7.3.1 Definition
 
 Grouping of information (or data entities) by a set of criteria such as
 security classification, ownership, location, etc. In the context of
 security, an information domain is defined as a set of users, their
 information objects, and a security policy.
 
-### Description {#description-2 .ListParagraph}
+### 7.3.2 Description
 
-### Specific Artifact Attributes {#specific-artifact-attributes-3 .ListParagraph}
+### 7.3.3 Specific Artifact Attributes
 
   **Description**   *The description of the specific domain*
   ----------------- ------------------------------------------
   **Parent Id**     *Reference to the Parent Artifact Id*
 
-###  {#section-3 .ListParagraph}
-
-### Context and Relationships {#context-and-relationships-1 .ListParagraph}
+###  7.3.4 Context and Relationships
 
   **Aspect Area Abstraction level**   **Business**   **Information**   **IS**   **TI**   **Governance**   **Security**
   ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
@@ -1585,37 +1582,32 @@ information objects, and a security policy.
   **Logical**
   **Physical**
 
-###  {#section-4 .ListParagraph}
-
 ![](media/image12.png){width="4.854715660542432in"
 height="3.935936132983377in"}
 
-### Hints & Tips {#hints-tips-1 .ListParagraph}
+### 7.3.5 Hints & Tips
 
-### Example {#example-1 .ListParagraph}
+### 7.3.6 Example
 
-IS Domain {#is-domain .ListParagraph}
----------
+## 7.4 IS Domain
 
-### Definition {#definition-2 .ListParagraph}
+### 7.4.1 Definition
 
 In an IS Domain, IS services are grouped in order to fit with a specific
 goal.
 
-### Description {#description-3 .ListParagraph}
+### 7.4.2 Description
 
 IS Domains can, for example, be the responsible department or the
 division in the current system landscape.
 
-### Specific Artifact Attributes {#specific-artifact-attributes-4 .ListParagraph}
+### 7.4.3 Specific Artifact Attributes
 
   **Description**   *The description of the specific domain*
   ----------------- ------------------------------------------
   **Parent Id**     *Reference to the Parent Artifact Id*
 
-###  {#section-5 .ListParagraph}
-
-### Context and Relationships {#context-and-relationships-2 .ListParagraph}
+###  7.4.4 Context and Relationships
 
   **Aspect Area Abstraction level**   **Business**   **Information**   **IS**   **TI**   **Governance**   **Security**
   ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
@@ -1624,34 +1616,30 @@ division in the current system landscape.
   **Logical**
   **Physical**
 
-###  {#section-6 .ListParagraph}
 
 ![](media/image13.png){width="4.783524715660542in"
 height="4.2552012248468944in"}
 
-### Hints & Tips {#hints-tips-2 .ListParagraph}
+### 7.4.5 Hints & Tips
 
-### Example {#example-2 .ListParagraph}
+### 7.4.6 Example
 
-TI Domain {#ti-domain .ListParagraph}
----------
+## 7.5 TI Domain
 
-### Definition {#definition-3 .ListParagraph}
+### 7.5.1 Definition
 
 In an TI Domain, TI services are grouped in order to fit with a specific
 goal.
 
-### Description {#description-4 .ListParagraph}
+### 7.5.2 Description
 
-### Specific Artifact Attributes {#specific-artifact-attributes-5 .ListParagraph}
+### 7.5.3 Specific Artifact Attributes
 
   **Description**   *The description of the specific domain*
   ----------------- ------------------------------------------
   **Parent Id**     *Reference to the Parent Artifact Id*
 
-###  {#section-7 .ListParagraph}
-
-### Context and Relationships {#context-and-relationships-3 .ListParagraph}
+###  7.5.4 Context and Relationships {#context-and-relationships-3 .ListParagraph}
 
   **Aspect Area Abstraction level**   **Business**   **Information**   **IS**   **TI**   **Governance**   **Security**
   ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
@@ -1660,16 +1648,14 @@ goal.
   **Logical**
   **Physical**
 
-###  {#section-8 .ListParagraph}
-
 ![](media/image14.png){width="4.854715660542432in"
 height="4.404946412948381in"}
 
-### Hints & Tips {#hints-tips-3 .ListParagraph}
+### 7.5.5 Hints & Tips
 
-### Example {#example-3 .ListParagraph}
+### 7.5.6 Example
 
-Service Artifacts Overview {#service-artifacts-overview .ListParagraph}
+## 7.6 Service Artifacts Overview
 --------------------------
 
 A Service describes an “***element of behaviour*** “ in the IAF Aspect
@@ -1756,16 +1742,16 @@ Implementation, the implementation can change without affecting Service
 users. By modifying one part of the architecture at a time, migration to
 different or new implementations can be achieved step-by-step.
 
-Business Service {#business-service .ListParagraph}
+## 7.7 Business Service
 ----------------
 
-<span id="_Toc103" class="anchor"></span>Definition
+### 7.7.1 Definition
 
 A Business Service characterises a unique “element of ***business
 behaviour***” in terms of a ***B**usiness Activity*, undertaken by a
 specific *Role* that together support a specific *Business Goal.*
 
-<span id="_Toc104" class="anchor"></span>Description
+### 7.7.2 Description
 
 Business services are basic building blocks of the things an
 organisation does.
@@ -1799,7 +1785,7 @@ A Business Service is derived from a unique combination of a *Business
 Goal*, and the *Business Activity* and *Role* supporting that specific
 ***Business Goal***.
 
-<span id="_Toc105" class="anchor"></span>Specific Artifact Attributes
+### 7.7.3 Specific Artifact Attributes
 
   -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Domain** *Describes for functional grouping of the service. *
@@ -1848,7 +1834,7 @@ Goal*, and the *Business Activity* and *Role* supporting that specific
   -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-<span id="_Toc106" class="anchor"></span>Context and Relationships
+### 7.7.4 Context and Relationships
 
   **Aspect Area Abstraction level**   **Business**   **Information**   **IS**   **TI**   **Governance**   **Security**
   ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
@@ -1862,7 +1848,7 @@ height="4.153737970253719in"}
 
 Figure 7 Business Service Relationships
 
-<span id="_Toc107" class="anchor"></span>Hints & Tips
+### 7.7.5 Hints & Tips
 
 The granularity of a Business Service is crucial to the successful
 definition of the architecture. Granularity is specifically related to
@@ -1888,17 +1874,16 @@ Business Services described as an information system function (e.g. ERP
 module XYZ) are to be avoided as these will not truly capture all the
 elements of behaviour.
 
-<span id="_Toc108" class="anchor"></span>Example
+### 7.7.6 Example
 
-Business Information Service {#business-information-service .ListParagraph}
-----------------------------
+## 7.8 Business Information Service
 
-<span id="_Toc110" class="anchor"></span>Definition
+### 7.8.1 Definition
 
 A *Business Information Service* describes the communication behaviour
 of a *Business Service.*
 
-<span id="_Toc111" class="anchor"></span>Description
+### 7.8.2 Description
 
 As described elsewhere *Business Services* describe the elementary units
 of work a company does. The Business Information Service explicitly
@@ -1920,7 +1905,7 @@ automated super loos seen in France and the UK for example).
 Business Information Services collaborate through the communication of
 *Information Objects. *
 
-<span id="_Toc112" class="anchor"></span>Specific Artifact Attributes
+## 7.8.3 Specific Artifact Attributes
 
   **Domain**                             *Describes for Business services in a functional grouping. *
   -------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -1944,7 +1929,7 @@ Business Information Services collaborate through the communication of
   **Error handling**                     *Describes the result of incorrect usage of the service. *
   **Information object usage**           *Describe which information obbjects are created/written (W), Transformed (T) or Got/read (G);* &lt;Reference ID&gt;, &lt;Reference Name&gt; &lt;W/T/G&gt; ;&lt;Reference ID&gt;, &lt;Reference Name&gt;,&lt;W/T/G&gt;
 
-<span id="_Toc113" class="anchor"></span>Relations/Context
+### 7.8.4 Relations/Context
 
   **Aspect Area Abstraction level**   **Business**   **Information**   **IS**   **TI**   **Governance**   **Security**
   ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
@@ -1958,7 +1943,7 @@ height="3.9250087489063867in"}
 
 Figure 8 Business Information Service Relationships
 
-<span id="_Toc114" class="anchor"></span>Hints & Tips
+### 7.8.5 Hints & Tips
 
 For each *Business Service* there is a corresponding Business
 Information Service i.e. a 1 to 1 relationship. However where the
@@ -1983,23 +1968,21 @@ activity. It is this difference in focus that is important when looking
 to determine the information automation because it will identify where
 the boundaries of automation and non automation lie.
 
-<span id="_Toc115" class="anchor"></span>Example
+### 7.8.6 Example
 
 ![](media/image17.png){width="4.960688976377953in" height="3.7125in"}
 
 Figure 9 Business Information Service example
 
-Information System Service {#information-system-service .ListParagraph}
---------------------------
+## 7.9 Information System Service
 
-<span id="_Toc117" class="anchor"></span>Definition
+### 7.9.1 Definition
 
 An Information System Service describes an element of behaviour of
 information automation required to support automated Business
 Information Services
 
-<span id="_Toc118" class="anchor"></span>Information System Service
-Description
+### 7.9.2 Information System Service Description
 
 An Information System Service supports one or more **automated**
 *Business Information Services*.
@@ -2012,7 +1995,7 @@ Services. The interaction of an Information System Service with other
 Information System Services is described in an *Information System
 Service Collaboration Contract*.
 
-<span id="_Toc119" class="anchor"></span>Specific Artifact Attributes
+### 7.9.3 Specific Artifact Attributes
 
   **Domain**                             *Describes for Information System service for a functional grouping. Each domain or sub domain is a set of coherent functions.*
   -------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -2040,7 +2023,7 @@ Service Collaboration Contract*.
   **Input Control(s)**                   *A description of the control info required as input. (This is an optional attribute.)*
   **Output Control(s)**                  *A description of the control info provided as output. (This is an optional attribute.)*
 
-<span id="_Toc120" class="anchor"></span>Relations/Context
+### 7.9.4 Relations/Context
 
   **Aspect Area Abstraction level**   **Business**   **Information**   **IS**   **TI**   **Governance**   **Security**
   ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
@@ -2052,7 +2035,7 @@ Service Collaboration Contract*.
 ![](media/image18.png){width="4.783524715660542in"
 height="4.2552012248468944in"}
 
-<span id="_Toc121" class="anchor"></span>Hints & Tips
+### 7.9.5 Hints & Tips
 
 Analysis of the Information System Services may result in the
 identification of additional Information System Services (which should
@@ -2067,19 +2050,18 @@ on Technology Infrastructure Services therefore considering Information
 System Services jointly will improve alignment and reduce iteration
 later
 
-<span id="_Toc122" class="anchor"></span>Example
+### 7.9.6 Example
 
-Technology Infrastructure Service {#technology-infrastructure-service .ListParagraph}
----------------------------------
+## 7.10 Technology Infrastructure Service
 
-<span id="_Toc124" class="anchor"></span>Definition
+### 7.10.1 Definition
 
 Technology Infrastructure Services describe the behaviour of services
 that primarily support the *Information System Services* and may also
 directly support generic business objectives (for example Office
 Automation type services).
 
-<span id="_Toc125" class="anchor"></span>Description
+### 7.10.2 Description
 
 Technology Infrastructure Services are typically common or shared
 services that support more than one *Information System Service* .
@@ -2100,7 +2082,7 @@ as processing, communication, storage etc. or less granular, more
 molecular such as printing, collaboration, e-mail, web access, call
 centre etc.
 
-<span id="_Toc126" class="anchor"></span>Specific Artifact Attributes
+### 7.10.3 Specific Artifact Attributes
 
   **Domain**                             *Describes for Technical Infrastructure Services the runtime environments (.NET, JEE or z/OS-LE).* &lt; .NET/ JEE/ z/OS-LE/ Connectivity/ Security/ Business Service Management.&gt;
   -------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -2128,7 +2110,7 @@ centre etc.
   **Input Control(s)**                   *A description of the control info required as input. (This is an optional attribute.)*
   **Output Control(s)**                  *A description of the control info provided as output. (This is an optional attribute.)*
 
-<span id="_Toc127" class="anchor"></span>Relationships and Context
+### 7.10.4 Relationships and Context
 
   **Aspect Area Abstraction level**   **Business**   **Information**   **IS**   **TI**   **Governance**   **Security**
   ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
@@ -2140,24 +2122,23 @@ centre etc.
 ![](media/image19.png){width="4.841917104111986in"
 height="4.392717629046369in"}
 
-<span id="_Toc128" class="anchor"></span>Hints and Tips
+### 7.10.5 Hints and Tips
 
 Technology Infrastructure Services are now usually well understood and
 there are extensive patterns and lists of “standard” Technology
 Infrastructure Services available within the architecture community.
 
-<span id="_Toc129" class="anchor"></span>Example
+### 7.10.6 Example
 
-Business Event {#business-event .ListParagraph}
---------------
+## 7.11 Business Event
 
-### Definition {#definition-4 .ListParagraph}
+### 7.11.1 Definition
 
 A Business state change that triggers a Business Service. Events may
 originate from inside or outside the Business Scope and may be resolved
 inside or outside the Business Scope.
 
-### Description {#description-5 .ListParagraph}
+### 7.11.2 Description
 
 In computing an event is an action that is usually initiated outside of
 a system and has to be handled by the system. Business events therefore
@@ -2166,7 +2147,7 @@ Examples of business events are the ordering of an article by a
 customer, the requesting of a quote by that same customer and the
 receipt of a payment from a customer via the bank.
 
-### Specific Artifact Attributes {#specific-artifact-attributes-6 .ListParagraph}
+### 7.11.3 Specific Artifact Attributes
 
   **Service window**                     *Or opening hours, describes when theevent is triggered*
   -------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -2180,9 +2161,7 @@ receipt of a payment from a customer via the bank.
   **Result**                             *Describes the result the event initiator expects*
   **Error handling**                     *Describes the result of incorrect usage of the service.*
 
-###  {#section-9 .ListParagraph}
-
-### Context and Relationships {#context-and-relationships-4 .ListParagraph}
+###  7.11.4 Context and Relationships
 
   **Aspect Area Abstraction level**   **Business**   **Information**   **IS**   **TI**   **Governance**   **Security**
   ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
@@ -2191,14 +2170,11 @@ receipt of a payment from a customer via the bank.
   **Logical**
   **Physical**
 
-###  {#section-10 .ListParagraph}
+###  7.11.5 Hints & Tips
 
-### Hints & Tips {#hints-tips-4 .ListParagraph}
+### 7.11.6 Example
 
-### Example {#example-4 .ListParagraph}
-
-Collaboration Contract Artifacts Overview {#collaboration-contract-artifacts-overview .ListParagraph}
------------------------------------------
+## 7.12 Collaboration Contract Artifacts Overview
 
 Collaboration contracts describe the behaviour of the interaction
 between services or components. This is distinct from the
@@ -2211,17 +2187,14 @@ behaviour based on the service contracts.
 ![](media/image20.png){width="5.202778871391076in"
 height="2.6729166666666666in"}
 
-Business Collaboration Contracts {#business-collaboration-contracts .ListParagraph}
---------------------------------
+## 7.13 Business Collaboration Contracts
 
-<span id="_Toc139" class="anchor"></span>Definition
+### 7.13.1 Definition
 
 A Business Collaboration Contract describes the collaboration and
 behaviour between Business Services or between Business Components.
 
-.
-
-<span id="_Toc140" class="anchor"></span>Description
+### 7.13.2 Description
 
 The Business Services Collaboration Contract specifies the content and
 characteristics of the relationship between Business Services.
@@ -2252,7 +2225,7 @@ specifications.
 Business Collaboration Contracts form an important insight to developing
 the critical operational path.
 
-<span id="_Toc141" class="anchor"></span>Specific Artifact Attributes
+### 7.13.3 Specific Artifact Attributes
 
   **Service name ‘consumer’**           *Describes the service name and reference ID from the consuming or calling service/component.* &lt;Reference ID&gt;; &lt;Reference Name&gt;
   ------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -2273,7 +2246,7 @@ the critical operational path.
 
 .
 
-<span id="_Toc142" class="anchor"></span>Relationships and Context
+### 7.13.4 Relationships and Context
 
   **Aspect Area Abstraction level**   **Business**   **Information**   **IS**   **TI**   **Governance**   **Security**
   ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
@@ -2285,26 +2258,23 @@ the critical operational path.
 ![](media/image21.png){width="4.443525809273841in"
 height="4.201514654418197in"}
 
-<span id="_Toc143" class="anchor"></span>Hints & Tips
+### 7.13.5 Hints & Tips
 
 Business Collaboration Contracts should be defined very carefully and
 clearly. The architecture performance will be based on these contract
 characteristics.
 
-<span id="_Toc144" class="anchor"></span>Example
+### 7.13.6 Example
 
-Business Information Collaboration Contracts {#business-information-collaboration-contracts .ListParagraph}
---------------------------------------------
+## 7.14 Business Information Collaboration Contracts
 
-<span id="_Toc146" class="anchor"></span>Definition
+### 7.14.1 Definition
 
 A Business Information Collaboration Contract describes the
 collaboration and behaviour between Business Information Services or
 between Business Information Components.
 
-.
-
-<span id="_Toc147" class="anchor"></span>Description
+### 7.14.2 Description
 
 The Business Information Services Collaboration Contract specifies the
 content and characteristics of the relationship between Business
@@ -2338,7 +2308,7 @@ associated specifications.
 Business Information Collaboration Contracts form an important insight
 to developing the critical operational path.
 
-<span id="_Toc148" class="anchor"></span>Specific Artifact Attributes
+### 7.14.3 Specific Artifact Attributes
 
   **Service name ‘consumer’**           *Describes the service name and reference ID from the consuming or calling service/component.* &lt;Reference ID&gt;; &lt;Reference Name&gt;
   ------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -2357,7 +2327,7 @@ to developing the critical operational path.
   **Result control requirements**       *Describe the result requirement of the contract.* &lt;No result control required/ Result control based on periodic checks/ Result control required every time the contract is supporting&gt;
   **Importance**                        *Describe the importance of the contract.* &lt;Failure allowed if only quality degrades/ Must complete within response times&gt;
 
-<span id="_Toc149" class="anchor"></span>Relationships and Context
+### 7.14.4 Relationships and Context
 
   **Aspect Area Abstraction level**   **Business**   **Information**   **IS**   **TI**   **Governance**   **Security**
   ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
@@ -2369,22 +2339,20 @@ to developing the critical operational path.
 ![](media/image22.png){width="4.443525809273841in"
 height="4.201514654418197in"}
 
-<span id="_Toc150" class="anchor"></span>Hints & Tips
+### 7.14.5 Hints & Tips
 
-<span id="_Toc151" class="anchor"></span>Example
+### 7.14.6 Example
 
-Information System Collaboration Contracts {#information-system-collaboration-contracts .ListParagraph}
-------------------------------------------
+## 7.15 Information System Collaboration Contracts
 
-<span id="_Toc153" class="anchor"></span>Definition
+### 7.15.1 Definition
 
 An Information System Collaboration Contract describes the collaboration
 and behaviour between Information System Services or between Information
 System Components.
 
-.
 
-<span id="_Toc154" class="anchor"></span>Description
+### 7.15.2 Description
 
 The Information System Service Collaboration Contract specifies the
 content and characteristics of the relationship between Information
@@ -2417,7 +2385,7 @@ specifications.
 Information System Collaboration Contracts form an important insight to
 developing the critical operational path.
 
-<span id="_Toc155" class="anchor"></span>Specific Artifact Attributes
+### 7.15.3 Specific Artifact Attributes
 
   **Service name ‘consumer’**           *Describes the service name and reference ID from the consuming or calling service/component.* &lt;Reference ID&gt;; &lt;Reference Name&gt;
   ------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -2438,7 +2406,7 @@ developing the critical operational path.
 
 .
 
-<span id="_Toc156" class="anchor"></span>Relationships and Context
+### 7.15.4 Relationships and Context
 
   **Aspect Area Abstraction level**   **Business**   **Information**   **IS**   **TI**   **Governance**   **Security**
   ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
@@ -2450,25 +2418,24 @@ developing the critical operational path.
 ![](media/image23.png){width="4.515331364829397in"
 height="4.4339938757655295in"}
 
-<span id="_Toc157" class="anchor"></span>Hints & Tips
+### 7.15.5 Hints & Tips
 
-<span id="_Toc158" class="anchor"></span>Example
+### 7.15.6 Example
 
-<span id="_Toc159" class="anchor"></span>Hints & Tips
+### 7.15.7 Hints & Tips
 
-<span id="_Toc160" class="anchor"></span>Example
+### 7.15.8 Example
 
-Technology Infrastructure Service and Technology Infrastructure Component Contracts. {#technology-infrastructure-service-and-technology-infrastructure-component-contracts. .ListParagraph}
-------------------------------------------------------------------------------------
+## 7.16 Technology Infrastructure Service and Technology Infrastructure Component Contracts
 
-<span id="_Toc162" class="anchor"></span>Definition
+### 7.16.1 Definition
 
 A Technology Infrastructure Service Contract describes the behaviour and
 characteristics between Technology Infrastructure Services
 
 .
 
-<span id="_Toc163" class="anchor"></span>Description
+### 7.16.2 Description
 
 The Technology Infrastructure Service Contract defines the quality and
 behaviour characteristics of the interaction between two collaborating
@@ -2482,7 +2449,7 @@ syntax & semantics and communication mechanisms.
 The Technology Infrastructure Service Contract will reflect the
 supported Information System Component Collaboration Contracts.
 
-<span id="_Toc164" class="anchor"></span>Specific Artifact Attributes
+### 7.16.3 Specific Artifact Attributes
 
   **Service name ‘consumer’**           *Describes the service name and reference ID from the consuming or calling service/component.* &lt;Reference ID&gt;; &lt;Reference Name&gt;
   ------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -2503,7 +2470,7 @@ supported Information System Component Collaboration Contracts.
 
 .
 
-<span id="_Toc165" class="anchor"></span>Relationships and Context
+### 7.16.4 Relationships and Context
 
   **Aspect Area Abstraction level**   **Business**   **Information**   **IS**   **TI**   **Governance**   **Security**
   ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
@@ -2515,7 +2482,7 @@ supported Information System Component Collaboration Contracts.
 ![](media/image24.png){width="4.495653980752406in"
 height="4.626267497812774in"}
 
-<span id="_Toc166" class="anchor"></span>Hints & Tips
+### 7.16.5 Hints & Tips
 
 ISO 9126 provides a useful guide for the quality aspects such as
 performance, availability, throughput etc…for technology infrastructure.
@@ -2553,17 +2520,16 @@ product to be transferred from one environment to another.
 Do not assume that these are fully comprehensive or needed but they
 provide a good starter checklist fordiscussion.
 
-<span id="_Toc167" class="anchor"></span>Example
+### 7.16.6 Example
 
-Business Activity {#business-activity .ListParagraph}
------------------
+## 7.17 Business Activity
 
-<span id="_Toc169" class="anchor"></span>Definition
+### 7.17.1 Definition
 
 A business task or group of business tasks that are undertaken by the
 business to achieve a well defined goal
 
-<span id="_Toc170" class="anchor"></span>Description
+### 7.17.2 Description
 
 Business Activities support the realisation of the *Business Goals*
 
@@ -2579,7 +2545,7 @@ initial state to another state
 Business Activity provides one aspect of the element of business
 behaviour characterised by a *Business Service.*
 
-<span id="_Toc171" class="anchor"></span>Specific Artifact Attributes
+### 7.17.3 Specific Artifact Attributes
 
   **Description**                   *A narrative of what the artifact is and what it does and its relevance to the architecture*
   --------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -2594,7 +2560,7 @@ behaviour characterised by a *Business Service.*
   **Business Goal**                 *The business goal this activity supports. *
   **Parent Activity**               *Reference to the parent Business Activity in the BA hierarchy.*
 
-<span id="_Toc172" class="anchor"></span>Relations/Context
+### 7.17.4 Relations/Context
 
   **Aspect Area Abstraction level**   **Business**   **Information**   **IS**   **TI**   **Governance**   **Security**
   ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
@@ -2606,7 +2572,7 @@ behaviour characterised by a *Business Service.*
 ![](media/image25.png){width="4.8506747594050745in"
 height="4.207501093613298in"}
 
-<span id="_Toc173" class="anchor"></span>Hints & Tips
+### 7.17.5 Hints & Tips
 
 The level of detail and granularity of Business Activities fundamentally
 sets the level of granularity for the whole architecture. It is vitally
@@ -2627,17 +2593,16 @@ significant dependences between activities that would simply result in a
 major re-grouping of Business Services into Business Components (i.e.
 too low a granularity of activity in the first place).
 
-<span id="_Toc174" class="anchor"></span>Example
+### 7.17.6 Example
 
- Business Goal {#business-goal .ListParagraph}
---------------
+## 7.18 Business Goal
 
-<span id="_Toc176" class="anchor"></span>Definition
+### 7.18.1 Definition
 
 Business Goals define what the business needs to achieve in order to
 fulfil its Business Objectives
 
-<span id="_Toc177" class="anchor"></span>Description
+### 7.18.2 Description
 
 Business Goals reflect the Business Objectives or describe what the
 business must achieve to fulfil the business mission.
@@ -2652,14 +2617,14 @@ desired state
 
 Supports the definition of results related targets for the organisation.
 
-<span id="_Toc178" class="anchor"></span>Specific Artifact Attributes
+### 7.18.3 Specific Artifact Attributes
 
   **Description**             *The description of the specific business goal*
   --------------------------- -------------------------------------------------------------------------------------------
   **Goal Type**               *Can provide classification of the goal e.g. governance, compliance, security,etc. *
   **Business Objective id**   *This is a optional field. It indicates this goal is related to a pre defined Objective.*
 
-<span id="_Toc179" class="anchor"></span>Relations/Context
+### 7.18.4 Relations/Context
 
   **Aspect Area Abstraction level**   **Business**   **Information**   **IS**   **TI**   **Governance**   **Security**
   ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
@@ -2671,26 +2636,25 @@ Supports the definition of results related targets for the organisation.
 ![](media/image26.png){width="4.8506747594050745in"
 height="4.207501093613298in"}
 
-<span id="_Toc180" class="anchor"></span>Hints & Tips
+### 7.18.5 Hints & Tips
 
 There are various ways of describing and deriving Business Goals. The
 simplest is to thinking in terms of what the business needs to achieve
 through the use of the words “manage” and “ensure” in a goal hierarchy
 model.
 
-<span id="_Toc181" class="anchor"></span>Example
+### 7.18.6 Example
 
 \
 -
 
- Role {#role .ListParagraph}
------
+## 7.19 Role
 
-<span id="_Toc183" class="anchor"></span>Definition
+### 7.19.1 Definition
 
 A Business Role performs a Business Activity.
 
-<span id="_Toc184" class="anchor"></span>Description
+### 7.19.2 Description
 
 Roles are responsible for the execution of activities
 
@@ -2708,7 +2672,7 @@ Actors are classified in terms of their value and contributions,
 accountability and responsibility (cf. RACI-model) of an activity or
 service
 
-<span id="_Toc185" class="anchor"></span>Specific Artifact Attributes
+### 7.19.3 Specific Artifact Attributes
 
   **Description**   *The description of the specific business role*
   ----------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -2716,7 +2680,7 @@ service
   **RACI**          *The explicit description of the role responsibilities*
   **Location**      *The virtual location(s) of the role (if known)*
 
-<span id="_Toc186" class="anchor"></span>Relations/Context
+### 7.19.4 Relations/Context
 
   **Aspect Area Abstraction level**   **Business**   **Information**   **IS**   **TI**   **Governance**   **Security**
   ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
@@ -2728,19 +2692,18 @@ service
 ![](media/image27.png){width="4.8506747594050745in"
 height="4.207501093613298in"}
 
-<span id="_Toc187" class="anchor"></span>Hints & Tips
+### 7.19.5 Hints & Tips
 
-<span id="_Toc188" class="anchor"></span>Example
+### 7.19.6 Example
 
- Business Object {#business-object .ListParagraph}
-----------------
+## 7.20 Business Object
 
-<span id="_Toc190" class="anchor"></span>Definition
+### 7.20.1 Definition
 
 A Business Object is a non human resource used by the business that is
 significant to the architecture.
 
-<span id="_Toc191" class="anchor"></span>Description
+### 7.20.2 Description
 
 Businesses use and consume things from pencils to transport, raw
 materials for manufacture etc.
@@ -2757,13 +2720,13 @@ these differences when structuring the architecture components.
 
 Business Objects may be or infer Information Objects.
 
-<span id="_Toc192" class="anchor"></span>Specific Artifact Attributes
+### 7.20.3 Specific Artifact Attributes
 
   **Business Object Type**   *Type of the Business Object*
   -------------------------- -----------------------------------
   **Characteristics**        *Business Object Characteristics*
 
-<span id="_Toc193" class="anchor"></span>Relations/Context
+### 7.20.4 Relations/Context
 
   **Aspect Area Abstraction level**   **Business**   **Information**   **IS**   **TI**   **Governance**   **Security**
   ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
@@ -2775,7 +2738,7 @@ Business Objects may be or infer Information Objects.
 ![](media/image28.png){width="4.7893755468066495in"
 height="4.151399825021873in"}
 
-<span id="_Toc194" class="anchor"></span>Hints & Tips
+### 7.20.5 Hints & Tips
 
 Business Objects are physical things, thus an invoice (paper) is a
 Business Object but the information on the invoice is an Information
@@ -2787,17 +2750,16 @@ useful way to represent automation for Business at a high level.
 Remember that only architecturally significant Business Objects should
 be defined otherwise there is a risk of creating an unmanageable set.
 
-<span id="_Toc195" class="anchor"></span>Example
+### 7.20.6 Example
 
-Object Contract {#object-contract .ListParagraph}
----------------
+## 7.21 Object Contract
 
-<span id="_Toc197" class="anchor"></span>Definition
+### 7.21.1 Definition
 
 An Object Contract describes how a Business Services uses a *Business
 Object *
 
-<span id="_Toc198" class="anchor"></span>Description
+### 7.21.2 Description
 
 The Object Contract describes how a Business Service utilises a Business
 Object.
@@ -2806,7 +2768,7 @@ Different *Business Services* may make different use of a Business
 object for example Fleet Management will regard transport differently to
 that of a shipping department. .
 
-<span id="_Toc199" class="anchor"></span>Specific Artifact Attributes
+### 7.21.3 Specific Artifact Attributes
 
   **Business Service**   *The Business Service this contract relates to*
   ---------------------- ------------------------------------------------------------------
@@ -2816,7 +2778,7 @@ that of a shipping department. .
   **Security**           *Security aspects associated with this contract*
   **Governance**         *Governance aspects associated with this contract*
 
-<span id="_Toc200" class="anchor"></span>Relations/Context
+### 7.21.4 Relations/Context
 
   **Aspect Area Abstraction level**   **Business**   **Information**   **IS**   **TI**   **Governance**   **Security**
   ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
@@ -2828,19 +2790,18 @@ that of a shipping department. .
 ![](media/image29.png){width="4.792070209973753in"
 height="4.15529636920385in"}
 
-<span id="_Toc201" class="anchor"></span>Hints & Tips
+### 7.21.5 Hints & Tips
 
 An Object Contract is only really necessary where there may be real
 differences or confusion around the use of the Business Objects. It is
 not necessary to describe an Object Contract for every Business Object
 where the use of the resource is obvious.
 
-<span id="_Toc202" class="anchor"></span>Example
+### 7.21.6 Example
 
-Information Object {#information-object .ListParagraph}
-------------------
+## 7.22 Information Object
 
-<span id="_Toc204" class="anchor"></span>Definition
+### 7.22.1 Definition
 
 An Information Object is the subject of communication for *Business
 Services*.
@@ -2848,7 +2809,7 @@ Services*.
 The Information Object describes the information that is used or
 communicated by *Business Information Services*
 
-<span id="_Toc205" class="anchor"></span>Description
+### 7.22.2 Description
 
 An Information Object is a source of information
 
@@ -2874,7 +2835,7 @@ An Information Object can be described by a collection of “STATEMENTS”
 Automated *Business Information Services* will identify automated
 Information Objects for use by *Information System Services.*
 
-<span id="_Toc206" class="anchor"></span>Specific Artifact Attributes
+### 7.22.3 Specific Artifact Attributes
 
   **Information Object Type **         *Information Object Statements.*
   ------------------------------------ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -2886,7 +2847,7 @@ Information Objects for use by *Information System Services.*
   **Integrity Classification**         *Classify and explain the level of Integrity of this object. Integrity regards safeguarding the accuracy, completeness, and timeliness of information, IT systems and computer software (including the ability to audit these). Select one of:&lt;I-1 – Nominal (lowest)/ I-2 – Standard/ I-3 – Individual/ I-4 – Double Intervention (highest)&gt;*
   **Availability Classification**      *Classify and explain the level of Availability of this object. Availability regards guaranteeing that information and vital services are accessible to authorised users when required (during opening hours). Select one of:&lt;A-1 – Recoverable (lowest)/ A-2 – Cold Standby/ A-3 – Hot standby/ A-4 – Fail safe (highest)&gt;*
 
-<span id="_Toc207" class="anchor"></span>Relations/Context
+### 7.22.4Relations/Context
 
   **Aspect Area Abstraction level**   **Business**   **Information**   **IS**   **TI**   **Governance**   **Security**
   ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
@@ -2898,15 +2859,13 @@ Information Objects for use by *Information System Services.*
 ![](media/image30.png){width="4.841917104111986in"
 height="4.198150699912511in"}
 
-<span id="_Toc208" class="anchor"></span>Hints & Tips
+### 7.22.5 Hints & Tips
 
-<span id="_Toc209" class="anchor"></span>Example
+### 7.22.6 Example
 
-Logical Artifacts {#logical-artifacts .ListParagraph}
-=================
+# 8. Logical Artifacts
 
-Component Artifacts Overview {#component-artifacts-overview .ListParagraph}
-----------------------------
+## 8.1 Component Artifacts Overview
 
 Components are logical or physical entities in IAF that describes the
 structure of the architecture. Components have a clearly defined scope
@@ -2950,16 +2909,16 @@ often because of financial or capability constraints or because the
 desired state cannot be directly achieved from the current state without
 intervening steps.
 
-Logical Business Component {#logical-business-component .ListParagraph}
+## 8.2 Logical Business Component {#logical-business-component .ListParagraph}
 --------------------------
 
-<span id="_Toc213" class="anchor"></span>Definition
+### 8.2.1 Definition
 
 A Logical Business Component is the basic element of an “ideal” or “To
 Be” business structure created by the grouping of one or more *Business
 Services*.
 
-<span id="_Toc214" class="anchor"></span>Description
+### 8.2.2 Description
 
 A Logical Business Component describes the basic elements of an “ideal”
 business structure in terms of groups of Business Services. The Logical
@@ -2989,7 +2948,7 @@ The grouping criteria of *Business Services* into Logical Business
 Components is typically justified by a combination of the *Principles,
 Business Case* and other previously identified *Business Objective. *
 
-<span id="_Toc215" class="anchor"></span>Specific Artifact Attributes
+### 8.2.3 Specific Artifact Attributes
 
   **Grouping Criteria**                   *A reference to the grouping criteria used to create the LBC*
   --------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -3012,7 +2971,7 @@ Business Case* and other previously identified *Business Objective. *
   ** **                                   *Business component mechanisms: Click, Call, Face, Fax, Voice, Mail, eMail, SMS, Information System component mechanisms: ‘Message based’: Fire&Forget, Request/Reply, or ‘File based’.*
   **Component Quality Characteristics**   *A description of the quality characteristics that the component is expected to conform to. This will be an aggregated profile of the characteristics of the services that comprise this component (Quality of information, error handling).*
 
-<span id="_Toc216" class="anchor"></span>Relationships and Context
+### 8.2.4 Relationships and Context
 
   **Aspect Area Abstraction level**   **Business**   **Information**   **IS**   **TI**   **Governance**   **Security**
   ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
@@ -3024,14 +2983,14 @@ Business Case* and other previously identified *Business Objective. *
 ![](media/image31.png){width="4.904687226596676in"
 height="4.375022965879265in"}
 
-<span id="_Toc217" class="anchor"></span>Hints & Tips
+### 8.2.5 Hints & Tips
 
 The key point to remember is that Logical Business Components can be
 grouped from several different business aspects. Each of these groupings
 produces different Logical Business Components each of which will have a
 consequence on the other aspects
 
-<span id="_Toc218" class="anchor"></span>Example
+### 8.2.6 Example
 
 In this example there are three services. Consider a solution
 alternative based on organisational efficiency as a grouping criteria
@@ -3055,15 +3014,14 @@ the Business Services that comprise the process. The process sequence
 itself could be described be done by creating a process or orchestration
 view of the Business Components.
 
-Logical Information Component  {#logical-information-component .ListParagraph}
-------------------------------
+## 8.3 Logical Information Component
 
-<span id="_Toc220" class="anchor"></span>Definition
+### 8.3.1 Definition
 
 A Logical Information Component describes the structure of Information
 Objects that supports the architecture solution.
 
-<span id="_Toc221" class="anchor"></span>Description
+### 8.3.2 Description
 
 The Logical Information Component describes Information Objects that
 have been grouped according to some grouping criteria. One usual
@@ -3079,7 +3037,7 @@ Note that the grouping of Information Objects may also have an influence
 on the way that *Business Services* are grouped into Logical Business
 Components.
 
-<span id="_Toc222" class="anchor"></span>Specific Artifact Attributes
+### 8.3.3 Specific Artifact Attributes
 
   **Grouping Criteria**                   *List of the principles that indicate the rationale of the component. &lt;ID&gt;, &lt;Name of the Principle&gt; &lt;ID&gt;, &lt;Name of the Principle&gt;*
   --------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -3101,7 +3059,7 @@ Components.
   **Component Quality Characteristics**   *A description of the quality characteristics that the component is expected to conform to. This will be an aggregated profile of the characteristics of the services that comprise this component (Quality of information, error handling). *
   **Component Quality Characteristics**   *A description of the quality characteristics that the component is expected to conform to. This will be an aggregated profile of the characteristics of the services that comprise this component (Quality of information, error handling).*
 
-<span id="_Toc223" class="anchor"></span>Relationships and Context
+### 8.3.4 Relationships and Context
 
   **spect Area Abstraction level**   **Business**   **Information**   **IS**   **TI**   **Governance**   **Security**
   ---------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
@@ -3113,7 +3071,7 @@ Components.
 ![](media/image33.png){width="3.8743339895013125in"
 height="3.823218503937008in"}
 
-<span id="_Toc224" class="anchor"></span>Hints & Tips
+### 8.3.5 Hints & Tips
 
 There are a number of techniques that can assist in developing the
 groups of Logical Information Components. A common approach is to
@@ -3122,21 +3080,20 @@ develop the Logical Information Components in conjunction with the
 showing which Business Information Services use which Information
 Objects.
 
-<span id="_Toc225" class="anchor"></span>Example
+### 8.3.6 Example
 
 ![](media/image34.png){width="5.800805993000875in"
 height="4.350001093613298in"}
 
-Logical Business Information Component  {#logical-business-information-component .ListParagraph}
----------------------------------------
+## 8.4 Logical Business Information Component
 
-<span id="_Toc227" class="anchor"></span>Definition
+### 8.4.1 Definition
 
 A Logical Business Information Component is a grouping of Business
 Information Services that represent the structure of the communication
 aspects of a business.
 
-<span id="_Toc228" class="anchor"></span>Description
+### 8.4.2 Description
 
 In the same way the *Logical Business Component* describe the
 fundamental structure of the business with respect to *Role*, *Goal*,
@@ -3144,7 +3101,7 @@ fundamental structure of the business with respect to *Role*, *Goal*,
 Information Components describe the structure of the business with
 respect to the use and communication of information.
 
-<span id="_Toc229" class="anchor"></span>Specific Artifact Attributes
+### 8.4.3 Specific Artifact Attributes
 
   **Grouping Criteria**                   *List of the principles that indicate the rationale of the component*. &lt;ID&gt;, &lt;Name of the Principle&gt; &lt;ID&gt;, &lt;Name of the Principle&gt;
   --------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -3166,7 +3123,7 @@ respect to the use and communication of information.
   **Component Quality Characteristics**   *A description of the quality characteristics that the component is expected to conform to. This will be an aggregated profile of the characteristics of the services that comprise this component (Quality of information, error handling). *
   **Component Quality Characteristics**   *A description of the quality characteristics that the component is expected to conform to. This will be an aggregated profile of the characteristics of the services that comprise this component (Quality of information, error handling).*
 
-<span id="_Toc230" class="anchor"></span>Relationships and Context
+### 8.4.4 Relationships and Context
 
   **Aspect Area Abstraction level**   **Business**   **Information**   **IS**   **TI**   **Governance**   **Security**
   ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
@@ -3178,7 +3135,7 @@ respect to the use and communication of information.
 ![](media/image35.png){width="3.8765113735783028in"
 height="3.510217629046369in"}
 
-<span id="_Toc231" class="anchor"></span>Hints & Tips
+### 8.4.5 Hints & Tips
 
 Analysis of Business Information Components can be useful in identifying
 issues for automation (Business Information Components are principally
@@ -3196,22 +3153,19 @@ A similar process to that used in developing the *Logical Information
 Components* can be used to group *Business Information Services* where
 there is affinity of *Information Object* use.
 
-<span id="_Toc232" class="anchor"></span>Example
+### 8.4.6 Example
 
 ![](media/image36.png){width="5.000694444444444in" height="3.75in"}
 
-Logical Information System Component {#logical-information-system-component .ListParagraph}
-------------------------------------
+## 8.5 Logical Information System Component
 
-<span id="_Toc234" class="anchor"></span>Definition
+### 8.5.1 Definition
 
 A Logical Business Component is the basic element of an “ideal” or “To
 Be” Information system structure created by the grouping of one or more
 *Information System Services*.
 
-.
-
-<span id="_Toc235" class="anchor"></span>Description
+### 8.5.2 Description
 
 The Logical Information System Components represent the “application”
 components for a given solution alternative. Logical Information System
@@ -3229,7 +3183,7 @@ major interfaces, and provide input to the *Technology Infrastructure
 Aspect Area* to support the derivation of *Technology Infrastructure
 Services.*
 
-<span id="_Toc236" class="anchor"></span>Specific Artifact Attributes
+### 8.5.3 Specific Artifact Attributes
 
   **Grouping Criteria**                   *List of the principles that indicate the rationale of the component*. &lt;ID&gt;, &lt;Name of the Principle&gt; &lt;ID&gt;, &lt;Name of the Principle&gt;
   --------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -3252,7 +3206,7 @@ Services.*
   **Component Quality Characteristics**   *A description of the quality characteristics that the component is expected to conform to. This will be an aggregated profile of the characteristics of the services that comprise this component (Quality of information, error handling). *
   **Component Quality Characteristics**   *A description of the quality characteristics that the component is expected to conform to. This will be an aggregated profile of the characteristics of the services that comprise this component (Quality of information, error handling).*
 
-<span id="_Toc237" class="anchor"></span>Relationships and Context
+### 8.5.4 Relationships and Context
 
   **Aspect Area Abstraction level**   **Business**   **Information**   **IS**   **TI**   **Governance**   **Security**
   ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
@@ -3264,7 +3218,7 @@ Services.*
 ![](media/image37.png){width="4.459289151356081in"
 height="4.215826771653544in"}
 
-<span id="_Toc238" class="anchor"></span>Hints & Tips
+### 8.5.5 Hints & Tips
 
 A key challenge when grouping Information Systems Services into
 Information System Components occurs when application packages and
@@ -3288,18 +3242,17 @@ most apposite. On the other hand if the physical is just a step in a
 migration path and the logical remains the ideal structure then leaving
 them separate is probably more appropriate.
 
-<span id="_Toc239" class="anchor"></span>Example
+### 8.5.6 Example
 
-Logical Technology Infrastructure Component {#logical-technology-infrastructure-component .ListParagraph}
--------------------------------------------
+## 8.6 Logical Technology Infrastructure Component
 
-<span id="_Toc241" class="anchor"></span>Definition
+### 8.6.1 Definition
 
 A Logical Technology Infrastructure Component is an implementation
 independent realizable element of the to-be technology infrastructure
 aspects of the architecture.
 
-<span id="_Toc242" class="anchor"></span>Description
+### 8.6.2 Description
 
 Logical Technology Infrastructure Components represent logical
 realisable infrastructure elements, for example servers, storage array,
@@ -3318,7 +3271,7 @@ independent.
 *Solution Alternatives* are based on grouping criteria derived from the
 Principles, for example centralisation, consolidation, scalability etc
 
-<span id="_Toc243" class="anchor"></span>Specific Artifact Attributes
+### 8.6.3 Specific Artifact Attributes
 
   **Grouping Criteria**                   *List of the principles that indicate the rationale of the component. &lt;ID&gt;, &lt;Name of the Principle&gt;*
   --------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -3341,7 +3294,7 @@ Principles, for example centralisation, consolidation, scalability etc
 
 .
 
-<span id="_Toc244" class="anchor"></span>Relationships and Context
+### 8.6.4 Relationships and Context
 
   **Aspect Area Abstraction level**   **Business**   **Information**   **IS**   **TI**   **Governance**   **Security**
   ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
@@ -3353,7 +3306,7 @@ Principles, for example centralisation, consolidation, scalability etc
 ![](media/image38.png){width="4.459289151356081in"
 height="4.215826771653544in"}
 
-<span id="_Toc245" class="anchor"></span>Hints & Tips
+### 8.6.5 Hints & Tips
 
 There are well established sets of Technology Infrastructure Component
 patterns typically based around existing architecture patterns e.g.
@@ -3377,22 +3330,18 @@ are traceable back to the *Information System Services* and *Logical
 Information System Components*, and comply with relevant policies and
 standards.
 
-<span id="_Toc246" class="anchor"></span>Example
+### 8.6.6 Example
 
-Component Collaboration Contract {#component-collaboration-contract .ListParagraph}
---------------------------------
+## 8.7 Component Collaboration Contract
 
 The information about the Component Collaboration Contract can be found
 at the collaboration contract section at the conceptual level.
 
-Physical Artifacts {#physical-artifacts .ListParagraph}
-==================
+# 9. Physical Artifacts
 
-Physical Components {#physical-components .ListParagraph}
--------------------
+## 9.1 Physical Components
 
-<span id="_Business_Information_Service" class="anchor"></span>In an
-ideal scenario Physical Components simply reflect the Logical Components
+In an ideal scenario Physical Components simply reflect the Logical Components
 with minor additional structuring (for example grouping one or more IS
 services into a single physical application component). In most cases
 however the constraints are much more significant and require re-use of
@@ -3441,8 +3390,7 @@ structure may be more appropriate.
 A similar process should be followed when aggregating Logical Components
 into fewer Physical Components.
 
-Physical Business Component {#physical-business-component .ListParagraph}
----------------------------
+## 9.2 Physical Business Component 
 
 <span id="_Toc251" class="anchor"></span>Definition
 

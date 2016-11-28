@@ -36,7 +36,7 @@ pages:
   - Integration Architecture: 'lessons/Integration_Architecture.md'
   - Identity Architecture: 'lessons/Identity_Architecture.md'
   - Project Architecture: 'lessons/Project_Architecture.md'
-  - Security Architecture: 'lessons/Rugged_DevOps.md'
+  - Security Architecture: 'lessons/Security_Architecture.md'
   - Software Architecture: 'lessons/Software_Architecture.md'
   - Stakeholder Communication: 'lessons/Stakeholder_Communication.md'
 - Useful Material:
