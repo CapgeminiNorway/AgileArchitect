@@ -2,6 +2,7 @@
 </script>
 
 **Going DEF: Digital (architected) enablement**
+
 The chasm between enterprise architects and DevOps teams prevents new digital techniques from leveraging architecture benefits, and from enterprises seeing the benefits of modern software development approaches. The result has been a "bi-modal" contrast of "new" versus "old"
 
 Todays’ business is very different than it was a decade ago, and nowadays focus is on customer experience and rapid value delivery through digital technologies/practices
@@ -12,6 +13,7 @@ Capgemini and Huawei are combining respective experiences to investigate this id
 We would like to share this working draft and initiate an open discussion
 
 **What is DEF?**
+
 We have created a “Manifesto for digital (architected) enablement”. The Manifesto is based on The Agile Manifesto that sets the direction. In addtition we highlight:
 
 - Simplicity over elaboration
@@ -33,5 +35,6 @@ The figure below illustrates the problem and suggest how to solve it:
 	<image xlink:href="introduction/Idea2Run.svg" x="15" y="0" height="650px" width="650px"/>
 </svg>
 
-**Continuous Delivery -> Evolutionary Architecture**  
+**Continuous Delivery -> Evolutionary Architecture**
+
 Architects must find ways to continuously deliver products and services to internal and external stakeholders. The products and services will evolve over time and consist of generic and specialized elements with their relationships
