@@ -1,1203 +1,10 @@
-# Integrated Architecture Framework
-Capgemini Integrated Architecture Framework
-
-**Integrated Architecture Framework Version 4.5**
+<h2> Integrated Architecture Framework Version 4.5</h2>
 
 **Reference Manual**
 
 **Version 1.0 April 2009**
 
-Contents
-
-1.  Introduction 9
-
-2.  Purpose and Scope 10
-
-    1.  Applicability 10
-
-    2.  Limitations of this version of the manual 10
-
-3.  Integrated Architecture Framework and Concepts 11
-
-    1.  Defining Architecture 11
-
-    2.  Architecture the Capgemini Way 12
-
-    3.  A Holistic View 12
-
-    <!-- -->
-
-    1.  The Architecture Lifecycle 13
-
-    <!-- -->
-
-    1.  Integrated Architecture Framework 14
-
-    <!-- -->
-
-    1.  Aspect Areas 15
-
-    <!-- -->
-
-    1.  Abstraction Levels 17
-
-    2.  Framework Intra-relationships - Traceability, Alignment and
-        Dependencies 19
-
-    <!-- -->
-
-    1.  Framework Granularity 19
-
-    <!-- -->
-
-    1.  Framework Iteration 20
-
-    2.  Glossary and Synonyms Dictionary 20
-
-    <!-- -->
-
-    1.  Catalogues 20
-
-<!-- -->
-
-1.  Integrated Architecture Content Framework 22
-
-    1.  Architecture Artifacts within IAF 22
-
-        1.  Other Artifacts 23
-
-<!-- -->
-
-1.  Artifact Definition 24
-
-    1.  Overview 24
-
-    <!-- -->
-
-    1.  Common Artifact Attributes 24
-
-    <!-- -->
-
-    1.  Specific Artifact Attributes 25
-
-<!-- -->
-
-1.  Contextual Artifacts 26
-
-    1.  Business Mission 27
-
-        1.  Definition 27
-
-        2.  Description 27
-
-        3.  Specific Artifact Attributes 27
-
-        <!-- -->
-
-        1.  Hints & Tips 27
-
-        <!-- -->
-
-        1.  Example 27
-
-    <!-- -->
-
-    1.  Principles 28
-
-        1.  Definition 28
-
-        2.  Description 28
-
-        3.  Specific Artifact Attributes 29
-
-        <!-- -->
-
-        1.  Hints & Tips 29
-
-        <!-- -->
-
-        1.  Example 30
-
-    <!-- -->
-
-    1.  Business Objectives 30
-
-        1.  Definition 30
-
-        2.  Description 30
-
-        3.  Specific Artifact Attributes 31
-
-        <!-- -->
-
-        1.  Hints and Tips 31
-
-        <!-- -->
-
-        1.  Example 32
-
-    <!-- -->
-
-    1.  Hierarchy of Objectives 32
-
-        1.  Definition 32
-
-        2.  Description 32
-
-        3.  Specific Artifact Attributes 32
-
-        <!-- -->
-
-        1.  Example 33
-
-    <!-- -->
-
-    1.  Scope 33
-
-        1.  Definition 33
-
-        2.  Description 33
-
-        3.  Specific Artifact Attributes 33
-
-        <!-- -->
-
-        1.  Hints and Tips 33
-
-        <!-- -->
-
-        1.  Example 34
-
-    <!-- -->
-
-    1.  Constraints 34
-
-        1.  Definition 34
-
-        2.  Description 34
-
-        3.  Specific Artifact Attributes 34
-
-        <!-- -->
-
-        1.  Hints and Tips 34
-
-        <!-- -->
-
-        1.  Example 35
-
-    <!-- -->
-
-    1.  Assumptions 35
-
-        1.  Definition 35
-
-        2.  Description 35
-
-        3.  Specific Artifact Attributes 35
-
-        <!-- -->
-
-        1.  Hints and Tips 35
-
-        <!-- -->
-
-        1.  Example 36
-
-    <!-- -->
-
-    1.  Risks 36
-
-        1.  Definition 36
-
-        <!-- -->
-
-        1.  Description 36
-
-        2.  Specific Artifact Attributes 36
-
-        <!-- -->
-
-        1.  Hints and Tips 36
-
-<!-- -->
-
-1.  Conceptual Artifacts 37
-
-    1.  Domain Artifacts Overview 37
-
-    <!-- -->
-
-    1.  Business Domain 37
-
-        1.  Definition 37
-
-        2.  Description 37
-
-        3.  Specific Artifact Attributes 37
-
-        <!-- -->
-
-        1.  Context and Relationships 37
-
-        <!-- -->
-
-        1.  Hints & Tips 38
-
-        <!-- -->
-
-        1.  Example 38
-
-    <!-- -->
-
-    1.  Information Domain 39
-
-        1.  Definition 39
-
-        2.  Description 39
-
-        3.  Specific Artifact Attributes 39
-
-        <!-- -->
-
-        1.  Context and Relationships 39
-
-        <!-- -->
-
-        1.  Hints & Tips 40
-
-        <!-- -->
-
-        1.  Example 40
-
-    <!-- -->
-
-    1.  IS Domain 40
-
-        1.  Definition 40
-
-        2.  Description 40
-
-        3.  Specific Artifact Attributes 40
-
-        <!-- -->
-
-        1.  Context and Relationships 40
-
-        <!-- -->
-
-        1.  Hints & Tips 41
-
-        <!-- -->
-
-        1.  Example 41
-
-    <!-- -->
-
-    1.  TI Domain 41
-
-        1.  Definition 41
-
-        2.  Description 41
-
-        3.  Specific Artifact Attributes 41
-
-        <!-- -->
-
-        1.  Context and Relationships 42
-
-        <!-- -->
-
-        1.  Hints & Tips 42
-
-        <!-- -->
-
-        1.  Example 42
-
-    <!-- -->
-
-    1.  Service Artifacts Overview 42
-
-    <!-- -->
-
-    1.  Business Service 44
-
-        1.  Definition 44
-
-        2.  Description 44
-
-        3.  Specific Artifact Attributes 45
-
-        <!-- -->
-
-        1.  Context and Relationships 46
-
-        <!-- -->
-
-        1.  Hints & Tips 46
-
-        <!-- -->
-
-        1.  Example 47
-
-    <!-- -->
-
-    1.  Business Information Service 47
-
-        1.  Definition 47
-
-        2.  Description 47
-
-        3.  Specific Artifact Attributes 48
-
-        <!-- -->
-
-        1.  Relations/Context 50
-
-        <!-- -->
-
-        1.  Hints & Tips 51
-
-        <!-- -->
-
-        1.  Example 51
-
-    <!-- -->
-
-    1.  Information System Service 52
-
-        1.  Definition 52
-
-        2.  Information System Service Description 52
-
-        3.  Specific Artifact Attributes 53
-
-        <!-- -->
-
-        1.  Relations/Context 55
-
-        <!-- -->
-
-        1.  Hints & Tips 56
-
-        <!-- -->
-
-        1.  Example 56
-
-    <!-- -->
-
-    1.  Technology Infrastructure Service 57
-
-        1.  Definition 57
-
-        2.  Description 57
-
-        3.  Specific Artifact Attributes 58
-
-        <!-- -->
-
-        1.  Relationships and Context 60
-
-        <!-- -->
-
-        1.  Hints and Tips 61
-
-        <!-- -->
-
-        1.  Example 61
-
-    <!-- -->
-
-    1.  Business Event 61
-
-        1.  Definition 61
-
-        2.  Description 61
-
-        3.  Specific Artifact Attributes 61
-
-        <!-- -->
-
-        1.  Context and Relationships 62
-
-        <!-- -->
-
-        1.  Hints & Tips 62
-
-        <!-- -->
-
-        1.  Example 62
-
-    <!-- -->
-
-    1.  Collaboration Contract Artifacts Overview 62
-
-    <!-- -->
-
-    1.  Business Collaboration Contracts 63
-
-        1.  Definition 63
-
-        2.  Description 63
-
-        3.  Specific Artifact Attributes 64
-
-        <!-- -->
-
-        1.  Relationships and Context 65
-
-        <!-- -->
-
-        1.  Hints & Tips 65
-
-        <!-- -->
-
-        1.  Example 65
-
-    <!-- -->
-
-    1.  Business Information Collaboration Contracts 66
-
-        1.  Definition 66
-
-        2.  Description 66
-
-        3.  Specific Artifact Attributes 67
-
-        <!-- -->
-
-        1.  Relationships and Context 68
-
-        <!-- -->
-
-        1.  Hints & Tips 68
-
-        <!-- -->
-
-        1.  Example 68
-
-    <!-- -->
-
-    1.  Information System Collaboration Contracts 69
-
-        1.  Definition 69
-
-        2.  Description 69
-
-        3.  Specific Artifact Attributes 69
-
-        <!-- -->
-
-        1.  Relationships and Context 70
-
-        <!-- -->
-
-        1.  Hints & Tips 71
-
-        <!-- -->
-
-        1.  Example 71
-
-        2.  Hints & Tips 71
-
-        3.  Example 71
-
-    <!-- -->
-
-    1.  Technology Infrastructure Service and Technology Infrastructure
-        Component Contracts. 71
-
-        1.  Definition 71
-
-        2.  Description 71
-
-        3.  Specific Artifact Attributes 72
-
-        <!-- -->
-
-        1.  Relationships and Context 73
-
-        <!-- -->
-
-        1.  Hints & Tips 73
-
-        <!-- -->
-
-        1.  Example 74
-
-    <!-- -->
-
-    1.  Business Activity 74
-
-        1.  Definition 74
-
-        2.  Description 74
-
-        3.  Specific Artifact Attributes 75
-
-        <!-- -->
-
-        1.  Relations/Context 75
-
-        <!-- -->
-
-        1.  Hints & Tips 76
-
-        <!-- -->
-
-        1.  Example 76
-
-    <!-- -->
-
-    1.  Business Goal 76
-
-        1.  Definition 76
-
-        2.  Description 76
-
-        3.  Specific Artifact Attributes 77
-
-        <!-- -->
-
-        1.  Relations/Context 77
-
-        <!-- -->
-
-        1.  Hints & Tips 78
-
-        <!-- -->
-
-        1.  Example 78
-
-    <!-- -->
-
-    1.  Role 79
-
-        1.  Definition 79
-
-        2.  Description 79
-
-        3.  Specific Artifact Attributes 79
-
-        <!-- -->
-
-        1.  Relations/Context 79
-
-        <!-- -->
-
-        1.  Hints & Tips 80
-
-        <!-- -->
-
-        1.  Example 80
-
-    <!-- -->
-
-    1.  Business Object 80
-
-        1.  Definition 80
-
-        2.  Description 80
-
-        3.  Specific Artifact Attributes 80
-
-        <!-- -->
-
-        1.  Relations/Context 81
-
-        <!-- -->
-
-        1.  Hints & Tips 81
-
-        <!-- -->
-
-        1.  Example 82
-
-    <!-- -->
-
-    1.  Object Contract 82
-
-        1.  Definition 82
-
-        2.  Description 82
-
-        3.  Specific Artifact Attributes 82
-
-        <!-- -->
-
-        1.  Relations/Context 82
-
-        <!-- -->
-
-        1.  Hints & Tips 83
-
-        <!-- -->
-
-        1.  Example 83
-
-    <!-- -->
-
-    1.  Information Object 83
-
-        1.  Definition 83
-
-        2.  Description 83
-
-        3.  Specific Artifact Attributes 84
-
-        <!-- -->
-
-        1.  Relations/Context 84
-
-        <!-- -->
-
-        1.  Hints & Tips 85
-
-        <!-- -->
-
-        1.  Example 85
-
-<!-- -->
-
-1.  Logical Artifacts 86
-
-    1.  Component Artifacts Overview 86
-
-    2.  Logical Business Component 86
-
-        1.  Definition 86
-
-        2.  Description 86
-
-        3.  Specific Artifact Attributes 88
-
-        <!-- -->
-
-        1.  Relationships and Context 90
-
-        <!-- -->
-
-        1.  Hints & Tips 91
-
-        <!-- -->
-
-        1.  Example 91
-
-    <!-- -->
-
-    1.  Logical Information Component 92
-
-        1.  Definition 92
-
-        2.  Description 92
-
-        3.  Specific Artifact Attributes 93
-
-        <!-- -->
-
-        1.  Relationships and Context 95
-
-        <!-- -->
-
-        1.  Hints & Tips 96
-
-        <!-- -->
-
-        1.  Example 97
-
-    <!-- -->
-
-    1.  Logical Business Information Component 97
-
-        1.  Definition 97
-
-        2.  Description 97
-
-        3.  Specific Artifact Attributes 97
-
-        <!-- -->
-
-        1.  Relationships and Context 99
-
-        <!-- -->
-
-        1.  Hints & Tips 99
-
-        <!-- -->
-
-        1.  Example 100
-
-    <!-- -->
-
-    1.  Logical Information System Component 100
-
-        1.  Definition 100
-
-        2.  Description 100
-
-        3.  Specific Artifact Attributes 101
-
-        <!-- -->
-
-        1.  Relationships and Context 103
-
-        <!-- -->
-
-        1.  Hints & Tips 104
-
-        <!-- -->
-
-        1.  Example 104
-
-    <!-- -->
-
-    1.  Logical Technology Infrastructure Component 104
-
-        1.  Definition 104
-
-        2.  Description 105
-
-        3.  Specific Artifact Attributes 105
-
-        <!-- -->
-
-        1.  Relationships and Context 106
-
-        <!-- -->
-
-        1.  Hints & Tips 107
-
-        <!-- -->
-
-        1.  Example 107
-
-    <!-- -->
-
-    1.  Component Collaboration Contract 107
-
-<!-- -->
-
-1.  Physical Artifacts 108
-
-    1.  Physical Components 108
-
-    2.  Physical Business Component 109
-
-        1.  Definition 109
-
-        2.  Description 109
-
-        3.  Specific Artifact Attributes 110
-
-        <!-- -->
-
-        1.  Relationships and Context 112
-
-        <!-- -->
-
-        1.  Hints & Tips 113
-
-        <!-- -->
-
-        1.  Example 113
-
-    <!-- -->
-
-    1.  Physical Information Component 113
-
-        1.  Definition 113
-
-        2.  Description 113
-
-        3.  Specific Artifact Attributes 114
-
-        <!-- -->
-
-        1.  Relationships and Context 116
-
-        <!-- -->
-
-        1.  Hints & Tips 117
-
-        <!-- -->
-
-        1.  Example 117
-
-    <!-- -->
-
-    1.  Physical Business Information Component 117
-
-        1.  Definition 117
-
-        2.  Description 117
-
-        3.  Specific Artifact Attributes 118
-
-        <!-- -->
-
-        1.  Relationships and Context 120
-
-        <!-- -->
-
-        1.  Hints & Tips 121
-
-        <!-- -->
-
-        1.  Example 121
-
-    <!-- -->
-
-    1.  Physical Information System Component 121
-
-        1.  Definition 121
-
-        2.  Description 121
-
-        3.  Specific Artifact Attributes 121
-
-        <!-- -->
-
-        1.  Relationships and Context 123
-
-        <!-- -->
-
-        1.  Hints & Tips 123
-
-        <!-- -->
-
-        1.  Example 124
-
-    <!-- -->
-
-    1.  Physical Technology Infrastructure Component 124
-
-        1.  Definition 124
-
-        2.  Description 124
-
-        3.  Specific Artifact Attributes 125
-
-        <!-- -->
-
-        1.  Relationships and Context 127
-
-        <!-- -->
-
-        1.  Hints & Tips 128
-
-        <!-- -->
-
-        1.  Example 128
-
-    <!-- -->
-
-    1.  Physical Component Collaboration Contracts 128
-
-<!-- -->
-
-1.  Specification Documents Overview 129
-
-    1.  Business Specification 129
-
-    <!-- -->
-
-    1.  Information Specification 129
-
-    <!-- -->
-
-    1.  Communication Specification 129
-
-    <!-- -->
-
-    1.  Information Systems Specification 129
-
-    <!-- -->
-
-    1.  Technology Infrastructure Specification 130
-
-    <!-- -->
-
-    1.  Hints and Tips 130
-
-<!-- -->
-
-1.  Standards Overview 131
-
-    1.  Business Standards 131
-
-    <!-- -->
-
-    1.  Information Standards 131
-
-    <!-- -->
-
-    1.  Communication Standards 131
-
-    <!-- -->
-
-    1.  Information Systems Standards 131
-
-    <!-- -->
-
-    1.  Technology Infrastructure Standards 131
-
-    2.  Hints and Tips 132
-
-    3.  Example 133
-
-<!-- -->
-
-1.  Implementation Guidelines 134
-
-    1.  Business Guidelines 134
-
-    2.  Information Guidelines 134
-
-    3.  Communication Guidelines 134
-
-    4.  Information Systems Guidelines 134
-
-    5.  Technology Infrastructure Guidelines 134
-
-    6.  Specific Artifact Attributes 134
-
-    7.  Hints and Tips 134
-
-<!-- -->
-
-1.  Integrated Architecture Framework Views 136
-
-<!-- -->
-
-1.  Modelling Type Views 137
-
-    1.  Business Interaction Model 137
-
-        1.  Description 137
-
-        2.  Example 137
-
-    2.  Information Interaction Model 137
-
-        1.  Description 137
-
-        2.  Example 137
-
-    3.  Informations System Service Interaction Model 137
-
-        1.  Description 137
-
-        2.  Example 137
-
-    4.  Technology Infrastructure Service Interaction Model 137
-
-        1.  Description 138
-
-        2.  Example 138
-
-    5.  Logical Business Component Interaction Model 138
-
-        1.  Description 138
-
-        2.  Example 138
-
-    6.  Logical Information Component Structure Model 138
-
-        1.  Description 138
-
-        2.  Example 138
-
-    7.  Logical Information System Component Interaction Model 138
-
-        1.  Description 138
-
-        2.  Example 138
-
-    8.  Logical Technology Infrastructure Component Interaction Model
-        139
-
-        1.  Description 139
-
-        2.  Example 139
-
-    9.  Logical Business Information Component Interaction Model 139
-
-        1.  Description 139
-
-        2.  Example 139
-
-    10. Physical Business Component Interaction Model 139
-
-        1.  Description 139
-
-        2.  Example 139
-
-    11. Physical Business Information Component Interaction Model 139
-
-        1.  Description 139
-
-        2.  Example 140
-
-    12. Physical Informations System Component Interaction Model 140
-
-        1.  Description 140
-
-        2.  Example 140
-
-    13. Physical Technology Infrastructure Component Interaction Model
-        140
-
-        1.  Description 140
-
-        2.  Example 140
-
-<!-- -->
-
-1.  Typical Views 141
-
-    1.  Value Chain View 141
-
-        1.  Description 141
-
-        2.  Example 141
-
-    2.  Process Gap Analysis 141
-
-        1.  Description 141
-
-        2.  Example 141
-
-    3.  Information Ownership View 141
-
-        1.  Description 141
-
-        2.  Example 141
-
-    4.  Major Information System Interfaces Model 141
-
-        1.  Description 141
-
-        2.  Example 142
-
-    5.  Information Systems Security View 142
-
-        1.  Description 142
-
-        2.  Example 142
-
-    6.  Information Systems Governance View 142
-
-        1.  Description 142
-
-    7.  Information Systems Information View 142
-
-        1.  Description 142
-
-        2.  Example 143
-
-    8.  Physical Information System Component Model 143
-
-        1.  Description 143
-
-        2.  Example 143
-
-    9.  Development View 143
-
-        1.  Description 143
-
-        2.  Example 143
-
-    10. Logical Technology Infrastructure Component Model 143
-
-        1.  Description 143
-
-        2.  Example 144
-
-    11. Integration View 144
-
-        1.  Description 144
-
-        2.  Example 144
-
-    12. Distribution View 144
-
-        1.  Description 144
-
-        2.  Example 144
-
-    13. Security View 145
-
-        1.  Description 145
-
-        2.  Example 145
-
-    14. Governance View 145
-
-        1.  Description 145
-
-        2.  Example 145
-
-    15. Migration View 145
-
-        1.  Description 145
-
-        2.  Example 146
-
-2.  Cross-References 147
-
-    1.  Business Service – Information Object Cross Reference 147
-
-        1.  Description 147
-
-        2.  Example 147
-
-    2.  Information Object – Information System Service Cross Reference
-        147
-
-        1.  Description 147
-
-        2.  Example 147
-
-    3.  Business Information Service – Information System Service Cross
-        Reference 147
-
-        1.  Description 147
-
-    4.  Business Information Service – Technology Infrastructure Service
-        Cross Reference 148
-
-        1.  Description 148
-
-        2.  Example 148
-
-    5.  Principle Cross-References 148
-
-        1.  Description 148
-
-        2.  Example 148
-
-    6.  Information System Service – Technology Infrastructure Service
-        Cross-Reference 148
-
-        1.  Description 148
-
-        2.  Example 148
-
-    7.  Logical Information System Component – Technology Infrastructure
-        Service cross-reference 148
-
-        1.  Description 148
-
-        2.  Example 149
-
-3.  Appendix A: Contextual Level Support Products 151
-
-    1.  Business Context 151
-
-    2.  Technology Context 153
-
-        <span id="_Toc" class="anchor"><span id="_Ref148866393"
-        class="anchor"></span></span>Introduction
+# 1. Introduction
 
 The Capgemini Integrated Architecture Framework (**IAF**) has been the
 cornerstone of architecture led engagements across most of Capgemini for
@@ -1219,7 +26,7 @@ used for this dissemination process. It is necessary to present a
 definitive version and interpretation of IAF Artifacts[^1] in order to
 support this initiative.
 
-<span id="_Toc1" class="anchor"></span>Purpose and Scope
+# 2. Purpose and Scope
 
 This document is the definitive reference for the core architecture
 Artifacts that comprise the Integrated Architecture Framework. It
@@ -1228,25 +35,23 @@ will be provided that describes the processes for using IAF in
 engagements (Roadmaps, use with TOGAF etc , dealing with different
 engagement scenarios etc)
 
-<span id="_Toc2" class="anchor"></span>Applicability
+## 2.1 Applicability
 
 The specific definitions and reference information contained in this
 document relate to IAF V4.5.
 
-<span id="_Toc3" class="anchor"></span>Limitations of this version of
-the manual
+## 2.2 Limitations of this version of the manual
 
 This version of the manual does not include a comprehensive example set,
 this will be addressed later
 
-<span id="_Toc4" class="anchor"></span>Integrated Architecture Framework
-and Concepts
+# 3. Integrated Architecture Framework and Concepts
 
 This section deals with the concepts of architecture from the Capgemini
 perspective, in terms of what architecture is, the role it plays and the
 basic concepts of the Integrated Architecture Framework.
 
-<span id="_Toc5" class="anchor"></span>Defining Architecture
+## 3.1 Defining Architecture
 
 Architecture has become a very popular term and is applied extensively
 in many different areas of life. The popularisation of the term
@@ -1321,7 +126,7 @@ All of the definitions have in common a focus on ***structure*** and
 ***principles*** that provide ***guidance*** and ***support*** for
 ***direction*** and ***decisions***.
 
-<span id="_Toc6" class="anchor"></span>Architecture the Capgemini Way
+## 3.2 Architecture the Capgemini Way
 
 Capgemini started developing its architectural approach in 1993, and has
 steadily evolved its architecture framework, the Integrated Architecture
@@ -1338,7 +143,7 @@ becoming even more critical as Service Oriented Architecture and the
 Service Oriented Enterprise become the way that many organisations think
 about and organise their business.
 
-<span id="_Toc7" class="anchor"></span>A Holistic View
+## 3.3 A Holistic View
 
 Clients and the industry as a whole are moving towards a standard (but
 not yet universally defined and agreed) set of terms that describe
@@ -1352,7 +157,7 @@ architecture to one another, demonstrating the inclusion of Business
 Architecture within a full Enterprise Architecture, as well as the need
 for Solution Architecture to span from Business to Technology.
 
-![](media/image1.png){width="4.655556649168854in"
+![](media/image2.png){width="4.655556649168854in"
 height="3.2729166666666667in"}
 
 <span id="_Ref132627443" class="anchor"></span>**Figure 1 Types of
@@ -1430,19 +235,19 @@ Process (RUP) for Software Architect and, in Capgemini, the
 Infrastructure Design Framework (IDF) for Network, Storage, etc. which
 all form a coherent part of Capgemini’s Quality System “DELIVER”.
 
-<span id="_Toc8" class="anchor"></span>The Architecture Lifecycle
+## 3.4 The Architecture Lifecycle
 
 Capgemini believes architecture must deliver real value in terms of
 improved project success and increased Business/IT Alignment. This is
 often delivered solely through strong governance over the delivery of
 solutions.
 
-Figure 2 shows how architecture bridges the gap between Business/IT
-Strategy and solution development. Aligning solution architectures to an
-overall Enterprise Architecture provides the “missing link” in the
-governance chain from strategy to implementation.
+[Figure 2](#Ref132627429) shows how architecture bridges the gap between
+Business/IT Strategy and solution development. Aligning solution
+architectures to an overall Enterprise Architecture provides the
+“missing link” in the governance chain from strategy to implementation.
 
-![](media/image2.png){width="4.4847222222222225in"
+![](media/image3.png){width="4.4847222222222225in"
 height="2.498611111111111in"}
 
 <span id="_Ref132627429" class="anchor"></span>**Figure 2**<span
@@ -1459,10 +264,10 @@ technology change where relevant, managing costs and facilitating
 business change; and incorporating lessons learned through the
 implementation and realisation of projects.
 
-![](media/image3.png){width="5.765523840769903in"
+![](media/image4.png){width="5.765523840769903in"
 height="3.173836395450569in"}
 
-<span id="_Toc9" class="anchor"></span>Integrated Architecture Framework
+## 3.5 Integrated Architecture Framework
 
 The Integrated Architecture Framework is used to structure the
 architecture information content. The framework comprises a number of
@@ -1471,7 +276,7 @@ the content into common areas of interest e.g. business or security. Or
 they are abstraction levels that allow the complexity of architecture to
 be analysed and represented.
 
-![](media/image4.png){width="5.000694444444444in" height="3.75in"}
+![](media/image5.png){width="5.000694444444444in" height="3.75in"}
 
 Figure 4 Integrated Architecture Framework
 
@@ -1485,14 +290,14 @@ architecture, and
 
 Specifies the way in which these elements relate to each other.
 
-<span id="_Toc10" class="anchor"></span>Aspect Areas
+## 3.6 Aspect Areas
 
 The Aspect Areas in the IAF describe a formal boundary between elements
 of the architecture solution that are usually considered within their
 own context. Each aspect area focuses on one particular dimension of the
 architecture, and adds information to the overall architecture.
 
-![](media/image5.png){width="5.000694444444444in" height="3.75in"}
+![](media/image6.png){width="5.000694444444444in" height="3.75in"}
 
 Figure 5 Integrated Architecture Framework Aspect Areas
 
@@ -1549,7 +354,7 @@ outcome of the Security Aspect Area is typically a set of refinements to
 the core architecture components and the addition of further
 architecture artifacts to specifically support security objectives.
 
-<span id="_Toc11" class="anchor"></span>Abstraction Levels
+## 3.7 Abstraction Levels
 
 IAF defines three levels of abstraction (of the architecture) and an
 initial level which provides for the single overall input context and
@@ -1571,7 +376,7 @@ interpreted. In practice the boundaries between the Abstraction Levels
 is not always rigid and refinement between abstractions levels is normal
 and appropriate.
 
-![](media/image6.png){width="5.000694444444444in" height="3.75in"}
+![](media/image7.png){width="5.000694444444444in" height="3.75in"}
 
 Figure 6 IAF Abstraction Levels
 
@@ -1678,8 +483,7 @@ behaviour of a solution, so decisions based on architectural fit alone
 should be resisted or accompanied by associated selection and evaluation
 activities for functional/user criteria.
 
-<span id="_Toc12" class="anchor"></span>Framework Intra-relationships -
-Traceability, Alignment and Dependencies
+## 3.8 Framework Intra-relationships - Traceability, Alignment and Dependencies
 
 A key feature of the IAF is the way that the different abstraction
 layers and aspect areas are inter-related through the content artifacts.
@@ -1741,7 +545,7 @@ get to it need to be developed and therefore one may need to develop an
 additional series of logical migration alternatives to support the
 physical alternatives!
 
-<span id="_Toc13" class="anchor"></span>Framework Granularity
+## 3.9 Framework Granularity
 
 As indicated the IAF is designed to support different scenarios. One of
 the key features of IAF is the ability to use the same framework
@@ -1762,7 +566,7 @@ relationships between internal and external services for example so that
 the relationships are clearly represented. This could apply to
 eco-system relationships for example.
 
-<span id="_Toc14" class="anchor"></span>Framework Iteration
+## 3.10 Framework Iteration
 
 The IAF has been designed to support iteration and refinement of the
 artifacts. This has been done by minimising dependencies between
@@ -1783,7 +587,7 @@ partitions in the framework are there to help the architect understand
 the context of the analysis and derivation of the architecture artifacts
 not to indicate a sequence of activities or outcomes.
 
-<span id="_Toc15" class="anchor"></span>Glossary and Synonyms Dictionary
+## 3.11 Glossary and Synonyms Dictionary
 
 The major pitfall in architecture engagements is misunderstanding due to
 wording. Therefore, the use of a glossary is mandatory. A glossary
@@ -1797,13 +601,12 @@ dictionary clears this up.
 
 Example:
 
-  ------------------- ------------- ----------------
   **Term**            **Synonym**   **Definition**
-  Business Goal       Capability    
-  Business Activity   Function      
   ------------------- ------------- ----------------
+  Business Goal       Capability
+  Business Activity   Function
 
-<span id="_Toc16" class="anchor"></span>Catalogues
+## 3.12 Catalogues
 
 IAF 4.5 exists of 6 parts, namely:
 
@@ -1853,8 +656,7 @@ The catalogue of alignment contains documents that describe IAF
 alignment with other frameworks . Examples are COBIT, MDA, TOGAF, SEMBA,
 IDF, Technovision, RUP touch points, Zachmann.
 
-<span id="_Toc17" class="anchor"></span>Integrated Architecture Content
-Framework
+# 4 Integrated Architecture Content Framework
 
 IAF describes the architecture using two basic constructs:
 
@@ -1881,8 +683,7 @@ Views therefore show the structure of the architecture and provide both
 traceability for, and the justification of decisions that have been made
 in the development of the architecture.
 
-<span id="_Toc18" class="anchor"></span>Architecture Artifacts within
-IAF
+## 4.1 Architecture Artifacts within IAF
 
 <div class="Definition">
 
@@ -1947,7 +748,7 @@ interactions. They provide key supporting input for realising the
 architecture during detailed system design, build, and configuration and
 implementation phases of a solution lifecycle.
 
-<span id="_Toc19" class="anchor"></span>Other Artifacts
+### 4.1.1 Other Artifacts
 
 Some Aspect Areas have additional Artifacts that describe specific
 elements for that Aspect Area.
@@ -1987,29 +788,28 @@ level)*
 
 Describes how a service uses an object
 
-<span id="_Toc20" class="anchor"></span>Artifact Definition
+# 5 Artifact Definition
 
-<span id="_Toc21" class="anchor"></span>Overview
+## 5.1 Overview
 
 All IAF Artifacts are described in this manual using a common structure.
 
-  ------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Definition**                  **A formal definition of the artifact type.**
+  ------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Description**                 **A description of the artifact type, its purpose and derivation. **
   **Artifact Attributes**         **This is the artifact template. Artifact Attributes are the template for describing real artifacts. Artifacts are DEFINED USING a set of attributes that are common to all artifacts and a set of specific attributes for that artifact. The common attributes are mentioned in the next paragraph, the specific attributes per artifact.**
   **Relationships and Context**   **Describes where the artifact type is positioned in the IAF and its key relationships to other artifacts.**
   **Hints and Tips**              **Some practical guidance and issues with deriving the artifact content. This is principally to support the context of the artifact rather than provide a prescription for creation.**
   **Example**                     **One or more examples of the artifact type.**
-  ------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-<span id="_Toc22" class="anchor"></span>Common Artifact Attributes
+## 5.2 Common Artifact Attributes
 
 All artifacts include a subset of common attributes irrespective of
 where they are positioned in the IAF. These comprise the attributes that
 would suffice to identify every artifact in the architecture.
 
-  ------------------ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Artifact\_ID**   **A unique identifier within the architecture information for cross reference, clarity and differentiation from other, similar artifacts.**
+  ------------------ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Title**          **A suitable (and preferably unique) short form name for the artifact. **
   **Subject**        **The subject represents the concepts of the artifact. This clarifies the functionality of the artifact, answering the WHAT-question.**
   **Rationale**      **Describes the reason and foundation of the existence of this artifact.**
@@ -2017,9 +817,8 @@ would suffice to identify every artifact in the architecture.
   **Owner**          **The owner of the artifact is the name (person or group) who validates the details of this artifact. In order to ensure ownership of the architecture, this owner should be a client architecture team member. **
   **Author**         **Name of the author of the current version.**
   **IAF Location**   **The IAF cell in which the artifact can be placed**
-  ------------------ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-<span id="_Toc23" class="anchor"></span>Specific Artifact Attributes
+## 5.3 Specific Artifact Attributes
 
 The common attributes would perhaps be sufficient to describe a very
 high level architecture; however most scopes and objectives will require
@@ -2051,7 +850,7 @@ change control or automate linkage and tracking information.
 The attributes described in this manual reflect the most commonly used
 attributes that describe an artifact.
 
-<span id="_Toc24" class="anchor"></span>Contextual Artifacts
+# 6. Contextual Artifacts
 
 In IAF, the abstraction level referred to as Contextual contains a
 number of information sets referred to as the *Support Products*. These
@@ -2132,14 +931,14 @@ These inputs should not be confused with the *Support Products*
 described earlier that provide background and context for the
 architecture.
 
-<span id="_Toc25" class="anchor"></span>Business Mission
+## 6.1 Business Mission
 
-<span id="_Toc26" class="anchor"></span>Definition
+### 6.1.1 Definition
 
 The business mission describes the rationale for existence of a
 business.
 
-<span id="_Toc27" class="anchor"></span>Description
+### 6.1.2 Description
 
 The business mission is usually set as a challenge for a business, which
 provides a goal and is meant to generate inspiration and aspiration
@@ -2156,13 +955,12 @@ Mission statements tend to be static, often being re-issued to support
 programmes of major change. For the architecture they provide a
 strategic goal and a means to validate many of the Business Objectives.
 
-<span id="_Toc28" class="anchor"></span>Specific Artifact Attributes
+### 6.1.3 Specific Artifact Attributes
 
-  -------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Business Mission statement**   *The business mission describes the rationale for existence of a business and outlines the challenge facing the organisation in achieving its goals in terms of: culture, market position, capabilities and growth. The mission reflects the desired goals of the entire organisation, its behaviour and what is important. It is intended to generate inspiration and aspiration within the organization.*
   -------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-<span id="_Toc29" class="anchor"></span>Hints & Tips
+### 6.1.4 Hints & Tips
 
 Business missions should be a fairly short and concise statement, but if
 poorly defined can run to the length of a novelette. In the latter
@@ -2193,7 +991,7 @@ mission is largely unconnected to the potential scope of the
 architecture consider persuading the relevant business domains to
 create/ adopt a more relavant one.
 
-<span id="_Toc30" class="anchor"></span>Example
+### 6.1.5 Example
 
 “Our company will be the market leader in quality fishing products for
 the hobby market. Our success is based on people enjoying fishing.”
@@ -2201,14 +999,14 @@ the hobby market. Our success is based on people enjoying fishing.”
 From this it is possible for example to extrapolate business objectives
 and principles for quality, competiveness, and brand recognition.
 
-<span id="_Toc31" class="anchor"></span> Principles
+ ## 6.2 Principles
 
-<span id="_Toc32" class="anchor"></span>Definition
+### 6.2.1 Definition
 
 A statement that defines an objective (or constraint) that is used to
 determine the organisation and structure of an architecture.
 
-<span id="_Toc33" class="anchor"></span>Description
+### 6.2.2 Description
 
 A Principle is a statement of belief, approach or intent which directs
 the formulation of the architecture. It does not have to explicitly
@@ -2245,10 +1043,10 @@ Additional inputs can be found in current state, business programme
 information, business and technical strategies, and business consulting
 studies, interviews, workshops, discussions, etc.
 
-<span id="_Toc34" class="anchor"></span>Specific Artifact Attributes
+### 6.2.3 Specific Artifact Attributes
 
-  -------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Classification**   *Describe the classification of the principle according to need and scope of architecture.* &lt;Business/ Transformation/ Architectural/ Information Design Decision&gt;
+  -------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Definition**       *This section is concerned with a more specific statement. This is the actual core of the principle, which enables formal assessment and enforcement. It involves a precise definition of terms and relationships used in the principle's definition, a precise formulation of the intended rule, as well as the identification of the way in which the principle will be assessed. *
   **Motivation**       *Rationale for existence of this principle*
   **Area Of Impact**   *Principles can be classified based in terms of the area of impact which the underlying rules and assessments may have. Describe here the area of impact of this principle.*
@@ -2256,9 +1054,8 @@ studies, interviews, workshops, discussions, etc.
   **Priority**         *Describe the relative priority of this principle. Numerical format where 1 is highest priority* &lt;1/ 2/ 3&gt;
   **Assurance**        *How conformance to this principle will be measured*
   **Validity**         *Indication of durability of the principle e.g. strategic, tactical, aspirational*
-  -------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-<span id="_Toc35" class="anchor"></span>Hints & Tips
+### 6.2.4 Hints & Tips
 
 A good quality Principle clearly communicates a durable idea.
 
@@ -2318,16 +1115,16 @@ not an attribute of classification. Do not set out to create different
 classes of Principles, i.e. “lets develop the data Principles” as this
 may miss important cross aspect Principles.
 
-<span id="_Toc36" class="anchor"></span>Example
+### 6.2.5 Example
 
-<span id="_Toc37" class="anchor"></span>Business Objectives
+## 6.3 Business Objectives
 
-<span id="_Toc38" class="anchor"></span>Definition
+### 6.3.1 Definition
 
 A goal that an organization sets for itself, for example, profitability,
 sales growth, or return on investment.
 
-<span id="_Toc39" class="anchor"></span>Description
+### 6.3.2 Description
 
 Business objectives typically identify the planned outcomes to an
 enterprise’s business drivers, based on taking advantage of
@@ -2392,14 +1189,13 @@ for an individual architecture engagement to be determined, and the
 level of analysis required to achieve a satisfactory level of confidence
 in the outcomes.
 
-<span id="_Toc40" class="anchor"></span>Specific Artifact Attributes
+### 6.3.3 Specific Artifact Attributes
 
-  ------------------------------------ ------------------------------------------------------------------------------------------------------------------------------------------
   **Business Objective description**   *Describes the architecture outcomes based on the business issue(s) the architecture needs to address.*
-  **Parent Business Objective**        *The reference-id of the parent Business Objective; an Business Objective at higher level that is supported by this Business Objective.*
   ------------------------------------ ------------------------------------------------------------------------------------------------------------------------------------------
+  **Parent Business Objective**        *The reference-id of the parent Business Objective; an Business Objective at higher level that is supported by this Business Objective.*
 
-<span id="_Toc41" class="anchor"></span>Hints and Tips
+### 6.3.4 Hints and Tips
 
 Architecture is used for many different purposes and the term
 architecture has many interpretations so for example a business
@@ -2472,16 +1268,16 @@ business or technology?) and does not show who in the business will
 benefit. (in reality this is a design/support project objective not an
 Business Objective)
 
-<span id="_Toc42" class="anchor"></span>Example
+### 6.3.5 Example
 
-<span id="_Toc43" class="anchor"></span>Hierarchy of Objectives
+## 6.4 Hierarchy of Objectives
 
-<span id="_Toc44" class="anchor"></span>Definition
+### 6.4.1 Definition
 
 A hierarchy of objectives is built by decomposing each
 objective/constraint in a set of goals.
 
-<span id="_Toc45" class="anchor"></span>Description
+### 6.4.2 Description
 
 The hierarchy of Objectives describes the decomposition of *Business
 Objectives* in sets of goals. The starting point of the hierarchy is the
@@ -2489,25 +1285,24 @@ Objectives* in sets of goals. The starting point of the hierarchy is the
 Domain*)*.* Adding values to each goal gives the added value of a
 business objective. Input for the hierarchy could be a *Business Case*.
 
-<span id="_Toc46" class="anchor"></span>Specific Artifact Attributes
+### 6.4.3 Specific Artifact Attributes
 
-  ---------------------- -----------------------------------------------------------------------------------------------------------------------
   **Description**        *The description of the specific business objective*
-  **Parent objective**   *The reference-id of the parent objective: an objective at higher level that is supported by this business objective*
   ---------------------- -----------------------------------------------------------------------------------------------------------------------
+  **Parent objective**   *The reference-id of the parent objective: an objective at higher level that is supported by this business objective*
 
-<span id="_Toc47" class="anchor"></span>Example
+### 6.4.4 Example
 
-![](media/image7.png){width="6.338480971128609in"
+![](media/image8.png){width="6.338480971128609in"
 height="4.187602799650044in"}
 
-<span id="_Toc48" class="anchor"></span>Scope
+## 6.5 Scope
 
-<span id="_Toc49" class="anchor"></span>Definition
+### 6.5.1 Definition
 
 Describes the boundaries of the architecture to be developed
 
-<span id="_Toc50" class="anchor"></span>Description
+### 6.5.2 Description
 
 Scope should be defined to ensure complete coverage of the relevant
 business issues. The Scope determines the level of granularity and
@@ -2517,14 +1312,13 @@ appropriate expectations are set for stakeholder agreement.
 Controls the architecture engagement and ensures that all architecture
 activity is focussed on the correct business issues.
 
-<span id="_Toc51" class="anchor"></span>Specific Artifact Attributes
+### 6.5.3 Specific Artifact Attributes
 
-  ---------------------------------------- ------------------------------------------------------------------------------
   **Description of topics in Scope**       *Definition of what is in scope, e.g. organisational, architectural, time. *
-  **Description of topics Out of Scope**   *Definition of what is explicitly out of scope.*
   ---------------------------------------- ------------------------------------------------------------------------------
+  **Description of topics Out of Scope**   *Definition of what is explicitly out of scope.*
 
-<span id="_Toc52" class="anchor"></span>Hints and Tips
+### 6.5.4 Hints and Tips
 
 Scope and Business Objectives are probably the most important documents
 for an architecture enagagement.
@@ -2546,17 +1340,17 @@ a number of subsequent projects, it is important that control of the
 scope is maintained and suitable architecture governance processes are
 in place to do this.
 
-<span id="_Toc53" class="anchor"></span>Example
+### 6.5.5 Example
 
-<span id="_Toc54" class="anchor"></span>Constraints
+### 6.6 Constraints
 
-<span id="_Toc55" class="anchor"></span>Definition
+### 6.6.1 Definition
 
 An Constraint is an assertion of a fact which applies to the
 architecture and is recognised as having a fundamental impact on the
 architecture.
 
-<span id="_Toc56" class="anchor"></span>Description
+### 6.6.2 Description
 
 Constraints are inevitable when dealing with complex issues and the
 impact they have can have serious consequences when developing
@@ -2582,15 +1376,14 @@ and validated. Constraints may limit architectural options, make an
 “ideal” logical architecture unrealisable or simply introduce challenges
 which cannot be overcome.
 
-<span id="_Toc57" class="anchor"></span>Specific Artifact Attributes
+### 6.6.3 Specific Artifact Attributes
 
-  ---------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Constraint**   *A constraint is a basic rule or statement that MUST be followed to ensure that the organizational and IT strategy/aspirations and the architectural objectives can be met. Describe the constraint here.*
+  ---------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Priority**     *Describe the relative priority of this constraint.*
   **Impacts**      *Describe the impacts of this constraint.*
-  ---------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-<span id="_Toc58" class="anchor"></span>Hints and Tips
+### 6.6.4 Hints and Tips
 
 Constraints are closely related to requirements and principles but the
 key here is that they are the immovable issues. Real constraints will
@@ -2631,16 +1424,16 @@ and legacy services.
 Challenging constraints through the rationale for their existence may
 provide opportunities to remove them altogether.
 
-<span id="_Toc59" class="anchor"></span>Example
+### 6.6.5 Example
 
-<span id="_Toc60" class="anchor"></span>Assumptions
+## 6.7 Assumptions
 
-<span id="_Toc61" class="anchor"></span>Definition
+### 6.7.1 Definition
 
 An Assumption is an unvalidated assertion that something is true, but if
 later validated as false would introduce an impact on the architecture.
 
-<span id="_Toc62" class="anchor"></span>Description
+### 6.7.2 Description
 
 Assumptions must be reasonable, i.e. they will normally have a high
 probability of being true.
@@ -2657,15 +1450,14 @@ validated information is not available.
 The number of outstanding assumptions are a measure of the risk to the
 successful completion of an architecture.
 
-<span id="_Toc63" class="anchor"></span>Specific Artifact Attributes
+### 6.7.3 Specific Artifact Attributes
 
-  -------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Assumption\***     *An assumption is an unvalidated assertion that something is true, but if later validated as false would introduce an impact on the architecture. Describe here the constraint.*
+  -------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Priority\***       *Describe here the relative priority of this assumption.*
   **Consequences\***   *Describe here the consequences of this assumption.*
-  -------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-<span id="_Toc64" class="anchor"></span>Hints and Tips
+### 6.7.4 Hints and Tips
 
 Assumptions are rarely explicit and form part of the “everyone knows
 that” culture. They are therefore often implicit and only arise when
@@ -2683,32 +1475,31 @@ damaging to the business objectives) This consequence should be also
 registered in a risk register (projects prefer to track risks rather
 than assumptions)
 
-<span id="_Toc65" class="anchor"></span>Example
+### 6.7.5 Example
 
-<span id="_Toc66" class="anchor"></span>Risks
+## 6.8 Risks
 
-<span id="_Toc67" class="anchor"></span>Definition
+### 6.8.1 Definition
 
 A potential event of whatever nature that could impact the architecture.
 
-<span id="_Toc68" class="anchor"></span>Description
+### 6.8.2 Description
 
 At this stage it can be regarded as an additional constraint on the
 architecture e.g. Using unproven technology.
 
-<span id="_Toc69" class="anchor"></span>Specific Artifact Attributes
+### 6.8.3 Specific Artifact Attributes
 
-  ----------------- ----------------------------------------------------------
   **Description**   *The description of the risk*
+  ----------------- ----------------------------------------------------------
   **Impact**        *The impact if the risk becomes real, High, medium, low*
   **Measures**      *Measures that can mitigate the risk*
-  ----------------- ----------------------------------------------------------
 
-<span id="_Toc70" class="anchor"></span>Hints and Tips
+### 6.8.4Hints and Tips
 
-<span id="_Toc71" class="anchor"></span>Conceptual Artifacts
+# 7. Conceptual Artifacts
 
-<span id="_Toc72" class="anchor"></span>Domain Artifacts Overview
+## 7.1 Domain Artifacts Overview
 
 A Domain is a way to describe an area by grouping services in order to
 fit with a specific goal.
@@ -2727,151 +1518,159 @@ components defined in Logical and Physical phases could deliver a
 different grouping. It is interesting to make a x-ref of components and
 domains.
 
-<span id="_Toc73" class="anchor"></span>Business Domain
+## 7.2 Business Domain
 
-<span id="_Toc74" class="anchor"></span>Definition
+### 7.2.1 Definition
 
 Value Chains (or parts of them) and other subject areas of a Business
 are called Business Domains. Usually they consist of a collection of
 Business Services contributing to a certain Business Goal.
 
-<span id="_Toc75" class="anchor"></span>Description
+### 7.2.2 Description
 
-<span id="_Toc76" class="anchor"></span>Specific Artifact Attributes
+### 7.2.3 Specific Artifact Attributes
 
-  ----------------- ------------------------------------------
   **Description**   *The description of the specific domain*
-  **Parent Id**     *Reference to the Parent Artifact Id*
   ----------------- ------------------------------------------
+  **Parent Id**     *Reference to the Parent Artifact Id*
 
-<span id="_Toc77" class="anchor"></span>Context and Relationships
+###  7.2.4 Context and Relationships
 
-  ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
   **Aspect Area Abstraction level**   **Business**   **Information**   **IS**   **TI**   **Governance**   **Security**
-  **Contextual**                                                                                          
-  **Conceptual**                      **X**                                              **X**            **X**
-  **Logical**                                                                                             
-  **Physical**                                                                                            
   ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
+  **Contextual**
+  **Conceptual**                      **X**                                              **X**            **X**
+  **Logical**
+  **Physical**
 
-![](media/image8.png){width="4.790049212598425in"
+![](media/image9.png){width="4.790049212598425in"
 height="4.153737970253719in"}
 
-<span id="_Toc78" class="anchor"></span>Hints & Tips
+### 7.2.5 Hints & Tips {#hints-tips .ListParagraph}
 
-<span id="_Toc79" class="anchor"></span>Example
-
-![](media/image9.png){width="6.413195538057742in"
-height="3.670157480314961in"}
+### 7.2.6 Example
 
 ![](media/image10.png){width="6.413195538057742in"
+height="3.670157480314961in"}
+
+![](media/image11.png){width="6.413195538057742in"
 height="4.167237532808399in"}
 
-<span id="_Toc80" class="anchor"></span>Information Domain
+## 7.3 Information Domain {#information-domain .ListParagraph}
+------------------
 
-<span id="_Toc81" class="anchor"></span>Definition
+### Definition {#definition-1 .ListParagraph}
 
 Grouping of information (or data entities) by a set of criteria such as
 security classification, ownership, location, etc. In the context of
 security, an information domain is defined as a set of users, their
 information objects, and a security policy.
 
-<span id="_Toc82" class="anchor"></span>Description
+### Description {#description-2 .ListParagraph}
 
-<span id="_Toc83" class="anchor"></span>Specific Artifact Attributes
+### Specific Artifact Attributes {#specific-artifact-attributes-3 .ListParagraph}
 
-  ----------------- ------------------------------------------
   **Description**   *The description of the specific domain*
-  **Parent Id**     *Reference to the Parent Artifact Id*
   ----------------- ------------------------------------------
+  **Parent Id**     *Reference to the Parent Artifact Id*
 
-<span id="_Toc84" class="anchor"></span>Context and Relationships
+###  {#section-3 .ListParagraph}
 
-  ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
+### Context and Relationships {#context-and-relationships-1 .ListParagraph}
+
   **Aspect Area Abstraction level**   **Business**   **Information**   **IS**   **TI**   **Governance**   **Security**
-  **Contextual**                                                                                          
-  **Conceptual**                                     **X**                               **X**            **X**
-  **Logical**                                                                                             
-  **Physical**                                                                                            
   ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
+  **Contextual**
+  **Conceptual**                                     **X**                               **X**            **X**
+  **Logical**
+  **Physical**
 
-![](media/image11.png){width="4.854715660542432in"
+###  {#section-4 .ListParagraph}
+
+![](media/image12.png){width="4.854715660542432in"
 height="3.935936132983377in"}
 
-<span id="_Toc85" class="anchor"></span>Hints & Tips
+### Hints & Tips {#hints-tips-1 .ListParagraph}
 
-<span id="_Toc86" class="anchor"></span>Example
+### Example {#example-1 .ListParagraph}
 
-<span id="_Toc87" class="anchor"></span>IS Domain
+IS Domain {#is-domain .ListParagraph}
+---------
 
-<span id="_Toc88" class="anchor"></span>Definition
+### Definition {#definition-2 .ListParagraph}
 
 In an IS Domain, IS services are grouped in order to fit with a specific
 goal.
 
-<span id="_Toc89" class="anchor"></span>Description
+### Description {#description-3 .ListParagraph}
 
 IS Domains can, for example, be the responsible department or the
 division in the current system landscape.
 
-<span id="_Toc90" class="anchor"></span>Specific Artifact Attributes
+### Specific Artifact Attributes {#specific-artifact-attributes-4 .ListParagraph}
 
-  ----------------- ------------------------------------------
   **Description**   *The description of the specific domain*
-  **Parent Id**     *Reference to the Parent Artifact Id*
   ----------------- ------------------------------------------
+  **Parent Id**     *Reference to the Parent Artifact Id*
 
-<span id="_Toc91" class="anchor"></span>Context and Relationships
+###  {#section-5 .ListParagraph}
 
-  ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
+### Context and Relationships {#context-and-relationships-2 .ListParagraph}
+
   **Aspect Area Abstraction level**   **Business**   **Information**   **IS**   **TI**   **Governance**   **Security**
-  **Contextual**                                                                                          
-  **Conceptual**                                                       **X**             **X**            **X**
-  **Logical**                                                                                             
-  **Physical**                                                                                            
   ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
+  **Contextual**
+  **Conceptual**                                                       **X**             **X**            **X**
+  **Logical**
+  **Physical**
 
-![](media/image12.png){width="4.783524715660542in"
+###  {#section-6 .ListParagraph}
+
+![](media/image13.png){width="4.783524715660542in"
 height="4.2552012248468944in"}
 
-<span id="_Toc92" class="anchor"></span>Hints & Tips
+### Hints & Tips {#hints-tips-2 .ListParagraph}
 
-<span id="_Toc93" class="anchor"></span>Example
+### Example {#example-2 .ListParagraph}
 
-<span id="_Toc94" class="anchor"></span>TI Domain
+TI Domain {#ti-domain .ListParagraph}
+---------
 
-<span id="_Toc95" class="anchor"></span>Definition
+### Definition {#definition-3 .ListParagraph}
 
 In an TI Domain, TI services are grouped in order to fit with a specific
 goal.
 
-<span id="_Toc96" class="anchor"></span>Description
+### Description {#description-4 .ListParagraph}
 
-<span id="_Toc97" class="anchor"></span>Specific Artifact Attributes
+### Specific Artifact Attributes {#specific-artifact-attributes-5 .ListParagraph}
 
-  ----------------- ------------------------------------------
   **Description**   *The description of the specific domain*
-  **Parent Id**     *Reference to the Parent Artifact Id*
   ----------------- ------------------------------------------
+  **Parent Id**     *Reference to the Parent Artifact Id*
 
-<span id="_Toc98" class="anchor"></span>Context and Relationships
+###  {#section-7 .ListParagraph}
 
-  ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
+### Context and Relationships {#context-and-relationships-3 .ListParagraph}
+
   **Aspect Area Abstraction level**   **Business**   **Information**   **IS**   **TI**   **Governance**   **Security**
-  **Contextual**                                                                                          
-  **Conceptual**                                                                **X**    **X**            **X**
-  **Logical**                                                                                             
-  **Physical**                                                                                            
   ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
+  **Contextual**
+  **Conceptual**                                                                **X**    **X**            **X**
+  **Logical**
+  **Physical**
 
-![](media/image13.png){width="4.854715660542432in"
+###  {#section-8 .ListParagraph}
+
+![](media/image14.png){width="4.854715660542432in"
 height="4.404946412948381in"}
 
-<span id="_Toc99" class="anchor"></span>Hints & Tips
+### Hints & Tips {#hints-tips-3 .ListParagraph}
 
-<span id="_Toc100" class="anchor"></span>Example
+### Example {#example-3 .ListParagraph}
 
-<span id="_Toc101" class="anchor"></span>Service Artifacts Overview
+Service Artifacts Overview {#service-artifacts-overview .ListParagraph}
+--------------------------
 
 A Service describes an “***element of behaviour*** “ in the IAF Aspect
 Area it is applicable to.
@@ -2957,7 +1756,8 @@ Implementation, the implementation can change without affecting Service
 users. By modifying one part of the architecture at a time, migration to
 different or new implementations can be achieved step-by-step.
 
-<span id="_Toc102" class="anchor"></span>Business Service
+Business Service {#business-service .ListParagraph}
+----------------
 
 <span id="_Toc103" class="anchor"></span>Definition
 
@@ -3046,18 +1846,18 @@ Goal*, and the *Business Activity* and *Role* supporting that specific
 
   **Error handling** *Describes the result of incorrect usage of the service.*
   -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <span id="_Toc106" class="anchor"></span>Context and Relationships
 
-  ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
   **Aspect Area Abstraction level**   **Business**   **Information**   **IS**   **TI**   **Governance**   **Security**
-  **Contextual**                                                                                          
-  **Conceptual**                      **X**                                              **X**            **X**
-  **Logical**                                                                                             
-  **Physical**                                                                                            
   ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
+  **Contextual**
+  **Conceptual**                      **X**                                              **X**            **X**
+  **Logical**
+  **Physical**
 
-![](media/image14.png){width="4.790049212598425in"
+![](media/image15.png){width="4.790049212598425in"
 height="4.153737970253719in"}
 
 Figure 7 Business Service Relationships
@@ -3090,7 +1890,8 @@ elements of behaviour.
 
 <span id="_Toc108" class="anchor"></span>Example
 
-<span id="_Toc109" class="anchor"></span>Business Information Service
+Business Information Service {#business-information-service .ListParagraph}
+----------------------------
 
 <span id="_Toc110" class="anchor"></span>Definition
 
@@ -3121,8 +1922,8 @@ Business Information Services collaborate through the communication of
 
 <span id="_Toc112" class="anchor"></span>Specific Artifact Attributes
 
-  -------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Domain**                             *Describes for Business services in a functional grouping. *
+  -------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **KPIs**                               *Identify the KPIs for the service. This will be a subset of the attributes that is measured for performance, e.g.: 98,5% delivered within defined business response times; Max 5%of errors as a result of the business service; Able to handle volumes within a bandwidth of 25% of the defined mean volumes. *
   **Trigger/Actor**                      *The event or initiator that causes this service to be started/consumed. *
   **Confidentiality Classification**     Classify and explain the level of Confidentiality to be supported by this service. Confidentiality regards the protection of sensitive information from unauthorised disclosure or intelligible interception.
@@ -3142,19 +1943,17 @@ Business Information Services collaborate through the communication of
   **Result**                             *Describes the result of correct usage of the service. *
   **Error handling**                     *Describes the result of incorrect usage of the service. *
   **Information object usage**           *Describe which information obbjects are created/written (W), Transformed (T) or Got/read (G);* &lt;Reference ID&gt;, &lt;Reference Name&gt; &lt;W/T/G&gt; ;&lt;Reference ID&gt;, &lt;Reference Name&gt;,&lt;W/T/G&gt;
-  -------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <span id="_Toc113" class="anchor"></span>Relations/Context
 
-  ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
   **Aspect Area Abstraction level**   **Business**   **Information**   **IS**   **TI**   **Governance**   **Security**
-  **Contextual**                                                                                          
-  **Conceptual**                                     **X**                               **X**            **X**
-  **Logical**                                                                                             
-  **Physical**                                                                                            
   ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
+  **Contextual**
+  **Conceptual**                                     **X**                               **X**            **X**
+  **Logical**
+  **Physical**
 
-![](media/image15.png){width="4.841917104111986in"
+![](media/image16.png){width="4.841917104111986in"
 height="3.9250087489063867in"}
 
 Figure 8 Business Information Service Relationships
@@ -3186,11 +1985,12 @@ the boundaries of automation and non automation lie.
 
 <span id="_Toc115" class="anchor"></span>Example
 
-![](media/image16.png){width="4.960688976377953in" height="3.7125in"}
+![](media/image17.png){width="4.960688976377953in" height="3.7125in"}
 
 Figure 9 Business Information Service example
 
-<span id="_Toc116" class="anchor"></span>Information System Service
+Information System Service {#information-system-service .ListParagraph}
+--------------------------
 
 <span id="_Toc117" class="anchor"></span>Definition
 
@@ -3214,8 +2014,8 @@ Service Collaboration Contract*.
 
 <span id="_Toc119" class="anchor"></span>Specific Artifact Attributes
 
-  -------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Domain**                             *Describes for Information System service for a functional grouping. Each domain or sub domain is a set of coherent functions.*
+  -------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Title**                              *A suitable (and preferably unique) short form name for the artifact.*
   **KPIs**                               *Identify the KPIs for the service. This will be a subset of the attributes that is measured for performance, e.g.:98,5% delivered within defined business response times;Max 5%of errors as a result of the business service;Able to handle volumes within a bandwidth of 25% of the defined mean volumes.*
   **Trigger/Actor**                      *The event or initiator that causes this service to be started/consumed.*
@@ -3239,19 +2039,17 @@ Service Collaboration Contract*.
   **Output Object(s)**                   *The object(s) created or transformed by this service or component*
   **Input Control(s)**                   *A description of the control info required as input. (This is an optional attribute.)*
   **Output Control(s)**                  *A description of the control info provided as output. (This is an optional attribute.)*
-  -------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <span id="_Toc120" class="anchor"></span>Relations/Context
 
-  ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
   **Aspect Area Abstraction level**   **Business**   **Information**   **IS**   **TI**   **Governance**   **Security**
-  **Contextual**                                                                                          
-  **Conceptual**                                                       **X**             **X**            **X**
-  **Logical**                                                                                             
-  **Physical**                                                                                            
   ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
+  **Contextual**
+  **Conceptual**                                                       **X**             **X**            **X**
+  **Logical**
+  **Physical**
 
-![](media/image17.png){width="4.783524715660542in"
+![](media/image18.png){width="4.783524715660542in"
 height="4.2552012248468944in"}
 
 <span id="_Toc121" class="anchor"></span>Hints & Tips
@@ -3271,8 +2069,8 @@ later
 
 <span id="_Toc122" class="anchor"></span>Example
 
-<span id="_Toc123" class="anchor"></span>Technology Infrastructure
-Service
+Technology Infrastructure Service {#technology-infrastructure-service .ListParagraph}
+---------------------------------
 
 <span id="_Toc124" class="anchor"></span>Definition
 
@@ -3304,8 +2102,8 @@ centre etc.
 
 <span id="_Toc126" class="anchor"></span>Specific Artifact Attributes
 
-  -------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Domain**                             *Describes for Technical Infrastructure Services the runtime environments (.NET, JEE or z/OS-LE).* &lt; .NET/ JEE/ z/OS-LE/ Connectivity/ Security/ Business Service Management.&gt;
+  -------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Title**                              *A suitable (and preferably unique) short form name for the artifact. *
   **KPIs**                               *Identify the KPIs for the service. This will be a subset of the attributes that is measured for performance, e.g.:98,5% delivered within defined business response times; Max 5%of errors as a result of the business service; Able to handle volumes within a bandwidth of 25% of the defined mean volumes.*
   **Trigger/Actor**                      *The event or initiator that causes this service to be started/consumed.*
@@ -3329,19 +2127,17 @@ centre etc.
   **Output Object(s)**                   *The object(s) created or transformed by this service or component*
   **Input Control(s)**                   *A description of the control info required as input. (This is an optional attribute.)*
   **Output Control(s)**                  *A description of the control info provided as output. (This is an optional attribute.)*
-  -------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <span id="_Toc127" class="anchor"></span>Relationships and Context
 
-  ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
   **Aspect Area Abstraction level**   **Business**   **Information**   **IS**   **TI**   **Governance**   **Security**
-  **Contextual**                                                                                          
-  **Conceptual**                                                                **X**    **X**            **X**
-  **Logical**                                                                                             
-  **Physical**                                                                                            
   ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
+  **Contextual**
+  **Conceptual**                                                                **X**    **X**            **X**
+  **Logical**
+  **Physical**
 
-![](media/image18.png){width="4.841917104111986in"
+![](media/image19.png){width="4.841917104111986in"
 height="4.392717629046369in"}
 
 <span id="_Toc128" class="anchor"></span>Hints and Tips
@@ -3352,15 +2148,16 @@ Infrastructure Services available within the architecture community.
 
 <span id="_Toc129" class="anchor"></span>Example
 
-<span id="_Toc130" class="anchor"></span>Business Event
+Business Event {#business-event .ListParagraph}
+--------------
 
-<span id="_Toc131" class="anchor"></span>Definition
+### Definition {#definition-4 .ListParagraph}
 
 A Business state change that triggers a Business Service. Events may
 originate from inside or outside the Business Scope and may be resolved
 inside or outside the Business Scope.
 
-<span id="_Toc132" class="anchor"></span>Description
+### Description {#description-5 .ListParagraph}
 
 In computing an event is an action that is usually initiated outside of
 a system and has to be handled by the system. Business events therefore
@@ -3369,10 +2166,10 @@ Examples of business events are the ordering of an article by a
 customer, the requesting of a quote by that same customer and the
 receipt of a payment from a customer via the bank.
 
-<span id="_Toc133" class="anchor"></span>Specific Artifact Attributes
+### Specific Artifact Attributes {#specific-artifact-attributes-6 .ListParagraph}
 
-  -------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Service window**                     *Or opening hours, describes when theevent is triggered*
+  -------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Response time**                      *Describes the normal/average and maximum time to fully process the event*
   **Throughput**                         *Describes the required throughput (number of requests per period over time) expressed in average amounts.*
   **Throughput period**                  *Describes the throughput period.*&lt;Second/ Minute/ Hour/ Day/ Week&gt;
@@ -3382,24 +2179,26 @@ receipt of a payment from a customer via the bank.
   **Quality of information delivered**   *Or post conditions, indicate the possible states of the service owner after processing the request. Describe possible error-handling procedures, signalling to operators, the use of Business Reject Services, etc.*
   **Result**                             *Describes the result the event initiator expects*
   **Error handling**                     *Describes the result of incorrect usage of the service.*
-  -------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-<span id="_Toc134" class="anchor"></span>Context and Relationships
+###  {#section-9 .ListParagraph}
 
-  ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
+### Context and Relationships {#context-and-relationships-4 .ListParagraph}
+
   **Aspect Area Abstraction level**   **Business**   **Information**   **IS**   **TI**   **Governance**   **Security**
-  **Contextual**                                                                                          
-  **Conceptual**                      **X**                                                               
-  **Logical**                                                                                             
-  **Physical**                                                                                            
   ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
+  **Contextual**
+  **Conceptual**                      **X**
+  **Logical**
+  **Physical**
 
-<span id="_Toc135" class="anchor"></span>Hints & Tips
+###  {#section-10 .ListParagraph}
 
-<span id="_Toc136" class="anchor"></span>Example
+### Hints & Tips {#hints-tips-4 .ListParagraph}
 
-<span id="_Toc137" class="anchor"></span>Collaboration Contract
-Artifacts Overview
+### Example {#example-4 .ListParagraph}
+
+Collaboration Contract Artifacts Overview {#collaboration-contract-artifacts-overview .ListParagraph}
+-----------------------------------------
 
 Collaboration contracts describe the behaviour of the interaction
 between services or components. This is distinct from the
@@ -3409,11 +2208,11 @@ the logical level where we group services into components the
 collaboration contract between components may describe one or more
 behaviour based on the service contracts.
 
-![](media/image19.png){width="5.202778871391076in"
+![](media/image20.png){width="5.202778871391076in"
 height="2.6729166666666666in"}
 
-<span id="_Toc138" class="anchor"></span>Business Collaboration
-Contracts
+Business Collaboration Contracts {#business-collaboration-contracts .ListParagraph}
+--------------------------------
 
 <span id="_Toc139" class="anchor"></span>Definition
 
@@ -3455,8 +2254,8 @@ the critical operational path.
 
 <span id="_Toc141" class="anchor"></span>Specific Artifact Attributes
 
-  ------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Service name ‘consumer’**           *Describes the service name and reference ID from the consuming or calling service/component.* &lt;Reference ID&gt;; &lt;Reference Name&gt;
+  ------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Service name ‘owner’**              *Describes the service name and reference ID from the owning or called service/component.* &lt;Reference ID&gt;; &lt;Reference Name&gt;
   **Throughput**                        *Describe the average required throughput. *
   **Throughput period**                 *Describes the throughput period.* &lt;Second/ Minute/ Hour/ Day/ Week&gt;
@@ -3471,21 +2270,19 @@ the critical operational path.
   **Contract control requirements**     *Describe the control requirement of the contract.* &lt;Control required every time the contract is activated/ Logging of contract activation & results insufficient/ No contract control requirements&gt;
   **Result control requirements**       *Describe the result requirement of the contract.* &lt;No result control required/ Result control based on periodic checks/ Result control required every time the contract is supporting&gt;
   **Importance**                        *Describe the importance of the contract.* &lt;Failure allowed if only quality degrades/ Must complete within response times&gt;
-  ------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 .
 
 <span id="_Toc142" class="anchor"></span>Relationships and Context
 
-  ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
   **Aspect Area Abstraction level**   **Business**   **Information**   **IS**   **TI**   **Governance**   **Security**
-  **Contextual**                                                                                          
+  ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
+  **Contextual**
   **Conceptual**                      **X**                                              **X**            **X**
   **Logical**                         **X**                                              **X**            **X**
   **Physical**                        **X**                                              **X**            **X**
-  ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
 
-![](media/image20.png){width="4.443525809273841in"
+![](media/image21.png){width="4.443525809273841in"
 height="4.201514654418197in"}
 
 <span id="_Toc143" class="anchor"></span>Hints & Tips
@@ -3496,8 +2293,8 @@ characteristics.
 
 <span id="_Toc144" class="anchor"></span>Example
 
-<span id="_Toc145" class="anchor"></span>Business Information
-Collaboration Contracts
+Business Information Collaboration Contracts {#business-information-collaboration-contracts .ListParagraph}
+--------------------------------------------
 
 <span id="_Toc146" class="anchor"></span>Definition
 
@@ -3543,8 +2340,8 @@ to developing the critical operational path.
 
 <span id="_Toc148" class="anchor"></span>Specific Artifact Attributes
 
-  ------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Service name ‘consumer’**           *Describes the service name and reference ID from the consuming or calling service/component.* &lt;Reference ID&gt;; &lt;Reference Name&gt;
+  ------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Service name ‘owner’**              *Describes the service name and reference ID from the owning or called service/component.* &lt;Reference ID&gt;; &lt;Reference Name&gt;
   **Throughput**                        *Describe the average required throughput. *
   **Throughput period**                 *Describes the throughput period.* &lt;Second/ Minute/ Hour/ Day/ Week&gt;
@@ -3559,27 +2356,25 @@ to developing the critical operational path.
   **Contract control requirements**     *Describe the control requirement of the contract.* &lt;Control required every time the contract is activated/ Logging of contract activation & results insufficient/ No contract control requirements&gt;
   **Result control requirements**       *Describe the result requirement of the contract.* &lt;No result control required/ Result control based on periodic checks/ Result control required every time the contract is supporting&gt;
   **Importance**                        *Describe the importance of the contract.* &lt;Failure allowed if only quality degrades/ Must complete within response times&gt;
-  ------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <span id="_Toc149" class="anchor"></span>Relationships and Context
 
-  ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
   **Aspect Area Abstraction level**   **Business**   **Information**   **IS**   **TI**   **Governance**   **Security**
-  **Contextual**                                                                                          
+  ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
+  **Contextual**
   **Conceptual**                                     **X**                               **X**            **X**
   **Logical**                                        **X**                               **X**            **X**
   **Physical**                                       **X**                               **X**            **X**
-  ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
 
-![](media/image21.png){width="4.443525809273841in"
+![](media/image22.png){width="4.443525809273841in"
 height="4.201514654418197in"}
 
 <span id="_Toc150" class="anchor"></span>Hints & Tips
 
 <span id="_Toc151" class="anchor"></span>Example
 
-<span id="_Toc152" class="anchor"></span>Information System
-Collaboration Contracts
+Information System Collaboration Contracts {#information-system-collaboration-contracts .ListParagraph}
+------------------------------------------
 
 <span id="_Toc153" class="anchor"></span>Definition
 
@@ -3624,8 +2419,8 @@ developing the critical operational path.
 
 <span id="_Toc155" class="anchor"></span>Specific Artifact Attributes
 
-  ------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Service name ‘consumer’**           *Describes the service name and reference ID from the consuming or calling service/component.* &lt;Reference ID&gt;; &lt;Reference Name&gt;
+  ------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Service name ‘owner’**              *Describes the service name and reference ID from the owning or called service/component.* &lt;Reference ID&gt;; &lt;Reference Name&gt;
   **Throughput**                        *Describe the average required throughput. *
   **Throughput period**                 *Describes the throughput period.* &lt;Second/ Minute/ Hour/ Day/ Week&gt;
@@ -3640,21 +2435,19 @@ developing the critical operational path.
   **Contract control requirements**     *Describe the control requirement of the contract.* &lt;Control required every time the contract is activated/ Logging of contract activation & results insufficient/ No contract control requirements&gt;
   **Result control requirements**       *Describe the result requirement of the contract.* &lt;No result control required/ Result control based on periodic checks/ Result control required every time the contract is supporting&gt;
   **Importance**                        *Describe the importance of the contract.* &lt;Failure allowed if only quality degrades/ Must complete within response times&gt;
-  ------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 .
 
 <span id="_Toc156" class="anchor"></span>Relationships and Context
 
-  ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
   **Aspect Area Abstraction level**   **Business**   **Information**   **IS**   **TI**   **Governance**   **Security**
-  **Contextual**                                                                                          
+  ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
+  **Contextual**
   **Conceptual**                                                       **X**             **X**            **X**
   **Logical**                                                          **X**             **X**            **X**
   **Physical**                                                         **X**             **X**            **X**
-  ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
 
-![](media/image22.png){width="4.515331364829397in"
+![](media/image23.png){width="4.515331364829397in"
 height="4.4339938757655295in"}
 
 <span id="_Toc157" class="anchor"></span>Hints & Tips
@@ -3665,8 +2458,8 @@ height="4.4339938757655295in"}
 
 <span id="_Toc160" class="anchor"></span>Example
 
-<span id="_Toc161" class="anchor"></span>Technology Infrastructure
-Service and Technology Infrastructure Component Contracts.
+Technology Infrastructure Service and Technology Infrastructure Component Contracts. {#technology-infrastructure-service-and-technology-infrastructure-component-contracts. .ListParagraph}
+------------------------------------------------------------------------------------
 
 <span id="_Toc162" class="anchor"></span>Definition
 
@@ -3691,8 +2484,8 @@ supported Information System Component Collaboration Contracts.
 
 <span id="_Toc164" class="anchor"></span>Specific Artifact Attributes
 
-  ------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Service name ‘consumer’**           *Describes the service name and reference ID from the consuming or calling service/component.* &lt;Reference ID&gt;; &lt;Reference Name&gt;
+  ------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Service name ‘owner’**              *Describes the service name and reference ID from the owning or called service/component.* &lt;Reference ID&gt;; &lt;Reference Name&gt;
   **Throughput**                        *Describe the average required throughput. *
   **Throughput period**                 *Describes the throughput period.* &lt;Second/ Minute/ Hour/ Day/ Week&gt;
@@ -3707,21 +2500,19 @@ supported Information System Component Collaboration Contracts.
   **Contract control requirements**     *Describe the control requirement of the contract.* &lt;Control required every time the contract is activated/ Logging of contract activation & results insufficient/ No contract control requirements&gt;
   **Result control requirements**       *Describe the result requirement of the contract.* &lt;No result control required/ Result control based on periodic checks/ Result control required every time the contract is supporting&gt;
   **Importance**                        *Describe the importance of the contract.* &lt;Failure allowed if only quality degrades/ Must complete within response times&gt;
-  ------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 .
 
 <span id="_Toc165" class="anchor"></span>Relationships and Context
 
-  ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
   **Aspect Area Abstraction level**   **Business**   **Information**   **IS**   **TI**   **Governance**   **Security**
-  **Contextual**                                                                                          
+  ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
+  **Contextual**
   **Conceptual**                                                                **X**    **X**            **X**
   **Logical**                                                                   **X**    **X**            **X**
   **Physical**                                                                  **X**    **X**            **X**
-  ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
 
-![](media/image23.png){width="4.495653980752406in"
+![](media/image24.png){width="4.495653980752406in"
 height="4.626267497812774in"}
 
 <span id="_Toc166" class="anchor"></span>Hints & Tips
@@ -3764,7 +2555,8 @@ provide a good starter checklist fordiscussion.
 
 <span id="_Toc167" class="anchor"></span>Example
 
-<span id="_Toc168" class="anchor"></span>Business Activity
+Business Activity {#business-activity .ListParagraph}
+-----------------
 
 <span id="_Toc169" class="anchor"></span>Definition
 
@@ -3789,8 +2581,8 @@ behaviour characterised by a *Business Service.*
 
 <span id="_Toc171" class="anchor"></span>Specific Artifact Attributes
 
-  --------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Description**                   *A narrative of what the artifact is and what it does and its relevance to the architecture*
+  --------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Result control requirements**   *Describe the result requirement of the contract.* &lt;No result control required/ Result control based on periodic checks/ Result control required every time the contract is supporting&gt;
   **Importance**                    *Describe the importance of the contract.* &lt;Failure allowed if only quality degrades/ Must complete within response times&gt;
   **Quality Characteristics:**      *Metrics (such as peak moments, limits), frequencies, critical factors (i.e. how critical is this activity). Throughput characteristics/metrics. *
@@ -3801,19 +2593,17 @@ behaviour characterised by a *Business Service.*
   **Output**                        *The objects that this activity produces. *
   **Business Goal**                 *The business goal this activity supports. *
   **Parent Activity**               *Reference to the parent Business Activity in the BA hierarchy.*
-  --------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <span id="_Toc172" class="anchor"></span>Relations/Context
 
-  ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
   **Aspect Area Abstraction level**   **Business**   **Information**   **IS**   **TI**   **Governance**   **Security**
-  **Contextual**                                                                                          
-  **Conceptual**                      **X**                                              **X**            **X**
-  **Logical**                                                                                             
-  **Physical**                                                                                            
   ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
+  **Contextual**
+  **Conceptual**                      **X**                                              **X**            **X**
+  **Logical**
+  **Physical**
 
-![](media/image24.png){width="4.8506747594050745in"
+![](media/image25.png){width="4.8506747594050745in"
 height="4.207501093613298in"}
 
 <span id="_Toc173" class="anchor"></span>Hints & Tips
@@ -3839,7 +2629,8 @@ too low a granularity of activity in the first place).
 
 <span id="_Toc174" class="anchor"></span>Example
 
-<span id="_Toc175" class="anchor"></span> Business Goal
+ Business Goal {#business-goal .ListParagraph}
+--------------
 
 <span id="_Toc176" class="anchor"></span>Definition
 
@@ -3863,23 +2654,21 @@ Supports the definition of results related targets for the organisation.
 
 <span id="_Toc178" class="anchor"></span>Specific Artifact Attributes
 
-  --------------------------- -------------------------------------------------------------------------------------------
   **Description**             *The description of the specific business goal*
+  --------------------------- -------------------------------------------------------------------------------------------
   **Goal Type**               *Can provide classification of the goal e.g. governance, compliance, security,etc. *
   **Business Objective id**   *This is a optional field. It indicates this goal is related to a pre defined Objective.*
-  --------------------------- -------------------------------------------------------------------------------------------
 
 <span id="_Toc179" class="anchor"></span>Relations/Context
 
-  ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
   **Aspect Area Abstraction level**   **Business**   **Information**   **IS**   **TI**   **Governance**   **Security**
-  **Contextual**                                                                                          
-  **Conceptual**                      **X**                                              **X**            **X**
-  **Logical**                                                                                             
-  **Physical**                                                                                            
   ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
+  **Contextual**
+  **Conceptual**                      **X**                                              **X**            **X**
+  **Logical**
+  **Physical**
 
-![](media/image25.png){width="4.8506747594050745in"
+![](media/image26.png){width="4.8506747594050745in"
 height="4.207501093613298in"}
 
 <span id="_Toc180" class="anchor"></span>Hints & Tips
@@ -3891,7 +2680,11 @@ model.
 
 <span id="_Toc181" class="anchor"></span>Example
 
-<span id="_Toc182" class="anchor"></span> Role
+\
+-
+
+ Role {#role .ListParagraph}
+-----
 
 <span id="_Toc183" class="anchor"></span>Definition
 
@@ -3917,31 +2710,30 @@ service
 
 <span id="_Toc185" class="anchor"></span>Specific Artifact Attributes
 
-  ----------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Description**   *The description of the specific business role*
+  ----------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Triggers**      *A description of the triggers (events) the role can initiate that are relevant for the architecture. This is an attribute that you only need to assist in understanding who does what in the overall system. The formal documentation of the triggers/ events is conducted as part of the business service definition.*
   **RACI**          *The explicit description of the role responsibilities*
   **Location**      *The virtual location(s) of the role (if known)*
-  ----------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <span id="_Toc186" class="anchor"></span>Relations/Context
 
-  ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
   **Aspect Area Abstraction level**   **Business**   **Information**   **IS**   **TI**   **Governance**   **Security**
-  **Contextual**                                                                                          
-  **Conceptual**                      **X**                                              **X**            **X**
-  **Logical**                                                                                             
-  **Physical**                                                                                            
   ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
+  **Contextual**
+  **Conceptual**                      **X**                                              **X**            **X**
+  **Logical**
+  **Physical**
 
-![](media/image26.png){width="4.8506747594050745in"
+![](media/image27.png){width="4.8506747594050745in"
 height="4.207501093613298in"}
 
 <span id="_Toc187" class="anchor"></span>Hints & Tips
 
 <span id="_Toc188" class="anchor"></span>Example
 
-<span id="_Toc189" class="anchor"></span> Business Object
+ Business Object {#business-object .ListParagraph}
+----------------
 
 <span id="_Toc190" class="anchor"></span>Definition
 
@@ -3967,22 +2759,20 @@ Business Objects may be or infer Information Objects.
 
 <span id="_Toc192" class="anchor"></span>Specific Artifact Attributes
 
-  -------------------------- -----------------------------------
   **Business Object Type**   *Type of the Business Object*
-  **Characteristics**        *Business Object Characteristics*
   -------------------------- -----------------------------------
+  **Characteristics**        *Business Object Characteristics*
 
 <span id="_Toc193" class="anchor"></span>Relations/Context
 
-  ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
   **Aspect Area Abstraction level**   **Business**   **Information**   **IS**   **TI**   **Governance**   **Security**
-  **Contextual**                                                                                          
-  **Conceptual**                      **X**                                              **X**            **X**
-  **Logical**                                                                                             
-  **Physical**                                                                                            
   ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
+  **Contextual**
+  **Conceptual**                      **X**                                              **X**            **X**
+  **Logical**
+  **Physical**
 
-![](media/image27.png){width="4.7893755468066495in"
+![](media/image28.png){width="4.7893755468066495in"
 height="4.151399825021873in"}
 
 <span id="_Toc194" class="anchor"></span>Hints & Tips
@@ -3999,7 +2789,8 @@ be defined otherwise there is a risk of creating an unmanageable set.
 
 <span id="_Toc195" class="anchor"></span>Example
 
-<span id="_Toc196" class="anchor"></span>Object Contract
+Object Contract {#object-contract .ListParagraph}
+---------------
 
 <span id="_Toc197" class="anchor"></span>Definition
 
@@ -4017,26 +2808,24 @@ that of a shipping department. .
 
 <span id="_Toc199" class="anchor"></span>Specific Artifact Attributes
 
-  ---------------------- ------------------------------------------------------------------
   **Business Service**   *The Business Service this contract relates to*
+  ---------------------- ------------------------------------------------------------------
   **Business Object**    *The Business Object this service relates to*
   **Characteristics**    *Object Contract Characteristics*
   **Growth**             *Growth related to interaction of Business Objects and Services*
   **Security**           *Security aspects associated with this contract*
   **Governance**         *Governance aspects associated with this contract*
-  ---------------------- ------------------------------------------------------------------
 
 <span id="_Toc200" class="anchor"></span>Relations/Context
 
-  ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
   **Aspect Area Abstraction level**   **Business**   **Information**   **IS**   **TI**   **Governance**   **Security**
-  **Contextual**                                                                                          
-  **Conceptual**                      **X**                                              **X**            **X**
-  **Logical**                                                                                             
-  **Physical**                                                                                            
   ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
+  **Contextual**
+  **Conceptual**                      **X**                                              **X**            **X**
+  **Logical**
+  **Physical**
 
-![](media/image28.png){width="4.792070209973753in"
+![](media/image29.png){width="4.792070209973753in"
 height="4.15529636920385in"}
 
 <span id="_Toc201" class="anchor"></span>Hints & Tips
@@ -4048,7 +2837,8 @@ where the use of the resource is obvious.
 
 <span id="_Toc202" class="anchor"></span>Example
 
-<span id="_Toc203" class="anchor"></span>Information Object
+Information Object {#information-object .ListParagraph}
+------------------
 
 <span id="_Toc204" class="anchor"></span>Definition
 
@@ -4086,8 +2876,8 @@ Information Objects for use by *Information System Services.*
 
 <span id="_Toc206" class="anchor"></span>Specific Artifact Attributes
 
-  ------------------------------------ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Information Object Type **         *Information Object Statements.*
+  ------------------------------------ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Size**                             *Describe the size of the information object.*
   **Numbers**                          *Describes the number of information objects.*
   **Growth**                           *Describe the expected growth in percentage.&lt;%&gt;*
@@ -4095,28 +2885,28 @@ Information Objects for use by *Information System Services.*
   **Confidentiality Classification**   *Classify and explain the level of Confidentiality to be supported by this component. Confidentiality regards the protection of sensitive information from unauthorised disclosure or intelligible interception. *
   **Integrity Classification**         *Classify and explain the level of Integrity of this object. Integrity regards safeguarding the accuracy, completeness, and timeliness of information, IT systems and computer software (including the ability to audit these). Select one of:&lt;I-1 – Nominal (lowest)/ I-2 – Standard/ I-3 – Individual/ I-4 – Double Intervention (highest)&gt;*
   **Availability Classification**      *Classify and explain the level of Availability of this object. Availability regards guaranteeing that information and vital services are accessible to authorised users when required (during opening hours). Select one of:&lt;A-1 – Recoverable (lowest)/ A-2 – Cold Standby/ A-3 – Hot standby/ A-4 – Fail safe (highest)&gt;*
-  ------------------------------------ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <span id="_Toc207" class="anchor"></span>Relations/Context
 
-  ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
   **Aspect Area Abstraction level**   **Business**   **Information**   **IS**   **TI**   **Governance**   **Security**
-  **Contextual**                                                                                          
-  **Conceptual**                                     **X**                               **X**            **X**
-  **Logical**                                                                                             
-  **Physical**                                                                                            
   ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
+  **Contextual**
+  **Conceptual**                                     **X**                               **X**            **X**
+  **Logical**
+  **Physical**
 
-![](media/image29.png){width="4.841917104111986in"
+![](media/image30.png){width="4.841917104111986in"
 height="4.198150699912511in"}
 
 <span id="_Toc208" class="anchor"></span>Hints & Tips
 
 <span id="_Toc209" class="anchor"></span>Example
 
-<span id="_Toc210" class="anchor"></span>Logical Artifacts
+Logical Artifacts {#logical-artifacts .ListParagraph}
+=================
 
-<span id="_Toc211" class="anchor"></span>Component Artifacts Overview
+Component Artifacts Overview {#component-artifacts-overview .ListParagraph}
+----------------------------
 
 Components are logical or physical entities in IAF that describes the
 structure of the architecture. Components have a clearly defined scope
@@ -4160,7 +2950,8 @@ often because of financial or capability constraints or because the
 desired state cannot be directly achieved from the current state without
 intervening steps.
 
-<span id="_Toc212" class="anchor"></span>Logical Business Component
+Logical Business Component {#logical-business-component .ListParagraph}
+--------------------------
 
 <span id="_Toc213" class="anchor"></span>Definition
 
@@ -4200,8 +2991,8 @@ Business Case* and other previously identified *Business Objective. *
 
 <span id="_Toc215" class="anchor"></span>Specific Artifact Attributes
 
-  --------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Grouping Criteria**                   *A reference to the grouping criteria used to create the LBC*
+  --------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Services\***                          *List of services that are grouped in this component. &lt;ID&gt;, &lt;Name of the Service&gt; &lt;ID&gt;, &lt;Name of the Service&gt;*
   **Type\***                              *Describe the type of the Logical Business Component.*&lt;Organizational/ Governance/ Process&gt;
   **Trigger**                             *The events or initiators that cause this component to be started/consumed (will be evident from the services that comprise this component).*
@@ -4220,19 +3011,17 @@ Business Case* and other previously identified *Business Objective. *
   **Communication mechanism**             *Describes the communication mechanisms of the component.*
   ** **                                   *Business component mechanisms: Click, Call, Face, Fax, Voice, Mail, eMail, SMS, Information System component mechanisms: ‘Message based’: Fire&Forget, Request/Reply, or ‘File based’.*
   **Component Quality Characteristics**   *A description of the quality characteristics that the component is expected to conform to. This will be an aggregated profile of the characteristics of the services that comprise this component (Quality of information, error handling).*
-  --------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <span id="_Toc216" class="anchor"></span>Relationships and Context
 
-  ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
   **Aspect Area Abstraction level**   **Business**   **Information**   **IS**   **TI**   **Governance**   **Security**
-  **Contextual**                                                                                          
-  **Conceptual**                                                                                          
-  **Logical**                         **X**                                              **X**            **X**
-  **Physical**                                                                                            
   ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
+  **Contextual**
+  **Conceptual**
+  **Logical**                         **X**                                              **X**            **X**
+  **Physical**
 
-![](media/image30.png){width="4.904687226596676in"
+![](media/image31.png){width="4.904687226596676in"
 height="4.375022965879265in"}
 
 <span id="_Toc217" class="anchor"></span>Hints & Tips
@@ -4255,7 +3044,7 @@ process to be outsourced) then an alternative arrangement is produced.
 Doing this enables the impact of each alternative to be analysed on the
 different aspects of business.
 
-![](media/image31.png){width="6.126701662292214in"
+![](media/image32.png){width="6.126701662292214in"
 height="4.594600831146106in"}
 
 Figure 10 Alternative Groupings for Business Components
@@ -4266,7 +3055,8 @@ the Business Services that comprise the process. The process sequence
 itself could be described be done by creating a process or orchestration
 view of the Business Components.
 
-<span id="_Toc219" class="anchor"></span>Logical Information Component
+Logical Information Component  {#logical-information-component .ListParagraph}
+------------------------------
 
 <span id="_Toc220" class="anchor"></span>Definition
 
@@ -4291,8 +3081,8 @@ Components.
 
 <span id="_Toc222" class="anchor"></span>Specific Artifact Attributes
 
-  --------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Grouping Criteria**                   *List of the principles that indicate the rationale of the component. &lt;ID&gt;, &lt;Name of the Principle&gt; &lt;ID&gt;, &lt;Name of the Principle&gt;*
+  --------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Information Objects**                 *List of information objects that are grouped in this component. &lt;ID&gt;, &lt;Name of the Service&gt; &lt;ID&gt;, &lt;Name of the Service&gt;*
   **Trigger**                             *The events or initiators that cause this component to be started/consumed (will be evident from the services that comprise this component).*
   **KPIs**                                *Identify the KPIs for the component (will be evident from the services that comprise this component). *
@@ -4310,19 +3100,17 @@ Components.
   **Communication mechanism**             *Describes the communication mechanisms of the component. Business component mechanisms: Click, Call, Face, Fax, Voice, Mail, eMail, SMS. Business information service mechanism: Automated, Non-automated. Information System component mechanisms: ‘Message based’: Fire&Forget, Request/Reply, or ‘File based’. *
   **Component Quality Characteristics**   *A description of the quality characteristics that the component is expected to conform to. This will be an aggregated profile of the characteristics of the services that comprise this component (Quality of information, error handling). *
   **Component Quality Characteristics**   *A description of the quality characteristics that the component is expected to conform to. This will be an aggregated profile of the characteristics of the services that comprise this component (Quality of information, error handling).*
-  --------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <span id="_Toc223" class="anchor"></span>Relationships and Context
 
-  ---------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
   **spect Area Abstraction level**   **Business**   **Information**   **IS**   **TI**   **Governance**   **Security**
-  **Contextual**                                                                                         
-  **Conceptual**                                                                                         
-  **Logical**                                       **X**                               **X**            **X**
-  **Physical**                                                                                           
   ---------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
+  **Contextual**
+  **Conceptual**
+  **Logical**                                       **X**                               **X**            **X**
+  **Physical**
 
-![](media/image32.png){width="3.8743339895013125in"
+![](media/image33.png){width="3.8743339895013125in"
 height="3.823218503937008in"}
 
 <span id="_Toc224" class="anchor"></span>Hints & Tips
@@ -4336,11 +3124,11 @@ Objects.
 
 <span id="_Toc225" class="anchor"></span>Example
 
-![](media/image33.png){width="5.800805993000875in"
+![](media/image34.png){width="5.800805993000875in"
 height="4.350001093613298in"}
 
-<span id="_Toc226" class="anchor"></span>Logical Business Information
-Component
+Logical Business Information Component  {#logical-business-information-component .ListParagraph}
+---------------------------------------
 
 <span id="_Toc227" class="anchor"></span>Definition
 
@@ -4358,8 +3146,8 @@ respect to the use and communication of information.
 
 <span id="_Toc229" class="anchor"></span>Specific Artifact Attributes
 
-  --------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Grouping Criteria**                   *List of the principles that indicate the rationale of the component*. &lt;ID&gt;, &lt;Name of the Principle&gt; &lt;ID&gt;, &lt;Name of the Principle&gt;
+  --------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Services**                            *List of services that are grouped in this component*. &lt;ID&gt;, &lt;Name of the Service&gt; &lt;ID&gt;, &lt;Name of the Service&gt;
   **Trigger**                             *The events or initiators that cause this component to be started/consumed (will be evident from the services that comprise this component).*
   **KPIs**                                *Identify the KPIs for the component (will be evident from the services that comprise this component). *
@@ -4377,19 +3165,17 @@ respect to the use and communication of information.
   **Communication mechanism**             *Describes the communication mechanisms of the component. Business component mechanisms: Click, Call, Face, Fax, Voice, Mail, eMail, SMS. Business information service mechanism: Automated, Non-automated. Information System component mechanisms: ‘Message based’: Fire&Forget, Request/Reply, or ‘File based’. *
   **Component Quality Characteristics**   *A description of the quality characteristics that the component is expected to conform to. This will be an aggregated profile of the characteristics of the services that comprise this component (Quality of information, error handling). *
   **Component Quality Characteristics**   *A description of the quality characteristics that the component is expected to conform to. This will be an aggregated profile of the characteristics of the services that comprise this component (Quality of information, error handling).*
-  --------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <span id="_Toc230" class="anchor"></span>Relationships and Context
 
-  ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
   **Aspect Area Abstraction level**   **Business**   **Information**   **IS**   **TI**   **Governance**   **Security**
-  **Contextual**                                                                                          
-  **Conceptual**                                                                                          
-  **Logical**                                        **X**                               **X**            **X**
-  **Physical**                                                                                            
   ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
+  **Contextual**
+  **Conceptual**
+  **Logical**                                        **X**                               **X**            **X**
+  **Physical**
 
-![](media/image34.png){width="3.8765113735783028in"
+![](media/image35.png){width="3.8765113735783028in"
 height="3.510217629046369in"}
 
 <span id="_Toc231" class="anchor"></span>Hints & Tips
@@ -4412,10 +3198,10 @@ there is affinity of *Information Object* use.
 
 <span id="_Toc232" class="anchor"></span>Example
 
-![](media/image35.png){width="5.000694444444444in" height="3.75in"}
+![](media/image36.png){width="5.000694444444444in" height="3.75in"}
 
-<span id="_Toc233" class="anchor"></span>Logical Information System
-Component
+Logical Information System Component {#logical-information-system-component .ListParagraph}
+------------------------------------
 
 <span id="_Toc234" class="anchor"></span>Definition
 
@@ -4445,8 +3231,8 @@ Services.*
 
 <span id="_Toc236" class="anchor"></span>Specific Artifact Attributes
 
-  --------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Grouping Criteria**                   *List of the principles that indicate the rationale of the component*. &lt;ID&gt;, &lt;Name of the Principle&gt; &lt;ID&gt;, &lt;Name of the Principle&gt;
+  --------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Services**                            *List of services that are grouped in this component*. &lt;ID&gt;, &lt;Name of the Service&gt; &lt;ID&gt;, &lt;Name of the Service&gt;
   **Trigger**                             *The events or initiators that cause this component to be started/consumed (will be evident from the services that comprise this component).*
   **KPIs**                                *Identify the KPIs for the component (will be evident from the services that comprise this component). *
@@ -4465,19 +3251,17 @@ Services.*
   **Communication mechanism**             *Describes the communication mechanisms of the component. Business component mechanisms: Click, Call, Face, Fax, Voice, Mail, eMail, SMS. Business information service mechanism: Automated, Non-automated. Information System component mechanisms: ‘Message based’: Fire&Forget, Request/Reply, or ‘File based’. *
   **Component Quality Characteristics**   *A description of the quality characteristics that the component is expected to conform to. This will be an aggregated profile of the characteristics of the services that comprise this component (Quality of information, error handling). *
   **Component Quality Characteristics**   *A description of the quality characteristics that the component is expected to conform to. This will be an aggregated profile of the characteristics of the services that comprise this component (Quality of information, error handling).*
-  --------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <span id="_Toc237" class="anchor"></span>Relationships and Context
 
-  ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
   **Aspect Area Abstraction level**   **Business**   **Information**   **IS**   **TI**   **Governance**   **Security**
-  **Contextual**                                                                                          
-  **Conceptual**                                                                                          
-  **Logical**                                                          **X**             **X**            **X**
-  **Physical**                                                                                            
   ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
+  **Contextual**
+  **Conceptual**
+  **Logical**                                                          **X**             **X**            **X**
+  **Physical**
 
-![](media/image36.png){width="4.459289151356081in"
+![](media/image37.png){width="4.459289151356081in"
 height="4.215826771653544in"}
 
 <span id="_Toc238" class="anchor"></span>Hints & Tips
@@ -4506,8 +3290,8 @@ them separate is probably more appropriate.
 
 <span id="_Toc239" class="anchor"></span>Example
 
-<span id="_Toc240" class="anchor"></span>Logical Technology
-Infrastructure Component
+Logical Technology Infrastructure Component {#logical-technology-infrastructure-component .ListParagraph}
+-------------------------------------------
 
 <span id="_Toc241" class="anchor"></span>Definition
 
@@ -4536,8 +3320,8 @@ Principles, for example centralisation, consolidation, scalability etc
 
 <span id="_Toc243" class="anchor"></span>Specific Artifact Attributes
 
-  --------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Grouping Criteria**                   *List of the principles that indicate the rationale of the component. &lt;ID&gt;, &lt;Name of the Principle&gt;*
+  --------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Services**                            *List of services that are grouped in this component. &lt;ID&gt;, &lt;Name of the Service&gt;*
   **Trigger**                             *The events or initiators that cause this component to be started/consumed (will be evident from the services that comprise this component).*
   **KPIs**                                *Identify the KPIs for the component (will be evident from the services that comprise this component).*
@@ -4554,21 +3338,19 @@ Principles, for example centralisation, consolidation, scalability etc
   **MTBF**                                *Describes the mean time between failures of the component (MTBF is behavioural aspect and is specifically linked to the component)*
   **Communication mechanism**             *Describes the communication mechanisms of the component. Business component mechanisms: Click, Call, Face, Fax, Voice, Mail, eMail, SMS. Business information service mechanism: Automated, Non-automated. Information System component mechanisms: ‘Message based’: Fire&Forget, Request/Reply, or ‘File based’.*
   **Component Quality Characteristics**   *A description of the quality characteristics that the component is expected to conform to. This will be an aggregated profile of the characteristics of the services that comprise this component (Quality of information, error handling).*
-  --------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 .
 
 <span id="_Toc244" class="anchor"></span>Relationships and Context
 
-  ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
   **Aspect Area Abstraction level**   **Business**   **Information**   **IS**   **TI**   **Governance**   **Security**
-  **Contextual**                                                                                          
-  **Conceptual**                                                                                          
-  **Logical**                                                                   **X**    **X**            **X**
-  **Physical**                                                                                            
   ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
+  **Contextual**
+  **Conceptual**
+  **Logical**                                                                   **X**    **X**            **X**
+  **Physical**
 
-![](media/image37.png){width="4.459289151356081in"
+![](media/image38.png){width="4.459289151356081in"
 height="4.215826771653544in"}
 
 <span id="_Toc245" class="anchor"></span>Hints & Tips
@@ -4597,15 +3379,17 @@ standards.
 
 <span id="_Toc246" class="anchor"></span>Example
 
-<span id="_Toc247" class="anchor"></span>Component Collaboration
-Contract
+Component Collaboration Contract {#component-collaboration-contract .ListParagraph}
+--------------------------------
 
 The information about the Component Collaboration Contract can be found
 at the collaboration contract section at the conceptual level.
 
-<span id="_Toc248" class="anchor"></span>Physical Artifacts
+Physical Artifacts {#physical-artifacts .ListParagraph}
+==================
 
-<span id="_Toc249" class="anchor"></span>Physical Components
+Physical Components {#physical-components .ListParagraph}
+-------------------
 
 <span id="_Business_Information_Service" class="anchor"></span>In an
 ideal scenario Physical Components simply reflect the Logical Components
@@ -4618,8 +3402,8 @@ requires the creation of several migration steps or even the
 introduction of additional components. All these situations provide
 solution alternatives for the Physical Components.
 
-![](media/image38.png){width="2.283333333333333in"
-height="1.9562510936132984in"}![](media/image39.png){width="2.713888888888889in"
+![](media/image39.png){width="2.283333333333333in"
+height="1.9562510936132984in"}![](media/image40.png){width="2.713888888888889in"
 height="2.045138888888889in"}There is usually more than one way to
 organise components, this is the basis of evaluating different solution
 alternatives.
@@ -4657,7 +3441,8 @@ structure may be more appropriate.
 A similar process should be followed when aggregating Logical Components
 into fewer Physical Components.
 
-<span id="_Toc250" class="anchor"></span>Physical Business Component
+Physical Business Component {#physical-business-component .ListParagraph}
+---------------------------
 
 <span id="_Toc251" class="anchor"></span>Definition
 
@@ -4680,8 +3465,8 @@ Business Objectives and Constraints.
 
 <span id="_Toc253" class="anchor"></span>Specific Artifact Attributes
 
-  --------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Grouping Criteria**                   *List of the principles that indicate the rationale of the component*.&lt;ID&gt;, &lt;Name of the Principle&gt;&lt;ID&gt;, &lt;Name of the Principle&gt;
+  --------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Logical Components **                 *List of related Logical Component(s) that this Physical Component represents*.&lt;ID&gt;, &lt;Name of the Component&gt;&lt;ID&gt;, &lt;Name of the Component&gt;
   **Trigger**                             *The events or initiators that cause this component to be started/consumed (will be evident from the services that comprise this component).*
   **KPIs**                                *Identify the KPIs for the component (will be evident from the services that comprise this component).*
@@ -4698,28 +3483,27 @@ Business Objectives and Constraints.
   **MTBF**                                *Describes the mean time between failures of the component (MTBF is behavioural aspect and is specifically linked to the component)*
   **Communication mechanism**             *Describes the communication mechanisms of the component. Business component mechanisms: Click, Call, Face, Fax, Voice, Mail, eMail, SMS. Business information service mechanism: Automated, Non-automated. Information System component mechanisms: ‘Message based’: Fire&Forget, Request/Reply, or ‘File based’.*
   **Component Quality Characteristics**   *A description of the quality characteristics that the component is expected to conform to. This will be an aggregated profile of the characteristics of the services that comprise this component (Quality of information, error handling).*
-  --------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 .
 
 <span id="_Toc254" class="anchor"></span>Relationships and Context
 
-  ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
   **Aspect Area Abstraction level**   **Business**   **Information**   **IS**   **TI**   **Governance**   **Security**
-  **Contextual**                                                                                          
-  **Conceptual**                                                                                          
-  **Logical**                                                                                             
-  **Physical**                        **X**                                              **X**            **X**
   ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
+  **Contextual**
+  **Conceptual**
+  **Logical**
+  **Physical**                        **X**                                              **X**            **X**
 
-![](media/image40.png){width="4.459289151356081in"
+![](media/image41.png){width="4.459289151356081in"
 height="4.215826771653544in"}
 
 <span id="_Toc255" class="anchor"></span>Hints & Tips
 
 <span id="_Toc256" class="anchor"></span>Example
 
-<span id="_Toc257" class="anchor"></span>Physical Information Component
+Physical Information Component {#physical-information-component .ListParagraph}
+------------------------------
 
 <span id="_Toc258" class="anchor"></span>Definition
 
@@ -4742,8 +3526,8 @@ criteria will be driven by the Business Objectives and Constraints.
 
 <span id="_Toc260" class="anchor"></span>Specific Artifact Attributes
 
-  --------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Grouping Criteria**                   *List of the principles that indicate the rationale of the component*.&lt;ID&gt;, &lt;Name of the Principle&gt;&lt;ID&gt;, &lt;Name of the Principle&gt;
+  --------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Logical Components \***               *List of related Logical Component(s) that this Physical Component represents*.&lt;ID&gt;, &lt;Name of the Component&gt;&lt;ID&gt;, &lt;Name of the Component&gt;
   **Trigger**                             *The events or initiators that cause this component to be started/consumed (will be evident from the services that comprise this component).*
   **KPIs**                                *Identify the KPIs for the component (will be evident from the services that comprise this component).*
@@ -4760,29 +3544,27 @@ criteria will be driven by the Business Objectives and Constraints.
   **MTBF**                                *Describes the mean time between failures of the component (MTBF is behavioural aspect and is specifically linked to the component)*
   **Communication mechanism**             *Describes the communication mechanisms of the component.Business component mechanisms: Click, Call, Face, Fax, Voice, Mail, eMail, SMS. Business information service mechanism: Automated, Non-automated.Information System component mechanisms: ‘Message based’: Fire&Forget, Request/Reply, or ‘File based’.*
   **Component Quality Characteristics**   *A description of the quality characteristics that the component is expected to conform to. This will be an aggregated profile of the characteristics of the services that comprise this component (Quality of information, error handling).*
-  --------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 .
 
 <span id="_Toc261" class="anchor"></span>Relationships and Context
 
-  ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
   **Aspect Area Abstraction level**   **Business**   **Information**   **IS**   **TI**   **Governance**   **Security**
-  **Contextual**                                                                                          
-  **Conceptual**                                                                                          
-  **Logical**                                                                                             
-  **Physical**                                       **X**                               **X**            **X**
   ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
+  **Contextual**
+  **Conceptual**
+  **Logical**
+  **Physical**                                       **X**                               **X**            **X**
 
-![](media/image41.png){width="3.975247156605424in"
+![](media/image42.png){width="3.975247156605424in"
 height="3.9131025809273843in"}
 
 <span id="_Toc262" class="anchor"></span>Hints & Tips
 
 <span id="_Toc263" class="anchor"></span>Example
 
-<span id="_Toc264" class="anchor"></span>Physical Business Information
-Component
+Physical Business Information Component {#physical-business-information-component .ListParagraph}
+---------------------------------------
 
 <span id="_Toc265" class="anchor"></span>Definition
 
@@ -4810,8 +3592,8 @@ components or designed and built as new components.
 
 <span id="_Toc267" class="anchor"></span>Specific Artifact Attributes
 
-  --------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Grouping Criteria**                   *List of the principles that indicate the rationale of the component*.&lt;ID&gt;, &lt;Name of the Principle&gt;&lt;ID&gt;, &lt;Name of the Principle&gt;
+  --------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Logical Components \***               *List of related Logical Component(s) that this Physical Component represents*.&lt;ID&gt;, &lt;Name of the Component&gt;&lt;ID&gt;, &lt;Name of the Component&gt;
   **Trigger**                             *The events or initiators that cause this component to be started/consumed (will be evident from the services that comprise this component).*
   **KPIs**                                *Identify the KPIs for the component (will be evident from the services that comprise this component).*
@@ -4828,19 +3610,17 @@ components or designed and built as new components.
   **MTBF**                                *Describes the mean time between failures of the component (MTBF is behavioural aspect and is specifically linked to the component)*
   **Communication mechanism**             *Describes the communication mechanisms of the component.Business component mechanisms: Click, Call, Face, Fax, Voice, Mail, eMail, SMS. Business information service mechanism: Automated, Non-automated.Information System component mechanisms: ‘Message based’: Fire&Forget, Request/Reply, or ‘File based’.*
   **Component Quality Characteristics**   *A description of the quality characteristics that the component is expected to conform to. This will be an aggregated profile of the characteristics of the services that comprise this component (Quality of information, error handling).*
-  --------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <span id="_Toc268" class="anchor"></span>Relationships and Context
 
-  ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
   **Aspect Area Abstraction level**   **Business**   **Information**   **IS**   **TI**   **Governance**   **Security**
-  **Contextual**                                                                                          
-  **Conceptual**                                                                                          
-  **Logical**                                                                                             
-  **Physical**                                       **X**                               **X**            **X**
   ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
+  **Contextual**
+  **Conceptual**
+  **Logical**
+  **Physical**                                       **X**                               **X**            **X**
 
-![](media/image42.png){width="4.459289151356081in"
+![](media/image43.png){width="4.459289151356081in"
 height="4.215826771653544in"}
 
 <span id="_Toc269" class="anchor"></span>Hints & Tips
@@ -4854,8 +3634,8 @@ and its level of automation.
 
 <span id="_Toc270" class="anchor"></span>Example
 
-<span id="_Toc271" class="anchor"></span>Physical Information System
-Component
+Physical Information System Component {#physical-information-system-component .ListParagraph}
+-------------------------------------
 
 <span id="_Toc272" class="anchor"></span>Definition
 
@@ -4876,8 +3656,8 @@ In addition some components will be designated for custom developments.
 
 <span id="_Toc274" class="anchor"></span>Specific Artifact Attributes
 
-  --------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Grouping Criteria**                   *List of the principles that indicate the rationale of the component*.&lt;ID&gt;, &lt;Name of the Principle&gt;&lt;ID&gt;, &lt;Name of the Principle&gt;
+  --------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Logical Components \***               *List of related Logical Component(s) that this Physical Component represents*.&lt;ID&gt;, &lt;Name of the Component&gt;&lt;ID&gt;, &lt;Name of the Component&gt;
   **Trigger**                             *The events or initiators that cause this component to be started/consumed (will be evident from the services that comprise this component).*
   **KPIs**                                *Identify the KPIs for the component (will be evident from the services that comprise this component).*
@@ -4895,21 +3675,19 @@ In addition some components will be designated for custom developments.
   **SOX critical Clasification**          *An SKA is a SOx Kritische Applicatie \[SOx Critical Application\]. This is an application designated as being important for the compilation of ING financial data. The applications designated as SKA are laid down in an overview. This overview is managed by OPS&ITB/ FR&P/RM. Classify if the component is SOx Critical:* &lt;yes/no&gt;
   **Communication mechanism**             *Describes the communication mechanisms of the component .Business component mechanisms: Click, Call, Face, Fax, Voice, Mail, eMail, SMS. Business information service mechanism: Automated, Non-automated. Information System component mechanisms: ‘Message based’: Fire&Forget, Request/Reply, or ‘File based’.*
   **Component Quality Characteristics**   *A description of the quality characteristics that the component is expected to conform to. This will be an aggregated profile of the characteristics of the services that comprise this component (Quality of information, error handling).*
-  --------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 .
 
 <span id="_Toc275" class="anchor"></span>Relationships and Context
 
-  ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
   **Aspect Area Abstraction level**   **Business**   **Information**   **IS**   **TI**   **Governance**   **Security**
-  **Contextual**                                                                                          
-  **Conceptual**                                                                                          
-  **Logical**                                                                                             
-  **Physical**                                                         **X**             **X**            **X**
   ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
+  **Contextual**
+  **Conceptual**
+  **Logical**
+  **Physical**                                                         **X**             **X**            **X**
 
-![](media/image43.png){width="4.418933727034121in"
+![](media/image44.png){width="4.418933727034121in"
 height="4.177660761154856in"}
 
 <span id="_Toc276" class="anchor"></span>Hints & Tips
@@ -4933,8 +3711,8 @@ may be required when there is no clear package selected
 
 <span id="_Toc277" class="anchor"></span>Example
 
-<span id="_Toc278" class="anchor"></span> Physical Technology
-Infrastructure Component
+ Physical Technology Infrastructure Component {#physical-technology-infrastructure-component .ListParagraph}
+---------------------------------------------
 
 <span id="_Toc279" class="anchor"></span>Definition
 
@@ -4953,8 +3731,8 @@ and complete view of capacity requirements.
 
 <span id="_Toc281" class="anchor"></span>Specific Artifact Attributes
 
-  --------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Grouping Criteria**                   *List of the principles that indicate the rationale of the component.&lt;ID&gt;, &lt;Name of the Principle&gt;;&lt;ID&gt;, &lt;Name of the Principle&gt;*
+  --------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Logical Components **                 *List of related Logical Component(s) that this Physical Component represents.&lt;ID&gt;, &lt;Name of the Component&gt;;&lt;ID&gt;, &lt;Name of the Component&gt;*
   **Trigger**                             *The events or initiators that cause this component to be started/consumed (will be evident from the services that comprise this component).*
   **KPIs**                                *Identify the KPIs for the component (will be evident from the services that comprise this component).*
@@ -4971,19 +3749,17 @@ and complete view of capacity requirements.
   **MTBF**                                *Describes the mean time between failures of the component (MTBF is behavioural aspect and is specifically linked to the component)*
   **Communication mechanism**             *Describes the communication mechanisms of the component .Business component mechanisms: Click, Call, Face, Fax, Voice, Mail, eMail, SMS. Business information service mechanism: Automated, Non-automated. Information System component mechanisms: ‘Message based’: Fire&Forget, Request/Reply, or ‘File based’.*
   **Component Quality Characteristics**   *A description of the quality characteristics that the component is expected to conform to. This will be an aggregated profile of the characteristics of the services that comprise this component (Quality of information, error handling).*
-  --------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <span id="_Toc282" class="anchor"></span>Relationships and Context
 
-  ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
   **Aspect Area Abstraction level**   **Business**   **Information**   **IS**   **TI**   **Governance**   **Security**
-  **Contextual**                                                                                          
-  **Conceptual**                                                                                          
-  **Logical**                                                                                             
-  **Physical**                                                                  **X**    **X**            **X**
   ----------------------------------- -------------- ----------------- -------- -------- ---------------- --------------
+  **Contextual**
+  **Conceptual**
+  **Logical**
+  **Physical**                                                                  **X**    **X**            **X**
 
-![](media/image44.png){width="4.411367016622922in"
+![](media/image45.png){width="4.411367016622922in"
 height="4.170504155730534in"}
 
 <span id="_Toc283" class="anchor"></span>Hints & Tips
@@ -5006,14 +3782,14 @@ thereby creating a major update activity.
 
 <span id="_Toc284" class="anchor"></span>Example
 
-<span id="_Toc285" class="anchor"></span>Physical Component
-Collaboration Contracts
+Physical Component Collaboration Contracts {#physical-component-collaboration-contracts .ListParagraph}
+------------------------------------------
 
 The information about the physical component collaboration contracts can
 be found at the section about collaboration contracts in conceptual.
 
-<span id="_Toc286" class="anchor"></span>Specification Documents
-Overview
+Specification Documents Overview {#specification-documents-overview .ListParagraph}
+================================
 
 Specifications set out the way the architecture must be designed and
 implemented.
@@ -5027,7 +3803,8 @@ should be adopted.
 In short the specification is the structured collation and detail behind
 the architecture artifacts.
 
-<span id="_Toc287" class="anchor"></span>Business Specification
+Business Specification  {#business-specification .ListParagraph}
+-----------------------
 
 (***What*** the design and implementation of the architecture will be
 realised ***with***)
@@ -5046,7 +3823,8 @@ Interaction models
 
 Migration (phasing) and other Views
 
-<span id="_Toc288" class="anchor"></span>Information Specification
+Information Specification {#information-specification .ListParagraph}
+-------------------------
 
 (***What*** the design and implementation of the information
 architecture aspect will be realised ***with***) –typically:
@@ -5067,7 +3845,8 @@ Interaction model (Information Store Structure)
 
 Migration (phasing) and other Views
 
-<span id="_Toc289" class="anchor"></span>Communication Specification
+Communication Specification {#communication-specification .ListParagraph}
+---------------------------
 
 (What the design and implementation of the communication architecture
 aspect will be realised with) – Typically:
@@ -5079,8 +3858,8 @@ Allocation and mapping with current state elements of the business
 
 What form manual communication will take (phone, forms, email etc
 
-<span id="_Toc290" class="anchor"></span>Information Systems
-Specification
+Information Systems Specification  {#information-systems-specification .ListParagraph}
+----------------------------------
 
 (***What*** the design and implementation of the information systems
 architecture aspect will be realised ***with***) –typically:
@@ -5095,18 +3874,20 @@ Quality and security specification.
 
 …….
 
-<span id="_Toc291" class="anchor"></span>Technology Infrastructure
-Specification
+Technology Infrastructure Specification {#technology-infrastructure-specification .ListParagraph}
+---------------------------------------
 
 Specific Artifact Attributes
 
-<span id="_Toc292" class="anchor"></span>Hints and Tips
+Hints and Tips {#hints-and-tips .ListParagraph}
+--------------
 
 Combining Specifications from the different Aspect Areas will probably
 provide a more comprehensive overall specification as it will ensure
 better consistency
 
-<span id="_Toc293" class="anchor"></span>Standards Overview
+Standards Overview {#standards-overview .ListParagraph}
+==================
 
 Key outcomes of the architecture are standards. Standards define design
 and implementation constraints of the physical architecture in so far as
@@ -5130,7 +3911,8 @@ required to be used to realise the architecture. In IAF therefore every
 *Aspect Area* will deliver a set of standards that are applicable to the
 physical architecture components in that area.
 
-<span id="_Toc294" class="anchor"></span>Business Standards
+Business Standards  {#business-standards .ListParagraph}
+-------------------
 
 (*What* must the design and implementation of the business architecture
 aspects conform/comply *with*) for example:
@@ -5143,7 +3925,8 @@ Legislation
 
 Standards
 
-<span id="_Toc295" class="anchor"></span>Information Standards
+Information Standards {#information-standards .ListParagraph}
+---------------------
 
 Information Standards (*what* must the design and implementation of the
 information architecture aspects conform/comply *with*) for example
@@ -5154,7 +3937,8 @@ Legislation – for archive, access , audit
 
 Standards – corporate canonical forms
 
-<span id="_Toc296" class="anchor"></span>Communication Standards
+Communication Standards {#communication-standards .ListParagraph}
+-----------------------
 
 (*What* must the design and implementation of the information
 architecture aspects conform/comply *with*) for example:
@@ -5166,12 +3950,14 @@ Legislation – must use PAYE forms
 
 Standards (examples might be EDI, BACS possibly XML)
 
-<span id="_Toc297" class="anchor"></span> Information Systems Standards
+ Information Systems Standards {#information-systems-standards .ListParagraph}
+------------------------------
 
-<span id="_Toc298" class="anchor"></span>Technology Infrastructure
-Standards
+Technology Infrastructure Standards {#technology-infrastructure-standards .ListParagraph}
+-----------------------------------
 
-<span id="_Toc299" class="anchor"></span>Hints and Tips
+Hints and Tips {#hints-and-tips-1 .ListParagraph}
+--------------
 
 The standards for business and information aspect areas are usually
 articulated in the compliance policies of an organisation, for example
@@ -5188,9 +3974,11 @@ should be reviewed to ensure that existing capabilities meet any new
 requirements and where not updates to these policies and standards
 should be proposed.
 
-<span id="_Toc300" class="anchor"></span>Example
+Example {#example-5 .ListParagraph}
+-------
 
-<span id="_Toc301" class="anchor"></span>Implementation Guidelines
+Implementation Guidelines  {#implementation-guidelines .ListParagraph}
+==========================
 
 Implementation (including detailed Design) Guidelines set out the core
 structural architecture decisions that must be adhered to during the
@@ -5200,20 +3988,26 @@ The guidelines provide the starting points and pre-conditions for
 implementation and describe the objectives, assumptions, constraints and
 design principles.
 
-<span id="_Toc302" class="anchor"></span>Business Guidelines
+Business Guidelines  {#business-guidelines .ListParagraph}
+--------------------
 
-<span id="_Toc303" class="anchor"></span>Information Guidelines
+Information Guidelines {#information-guidelines .ListParagraph}
+----------------------
 
-<span id="_Toc304" class="anchor"></span>Communication Guidelines
+Communication Guidelines {#communication-guidelines .ListParagraph}
+------------------------
 
-<span id="_Toc305" class="anchor"></span> Information Systems Guidelines
+ Information Systems Guidelines {#information-systems-guidelines .ListParagraph}
+-------------------------------
 
-<span id="_Toc306" class="anchor"></span>Technology Infrastructure
-Guidelines
+Technology Infrastructure Guidelines {#technology-infrastructure-guidelines .ListParagraph}
+------------------------------------
 
-<span id="_Toc307" class="anchor"></span>Specific Artifact Attributes
+Specific Artifact Attributes {#specific-artifact-attributes-7 .ListParagraph}
+----------------------------
 
-<span id="_Toc308" class="anchor"></span>Hints and Tips
+Hints and Tips {#hints-and-tips-2 .ListParagraph}
+--------------
 
 The standards for business and information aspect areas are usually
 articulated in the compliance policies of an organisation, for example
@@ -5230,8 +4024,10 @@ should be reviewed to ensure that existing capabilities meet any new
 requirements and where not updates to these policies and standards
 should be proposed.
 
-<span id="_Toc309" class="anchor"><span id="_Ref110236799"
-class="anchor"></span></span>Integrated Architecture Framework Views
+ {#section-12 .ListParagraph}
+
+Integrated Architecture Framework Views  {#integrated-architecture-framework-views .ListParagraph}
+========================================
 
 Views are an essential part of the IAF approach, they provide linking
 and tracking information between aspects and Artifacts, they support
@@ -5279,7 +4075,8 @@ relationships within the IAF. These views are described in the following
 chapters. All views with their definition, objectives and common content
 are described in the Catalogue of Views.
 
-<span id="_Toc310" class="anchor"></span>Modelling Type Views
+Modelling Type Views {#modelling-type-views .ListParagraph}
+====================
 
 Modelling type views are primarily associated with developing the
 completeness of the architecture. The most important views in this class
@@ -5295,7 +4092,8 @@ Interaction Model that describes the relationships between Services in
 terms of Service Contracts is fundamentally the same irrespective of
 aspect area it applies to.
 
-<span id="_Toc311" class="anchor"></span>Business Interaction Model
+Business Interaction Model {#business-interaction-model .ListParagraph}
+--------------------------
 
 <span id="_Toc312" class="anchor"></span>Description
 
@@ -5309,7 +4107,8 @@ Services* and the *Business Service Contracts*
 
 <span id="_Toc313" class="anchor"></span>Example
 
-<span id="_Toc314" class="anchor"></span> Information Interaction Model
+ Information Interaction Model  {#information-interaction-model .ListParagraph}
+-------------------------------
 
 <span id="_Toc315" class="anchor"></span>Description
 
@@ -5323,8 +4122,8 @@ information use and flow
 
 <span id="_Toc316" class="anchor"></span>Example
 
-<span id="_Toc317" class="anchor"></span>Informations System Service
-Interaction Model
+Informations System Service Interaction Model {#informations-system-service-interaction-model .ListParagraph}
+---------------------------------------------
 
 <span id="_Toc318" class="anchor"></span>Description
 
@@ -5334,8 +4133,8 @@ through the associated *Information System Service Contracts*.
 
 <span id="_Toc319" class="anchor"></span>Example
 
-<span id="_Toc320" class="anchor"></span>Technology Infrastructure
-Service Interaction Model
+Technology Infrastructure Service Interaction Model {#technology-infrastructure-service-interaction-model .ListParagraph}
+---------------------------------------------------
 
 <span id="_Toc321" class="anchor"></span>Description
 
@@ -5348,8 +4147,8 @@ relationships are necessary to achieve the *Business Objectives* and
 
 <span id="_Toc322" class="anchor"></span>Example
 
-<span id="_Toc323" class="anchor"></span>Logical Business Component
-Interaction Model
+Logical Business Component Interaction Model {#logical-business-component-interaction-model .ListParagraph}
+--------------------------------------------
 
 <span id="_Toc324" class="anchor"></span>Description
 
@@ -5366,8 +4165,8 @@ future state structure.
 
 <span id="_Toc325" class="anchor"></span>Example
 
-<span id="_Toc326" class="anchor"></span>Logical Information Component
-Structure Model
+Logical Information Component Structure Model {#logical-information-component-structure-model .ListParagraph}
+---------------------------------------------
 
 <span id="_Toc327" class="anchor"></span>Description
 
@@ -5379,8 +4178,8 @@ develop the Logical Information Components.
 
 <span id="_Toc328" class="anchor"></span>Example
 
-<span id="_Toc329" class="anchor"></span>Logical Information System
-Component Interaction Model
+Logical Information System Component Interaction Model {#logical-information-system-component-interaction-model .ListParagraph}
+------------------------------------------------------
 
 <span id="_Toc330" class="anchor"></span>Description
 
@@ -5397,8 +4196,8 @@ structure
 
 <span id="_Toc331" class="anchor"></span>Example
 
-<span id="_Toc332" class="anchor"></span>Logical Technology
-Infrastructure Component Interaction Model
+Logical Technology Infrastructure Component Interaction Model {#logical-technology-infrastructure-component-interaction-model .ListParagraph}
+-------------------------------------------------------------
 
 <span id="_Toc333" class="anchor"></span>Description
 
@@ -5415,8 +4214,8 @@ structure.
 
 <span id="_Toc334" class="anchor"></span>Example
 
-<span id="_Toc335" class="anchor"></span>Logical Business Information
-Component Interaction Model
+Logical Business Information Component Interaction Model  {#logical-business-information-component-interaction-model .ListParagraph}
+---------------------------------------------------------
 
 <span id="_Toc336" class="anchor"></span>Description
 
@@ -5429,8 +4228,8 @@ Components.
 
 <span id="_Toc337" class="anchor"></span>Example
 
-<span id="_Toc338" class="anchor"></span>Physical Business Component
-Interaction Model
+Physical Business Component Interaction Model  {#physical-business-component-interaction-model .ListParagraph}
+----------------------------------------------
 
 <span id="_Toc339" class="anchor"></span>Description
 
@@ -5442,8 +4241,8 @@ of where the interactions are between the current and the new occur.
 
 <span id="_Toc340" class="anchor"></span>Example
 
-<span id="_Toc341" class="anchor"></span>Physical Business Information
-Component Interaction Model
+Physical Business Information Component Interaction Model  {#physical-business-information-component-interaction-model .ListParagraph}
+----------------------------------------------------------
 
 <span id="_Toc342" class="anchor"></span>Description
 
@@ -5456,8 +4255,8 @@ interactions are between the current and the new occur.
 
 <span id="_Toc343" class="anchor"></span>Example
 
-<span id="_Toc344" class="anchor"></span>Physical Informations System
-Component Interaction Model
+Physical Informations System Component Interaction Model {#physical-informations-system-component-interaction-model .ListParagraph}
+--------------------------------------------------------
 
 <span id="_Toc345" class="anchor"></span>Description
 
@@ -5472,8 +4271,8 @@ between the information provider and the information consumer.
 
 <span id="_Toc346" class="anchor"></span>Example
 
-<span id="_Toc347" class="anchor"></span>Physical Technology
-Infrastructure Component Interaction Model
+Physical Technology Infrastructure Component Interaction Model {#physical-technology-infrastructure-component-interaction-model .ListParagraph}
+--------------------------------------------------------------
 
 <span id="_Toc348" class="anchor"></span>Description
 
@@ -5490,7 +4289,8 @@ Component Contract* describes the interaction.
 
 <span id="_Toc349" class="anchor"></span>Example
 
-<span id="_Toc350" class="anchor"></span>Typical Views
+Typical Views {#typical-views .ListParagraph}
+=============
 
 There is literally no limit to the number of different views that can be
 constructed. Similarly the Views will be very much dependent on the
@@ -5499,7 +4299,8 @@ nature of the architecture engagement.
 However there are a number of Views that feature regularly and these are
 described in general terms in this section:
 
-<span id="_Toc351" class="anchor"></span>Value Chain View
+Value Chain View  {#value-chain-view .ListParagraph}
+-----------------
 
 <span id="_Toc352" class="anchor"></span>Description
 
@@ -5514,7 +4315,8 @@ tool to support strategic planning in business.
 
 <span id="_Toc353" class="anchor"></span> Example
 
-<span id="_Toc354" class="anchor"></span>Process Gap Analysis
+Process Gap Analysis  {#process-gap-analysis .ListParagraph}
+---------------------
 
 <span id="_Toc355" class="anchor"></span>Description
 
@@ -5525,7 +4327,8 @@ state processes (or activities).
 
 <span id="_Toc356" class="anchor"></span>Example
 
-<span id="_Toc357" class="anchor"></span>Information Ownership View
+Information Ownership View  {#information-ownership-view .ListParagraph}
+---------------------------
 
 <span id="_Toc358" class="anchor"></span>Description
 
@@ -5535,8 +4338,8 @@ affects the information objects)
 
 <span id="_Toc359" class="anchor"></span>Example
 
-<span id="_Toc360" class="anchor"></span>Major Information System
-Interfaces Model
+Major Information System Interfaces Model {#major-information-system-interfaces-model .ListParagraph}
+-----------------------------------------
 
 <span id="_Toc361" class="anchor"></span>Description
 
@@ -5558,11 +4361,11 @@ focussing on wider cross business information exchange issues .
 
 <span id="_Toc362" class="anchor"></span>Example
 
-![](media/image45.png){width="6.413195538057742in"
+![](media/image46.png){width="6.413195538057742in"
 height="3.2623042432195977in"}
 
-<span id="_Toc363" class="anchor"></span>Information Systems Security
-View
+Information Systems Security View  {#information-systems-security-view .ListParagraph}
+----------------------------------
 
 <span id="_Toc364" class="anchor"></span>Description
 
@@ -5571,8 +4374,8 @@ System Services and Information System Components*
 
 <span id="_Toc365" class="anchor"></span>Example
 
-<span id="_Toc366" class="anchor"></span>Information Systems Governance
-View
+Information Systems Governance View {#information-systems-governance-view .ListParagraph}
+-----------------------------------
 
 <span id="_Toc367" class="anchor"></span>Description
 
@@ -5582,8 +4385,8 @@ view is created at the conceptual abstraction level in the *Information
 Systems Aspect Area* and refined at the logical level as the Governance
 requirements are elaborated and evolved.
 
-<span id="_Toc368" class="anchor"></span>Information Systems Information
-View
+Information Systems Information View  {#information-systems-information-view .ListParagraph}
+-------------------------------------
 
 <span id="_Toc369" class="anchor"></span>Description
 
@@ -5597,8 +4400,8 @@ decentralisation of information and storage requirements.
 
 <span id="_Toc370" class="anchor"></span>Example
 
-<span id="_Toc371" class="anchor"></span>Physical Information System
-Component Model
+Physical Information System Component Model  {#physical-information-system-component-model .ListParagraph}
+--------------------------------------------
 
 <span id="_Toc372" class="anchor"></span>Description
 
@@ -5606,10 +4409,11 @@ Visualises the arrangements for physical information components.
 
 <span id="_Toc373" class="anchor"></span>Example
 
-![](media/image46.png){width="4.908333333333333in"
+![](media/image47.png){width="4.908333333333333in"
 height="2.967361111111111in"}
 
-<span id="_Toc374" class="anchor"></span> Development View
+ Development View  {#development-view .ListParagraph}
+------------------
 
 <span id="_Toc375" class="anchor"></span>Description
 
@@ -5620,8 +4424,8 @@ components in the desired architecture solution.
 
 <span id="_Toc376" class="anchor"></span>Example
 
-<span id="_Toc377" class="anchor"></span> Logical Technology
-Infrastructure Component Model
+ Logical Technology Infrastructure Component Model {#logical-technology-infrastructure-component-model .ListParagraph}
+--------------------------------------------------
 
 <span id="_Toc378" class="anchor"></span>Description
 
@@ -5635,10 +4439,11 @@ component models.
 
 <span id="_Toc379" class="anchor"></span>Example
 
-![](media/image47.png){width="3.6131944444444444in"
+![](media/image48.png){width="3.6131944444444444in"
 height="4.546528871391076in"}
 
-<span id="_Toc380" class="anchor"></span> Integration View
+ Integration View {#integration-view .ListParagraph}
+-----------------
 
 <span id="_Toc381" class="anchor"></span>Description
 
@@ -5651,7 +4456,8 @@ components.
 
 <span id="_Toc382" class="anchor"></span> Example
 
-<span id="_Toc383" class="anchor"></span> Distribution View
+ Distribution View {#distribution-view .ListParagraph}
+------------------
 
 <span id="_Toc384" class="anchor"></span>Description
 
@@ -5660,7 +4466,8 @@ areas e.g. data centres, office locations etc.
 
 <span id="_Toc385" class="anchor"></span>Example
 
-<span id="_Toc386" class="anchor"></span> Security View
+ Security View {#security-view .ListParagraph}
+--------------
 
 <span id="_Toc387" class="anchor"></span>Description
 
@@ -5673,7 +4480,8 @@ that are needed to control access, confidentiality etc.
 
 <span id="_Toc388" class="anchor"></span> Example
 
-<span id="_Toc389" class="anchor"></span> Governance View
+ Governance View {#governance-view .ListParagraph}
+----------------
 
 <span id="_Toc390" class="anchor"></span>Description
 
@@ -5684,7 +4492,8 @@ governance components
 
 <span id="_Toc391" class="anchor"></span>Example
 
-<span id="_Toc392" class="anchor"></span> Migration View
+ Migration View {#migration-view .ListParagraph}
+---------------
 
 <span id="_Toc393" class="anchor"></span>Description
 
@@ -5693,7 +4502,8 @@ future state highlighting the key stages in that journey.
 
 <span id="_Toc394" class="anchor"></span>Example
 
-<span id="_Toc395" class="anchor"></span>Cross-References
+Cross-References {#cross-references .ListParagraph}
+================
 
 ***Cross References*** document relationships of Artifacts usually
 across abstraction levels and aspect areas, (for example the
@@ -5708,8 +4518,8 @@ references but like *Views* there are many other cross references that
 can be created to improve understanding and communicate the architecture
 complexity
 
-<span id="_Toc396" class="anchor"></span>Business Service – Information
-Object Cross Reference
+Business Service – Information Object Cross Reference {#business-service-information-object-cross-reference .ListParagraph}
+-----------------------------------------------------
 
 <span id="_Toc397" class="anchor"></span>Description
 
@@ -5726,8 +4536,8 @@ This cross reference is a key traceability artifact in IAF
 
 <span id="_Toc398" class="anchor"></span>Example
 
-<span id="_Toc399" class="anchor"></span>Information Object –
-Information System Service Cross Reference
+Information Object – Information System Service Cross Reference {#information-object-information-system-service-cross-reference .ListParagraph}
+---------------------------------------------------------------
 
 <span id="_Toc400" class="anchor"></span>Description
 
@@ -5739,8 +4549,8 @@ This cross reference is a key traceability artifact in IAF
 
 <span id="_Toc401" class="anchor"></span>Example
 
-<span id="_Toc402" class="anchor"></span>Business Information Service –
-Information System Service Cross Reference
+Business Information Service – Information System Service Cross Reference {#business-information-service-information-system-service-cross-reference .ListParagraph}
+-------------------------------------------------------------------------
 
 <span id="_Toc403" class="anchor"></span>Description
 
@@ -5750,8 +4560,8 @@ support them.
 
 This cross reference is a key traceability artifact in IAF
 
-<span id="_Toc404" class="anchor"></span>Business Information Service –
-Technology Infrastructure Service Cross Reference
+Business Information Service – Technology Infrastructure Service Cross Reference {#business-information-service-technology-infrastructure-service-cross-reference .ListParagraph}
+--------------------------------------------------------------------------------
 
 <span id="_Toc405" class="anchor"></span>Description
 
@@ -5764,7 +4574,8 @@ This cross reference is a key traceability artifact in IAF
 
 <span id="_Toc406" class="anchor"></span>Example
 
-<span id="_Toc407" class="anchor"></span>Principle Cross-References
+Principle Cross-References {#principle-cross-references .ListParagraph}
+--------------------------
 
 <span id="_Toc408" class="anchor"></span>Description
 
@@ -5780,8 +4591,8 @@ demonstrate why components are as they are.
 
 <span id="_Toc409" class="anchor"></span>Example
 
-<span id="_Toc410" class="anchor"></span>Information System Service –
-Technology Infrastructure Service Cross-Reference
+Information System Service – Technology Infrastructure Service Cross-Reference {#information-system-service-technology-infrastructure-service-cross-reference .ListParagraph}
+------------------------------------------------------------------------------
 
 <span id="_Toc411" class="anchor"></span>Description
 
@@ -5793,8 +4604,8 @@ supported by one or more *Technology Infrastructure Services.*
 
 <span id="_Toc412" class="anchor"></span>Example
 
-<span id="_Toc413" class="anchor"></span>Logical Information System
-Component – Technology Infrastructure Service cross-reference
+Logical Information System Component – Technology Infrastructure Service cross-reference {#logical-information-system-component-technology-infrastructure-service-cross-reference .ListParagraph}
+----------------------------------------------------------------------------------------
 
 <span id="_Toc414" class="anchor"></span>Description
 
@@ -5810,10 +4621,11 @@ similar support especially in terms of governance and security).
 
 Appendices
 
-<span id="_Toc416" class="anchor"></span>Appendix A: Contextual Level
-Support Products
+Appendix A: Contextual Level Support Products {#appendix-a-contextual-level-support-products .ListParagraph}
+=============================================
 
-<span id="_Toc417" class="anchor"></span>Business Context
+Business Context {#business-context .ListParagraph}
+----------------
 
 The business context describes the customer’s in-house and external
 business environment with focus on the influences or constrains for the
@@ -6052,7 +4864,8 @@ supporters or otherwise of the engagement.
 An understanding of the stakeholders interests in and position to the
 engagement is crucial to ensuring success.
 
-<span id="_Toc418" class="anchor"></span>Technology Context
+Technology Context {#technology-context .ListParagraph}
+------------------
 
 The technology context describes the customer’s internal and external
 technology environment with focus on the influences or constraints for

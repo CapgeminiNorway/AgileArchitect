@@ -3,4 +3,4 @@ The objective of the Archimate standard and the ArchiMate Enterprise Architectur
 
 Archimate training must comply to The Open Group specifications and requirements. For more information on this, go to their [Website](http://www.opengroup.org/certifications/archimate/training)
 
-Want to play with the Archimate metamodell?  Take a look: <a href= "https://app.ardoq.com/presentation/capgemini/583bdceb72fa6d6f4bb73c8d/slide/0/" target="_blank">Archimate Live"</a>
+Want to play with the Archimate metamodell?  Take a look: <a href= "https://app.ardoq.com/presentation/capgemini/583bdceb72fa6d6f4bb73c8d/slide/0/" target="_blank">Archimate Live</a>

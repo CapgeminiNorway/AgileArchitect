@@ -42,15 +42,20 @@ pages:
 - Useful Material:
   - Agile Manifesto: 'useful_material/Agile_Manifesto.md'
   - Archimate: 'useful_material/Archimate.md'
+  - Capgemini IAF: 'useful_material/iaf.md'
   - Fair Institute: 'useful_material/FairInstitute.md'
   - Global Identity Foundation: 'useful_material/Global_Identity_Foundation.md'
+  - Open Platform 3.0: 'useful_material/OpenPlatform.md'
   - TechnoVision: 'useful_material/Technovision.md'
-
 - Ideas:
-    - Going DEF: 'ideas/Going DEF.md'
+  - Going DEF: 'ideas/Going DEF.md'
+- Proof of Concept:
+  - Introduction: 'poc/introduction.md'
+  - Home dialysis: 'poc/HomeDialysis.md'
 - About:
-  - The Community: 'about/community.md'
-  - License: 'about/license.md'
-  - Release Notes: 'about/release_notes.md'
   - Acknowledgements: 'about/acknowledgements.md'
+  - License: 'about/license.md'
   - References: 'about/references.md'
+  - Release Notes: 'about/release_notes.md'
+  - The Community: 'about/community.md'
+  - Want to contribute: 'about/contribute.md'
