@@ -1,4 +1,4 @@
-site_name: Architecture Academy
+site_name: DEF Architecture 
 google_analytics: ['UA-78514643-1', 'agilearchitect.azurewebsites.net']
 docs_dir: ../manuscript/
 theme: readthedocs
@@ -16,18 +16,7 @@ pages:
   - Project Architect: 'disciplines/project_architect.md'
   - Security Architect: 'disciplines/security_architect.md'
   - Software Architect: 'disciplines/software_architect.md'
-- Lessons:
-  - Architecture Repository: 'lessons/Architecture_Repository.md'
-  - Business Architecture: 'lessons/Business_Architecture.md'
-  - Collaboration Platform: 'lessons/CollaborationPlatform.md'
-  - Information Architecture: 'lessons/Information_Architecture.md'
-  - Integration Architecture: 'lessons/Integration_Architecture.md'
-  - Identity Architecture: 'lessons/Identity_Architecture.md'
-  - Project Architecture: 'lessons/Project_Architecture.md'
-  - Security Architecture: 'lessons/Rugged_DevOps.md'
-  - Software Architecture: 'lessons/Software_Architecture.md'
-  - Stakeholder Communication: 'lessons/Stakeholder_Communication.md'
-- Guides:
+- Architecture Guides:
   - Architecture Repository: 'guides/Architecture_Repository.md'
   - Business Architecture: 'guides/Business_Architecture.md'
   - Identity Architecture: 'guides/Identity_Architecture.md'
@@ -38,6 +27,18 @@ pages:
   - Software Architecture: 'guides/Software_Architecture.md'
   - Stakeholder Communication: 'guides/Stakeholder_Communication.md'
   - Risk Management: 'guides/Risk_Management.md'
+- Architecture Lessons:
+  - Architecture Repository: 'lessons/Architecture_Repository.md'
+  - Business Architecture: 'lessons/Business_Architecture.md'
+  - Collaboration Platform: 'lessons/CollaborationPlatform.md'
+  - Cross functional: 'lessons/CrossFunction.md'
+  - Information Architecture: 'lessons/Information_Architecture.md'
+  - Integration Architecture: 'lessons/Integration_Architecture.md'
+  - Identity Architecture: 'lessons/Identity_Architecture.md'
+  - Project Architecture: 'lessons/Project_Architecture.md'
+  - Security Architecture: 'lessons/Rugged_DevOps.md'
+  - Software Architecture: 'lessons/Software_Architecture.md'
+  - Stakeholder Communication: 'lessons/Stakeholder_Communication.md'
 - Useful Material:
   - Agile Manifesto: 'useful_material/Agile_Manifesto.md'
   - Archimate: 'useful_material/Archimate.md'
