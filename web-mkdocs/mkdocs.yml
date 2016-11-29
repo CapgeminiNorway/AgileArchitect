@@ -16,7 +16,7 @@ pages:
   - Project Architect: 'disciplines/project_architect.md'
   - Security Architect: 'disciplines/security_architect.md'
   - Software Architect: 'disciplines/software_architect.md'
-  - Storytelling(UX): 'disciplines/storytelleing.md'
+  - Storytelling(UX): 'disciplines/storytelling.md'
 - Architecture Guides:
   - Architecture Repository: 'guides/Architecture_Repository.md'
   - Business Architecture: 'guides/Business_Architecture.md'
@@ -28,7 +28,7 @@ pages:
   - Security Architecture: 'guides/Security_Architecture.md'
   - Software Architecture: 'guides/Software_Architecture.md'
   - Stakeholder Communication: 'guides/Stakeholder_Communication.md'
-  - Storytelling(UX): 'guides/storytelleing.md'
+  - Storytelling(UX): 'guides/storytelling.md'
 - Architecture Lessons:
   - Architecture Repository: 'lessons/Architecture_Repository.md'
   - Business Architecture: 'lessons/Business_Architecture.md'
