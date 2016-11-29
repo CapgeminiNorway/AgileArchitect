@@ -1,3 +1,7 @@
-# Information Architecture
+# Information Architect
 
-I suggest to write this lesson based on the concepts of the Polar Bear book on the same subject.
+The Information Architecture is currently based on the following book:
+
+**Information Architecture: For the Web and Beyond 4th Edition: **
+
+![Information Architecture](../images/PolarBear.jpg)

@@ -16,6 +16,7 @@ pages:
   - Project Architect: 'disciplines/project_architect.md'
   - Security Architect: 'disciplines/security_architect.md'
   - Software Architect: 'disciplines/software_architect.md'
+  - Storytelling(UX): 'disciplines/storytelleing.md'
 - Architecture Guides:
   - Architecture Repository: 'guides/Architecture_Repository.md'
   - Business Architecture: 'guides/Business_Architecture.md'
@@ -23,10 +24,11 @@ pages:
   - Information Architecture: 'guides/Information_Architecture.md'
   - Integration Architecture: 'guides/Integration_Architecture.md'
   - Project Architecture: 'guides/Project_Architecture.md'
+  - Risk Management: 'guides/Risk_Management.md'
   - Security Architecture: 'guides/Security_Architecture.md'
   - Software Architecture: 'guides/Software_Architecture.md'
   - Stakeholder Communication: 'guides/Stakeholder_Communication.md'
-  - Risk Management: 'guides/Risk_Management.md'
+  - Storytelling(UX): 'guides/storytelleing.md'
 - Architecture Lessons:
   - Architecture Repository: 'lessons/Architecture_Repository.md'
   - Business Architecture: 'lessons/Business_Architecture.md'
@@ -39,6 +41,7 @@ pages:
   - Security Architecture: 'lessons/Security_Architecture.md'
   - Software Architecture: 'lessons/Software_Architecture.md'
   - Stakeholder Communication: 'lessons/Stakeholder_Communication.md'
+  - Storytelling: 'lessons/storytelling.md'
 - Useful Material:
   - Agile Manifesto: 'useful_material/Agile_Manifesto.md'
   - Archimate: 'useful_material/Archimate.md'

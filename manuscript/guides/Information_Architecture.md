@@ -1,16 +1,7 @@
-# Information Architecture
-Forcem ipsum
+# Information Architect
 
-## Trustworthy information management
-Information must be managed and maintained in a way that owners and users can trust
+The Information Architecture is currently based on the following book:
 
-## Security semantics
-What can we learn from semantics? Semantic web?
+**Information Architecture: For the Web and Beyond 4th Edition: **
 
-## Demonstrate conformance
-How can conformance and compliance to requirements be demonstrated?
-
-## Non-functional requirements
-
-## Functional requirements
-Shall this guide talk about functional requirements?
+![Information Architecture](../images/PolarBear.jpg)
