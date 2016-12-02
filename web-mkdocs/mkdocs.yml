@@ -57,7 +57,7 @@ pages:
 - About:
   - Acknowledgements: 'about/acknowledgements.md'
   - License: 'about/license.md'
-  - Philosophy: 'about/philosophy'
+  - Philosophy: 'about/philosophy.md'
   - References: 'about/references.md'
   - Release Notes: 'about/release_notes.md'
   - The Community: 'about/community.md'
