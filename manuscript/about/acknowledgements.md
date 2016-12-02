@@ -15,7 +15,7 @@ We truly acknowledge the contributions and commitment from people regardless of:
 - Professional views
 - Years of experience
 
-No name mentioned - No names forgotten - Except from:
+No name mentioned - No names forgotten
 
 Conformance requirements to be part of this community:
 
