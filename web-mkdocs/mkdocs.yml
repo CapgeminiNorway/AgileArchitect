@@ -1,9 +1,9 @@
-site_name: Architecture Academy
+site_name: DEF Architecture
 google_analytics: ['UA-78514643-1', 'agilearchitect.azurewebsites.net']
 docs_dir: ../manuscript/
 theme: readthedocs
 pages:
-- Architecture Academy:
+- Table of Content:
   - Introduction: 'index.md'
   - Culture of Collaboration: 'introduction/DevOps.md'
   - Social Science Analysis: 'introduction/Social_Science_Analysis.md'
@@ -16,42 +16,48 @@ pages:
   - Project Architect: 'disciplines/project_architect.md'
   - Security Architect: 'disciplines/security_architect.md'
   - Software Architect: 'disciplines/software_architect.md'
-- Lessons:
-  - Architecture Repository: 'lessons/Architecture_Repository.md'
-  - Business Architecture: 'lessons/Business_Architecture.md'
-  - Collaboration Platform: 'lessons/CollaborationPlatform.md'
-  - Information Architecture: 'lessons/Information_Architecture.md'
-  - Integration Architecture: 'lessons/Integration_Architecture.md'
-  - Identity Architecture: 'lessons/Identity_Architecture.md'
-  - Project Architecture: 'lessons/Project_Architecture.md'
-  - Security Architecture: 'lessons/Rugged_DevOps.md'
-  - Software Architecture: 'lessons/Software_Architecture.md'
-  - Stakeholder Communication: 'lessons/Stakeholder_Communication.md'
-- Guides:
+  - Storytelling(UX): 'disciplines/storytelling.md'
+- Architecture Guides:
   - Architecture Repository: 'guides/Architecture_Repository.md'
-  - Business Architecture:
-    - What is it: 'guides/Business_Architecture/WhatIsBA.md'
-    - Why Process Oriented: 'guides/Business_Architecture/Why_PO_BA.md'
-    - Central Concepts: 'guides/Business_Architecture/CentralConcepts.md'
-    - Howto Build: 'guides/Business_Architecture/HowtoBuildPOBA.md'
+  - Business Architecture: 'guides/Business_Architecture.md'
   - Identity Architecture: 'guides/Identity_Architecture.md'
   - Information Architecture: 'guides/Information_Architecture.md'
   - Integration Architecture: 'guides/Integration_Architecture.md'
   - Project Architecture: 'guides/Project_Architecture.md'
+  - Risk Management: 'guides/Risk_Management.md'
   - Security Architecture: 'guides/Security_Architecture.md'
   - Software Architecture: 'guides/Software_Architecture.md'
   - Stakeholder Communication: 'guides/Stakeholder_Communication.md'
-  - Risk Management: 'guides/Risk_Management.md'
+  - Storytelling(UX): 'guides/storytelling.md'
+- Architecture Lessons:
+  - Architecture Repository: 'lessons/Architecture_Repository.md'
+  - Business Architecture: 'lessons/Business_Architecture.md'
+  - Collaboration Platform: 'lessons/CollaborationPlatform.md'
+  - Cross functional: 'lessons/CrossFunction.md'
+  - Information Architecture: 'lessons/Information_Architecture.md'
+  - Integration Architecture: 'lessons/Integration_Architecture.md'
+  - Identity Architecture: 'lessons/Identity_Architecture.md'
+  - Project Architecture: 'lessons/Project_Architecture.md'
+  - Security Architecture: 'lessons/Security_Architecture.md'
+  - Software Architecture: 'lessons/Software_Architecture.md'
+  - Stakeholder Communication: 'lessons/Stakeholder_Communication.md'
+  - Storytelling: 'lessons/storytelling.md'
 - Useful Material:
   - Agile Manifesto: 'useful_material/Agile_Manifesto.md'
   - Archimate: 'useful_material/Archimate.md'
-  - TechnoVision: 'useful_material/Technovision.md'
+  - Capgemini IAF: 'useful_material/iaf.md'
+  - Fair Institute: 'useful_material/FairInstitute.md'
   - Global Identity Foundation: 'useful_material/Global_Identity_Foundation.md'
+  - TechnoVision: 'useful_material/Technovision.md'
 - Ideas:
-    - Ideas: 'ideas/README.md'
+  - Going DEF: 'ideas/Going DEF.md'
+- Proof of Concept:
+  - Introduction: 'poc/introduction.md'
+  - Home dialysis: 'poc/HomeDialysis.md'
 - About:
-  - The Community: 'about/community.md'
-  - License: 'about/license.md'
-  - Release Notes: 'about/release_notes.md'
   - Acknowledgements: 'about/acknowledgements.md'
+  - License: 'about/license.md'
   - References: 'about/references.md'
+  - Release Notes: 'about/release_notes.md'
+  - The Community: 'about/community.md'
+  - Want to contribute: 'about/contribute.md'
