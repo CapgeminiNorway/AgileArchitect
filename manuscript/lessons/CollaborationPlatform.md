@@ -18,6 +18,12 @@ To learn more about how we do out stuff, you will benefit to get:
 - Basic understanding of Kanban
 - Basic understanding of Jira
 
+## Working with text
+
+
+
+## Working with graphics
+<i class="fa fa-address-book fa-2x" aria-hidden="true"></i>
 
 ## Issue tracking and feedback loop
 We use Jira from Atlassian to track issues and manage the feedback loop. Some authors and contributers have direct acces to the project in Jira, but any user can use the feedback button included in the webpages. This wil automatically create an issue in Jira.

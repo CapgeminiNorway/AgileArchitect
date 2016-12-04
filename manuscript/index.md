@@ -1,5 +1,6 @@
 <script type="text/javascript" src="https://capgemini.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-T/-ulp2nw/100021/c/1000.0.11/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-UK&collectorId=73c91f30">
 </script>
+<script src="https://use.fontawesome.com/75b201093d.js"></script>
 
 **Going DEF: Digital (architected) enablement**
 
@@ -16,11 +17,13 @@ We would like to share this working draft and initiate an open discussion
 
 We have created a “Manifesto for digital (architected) enablement”. The Manifesto is based on The Agile Manifesto that sets the direction. In addtition we highlight:
 
-- Simplicity over elaboration
-- Platform Concierge over Design authority
-- Empathy and Observation over requirements
-- Continuous transformation over phased change
-- Automation over manuality
+<ul class="fa-ul">
+  <li><i class="fa-li fa fa-thumbs-o-up"></i>Simplicity over elaboration</li>
+  <li><i class="fa-li fa fa-thumbs-o-up"></i>Platform Concierge over Design authority</li>
+  <li><i class="fa-li fa fa-thumbs-o-up"></i>Empathy and Observation over requirements</li>
+  <li><i class="fa-li fa fa-thumbs-o-up"></i>Continuous transformation over phased change</li>
+  <li><i class="fa-li fa fa-thumbs-o-up"></i>Automation over manuality</li>
+</ul>
 
 Going DEF is an initiative to help public and private enterprises with Digital Enablement. For architects to be useful in this context, we want to crowdsource the design and production of whatever it takes to turn architects into more helpful advisors for their stakeholders. DEF will focus on what kind of lessons and guides is needed for the first phase of this journey. It is not a journey with an end, but more about evolution.
 
@@ -32,8 +35,9 @@ Going DEF is an initiative to help public and private enterprises with Digital E
 The figure below illustrates the problem and suggest how to solve it:
 <svg width="675" height="600" version="1.1"
      xmlns="http://www.w3.org/2000/svg" xmlns:xlink= "http://www.w3.org/1999/xlink">
-	<image xlink:href="introduction/Idea2Run.svg" x="15" y="0" height="650px" width="650px"/>
+	<image xlink:href="introduction/Idea2Run.svg" x="15" y="0" height="650" width="650"/>
 </svg>
+
 
 **Continuous Delivery -> Evolutionary Architecture**
 

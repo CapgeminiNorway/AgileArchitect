@@ -2,6 +2,7 @@ site_name: DEF Architecture
 google_analytics: ['UA-78514643-1', 'agilearchitect.azurewebsites.net']
 docs_dir: ../manuscript/
 theme: readthedocs
+extra_css: [extra.css]
 pages:
 - Table of Content:
   - Introduction: 'index.md'
@@ -29,7 +30,7 @@ pages:
   - Software Architecture: 'guides/Software_Architecture.md'
   - Stakeholder Communication: 'guides/Stakeholder_Communication.md'
   - Storytelling(UX): 'guides/storytelling.md'
-- Architecture Lessons:
+- Learn about:
   - Architecture Repository: 'lessons/Architecture_Repository.md'
   - Business Architecture: 'lessons/Business_Architecture.md'
   - Collaboration Platform: 'lessons/CollaborationPlatform.md'
