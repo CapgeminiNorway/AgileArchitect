@@ -1,3 +1,5 @@
+<script src="https://use.fontawesome.com/75b201093d.js"></script>
+
 # How do we collaborate, contribute and peer review
 This is an introduction to how we develop, share and publish content. The figure below visualizes the workflow:
 
@@ -19,17 +21,20 @@ To learn more about how we do out stuff, you will benefit to get:
 - Basic understanding of Jira
 
 ## Working with text
-
-
+Markdown, Markdown and then some Markdown......
+<i class="fa fa-file-text-o" style="font-size:18px"></i>
 
 ## Working with graphics
-<i class="fa fa-address-book fa-2x" aria-hidden="true"></i>
+SVG is the way to go:
+<i class="fa fa-paw" style="font-size:12px"></i>
+<i class="fa fa-paw" style="font-size:18px"></i>
+<i class="fa fa-paw" style="font-size:24px"></i>
 
 ## Issue tracking and feedback loop
 We use Jira from Atlassian to track issues and manage the feedback loop. Some authors and contributers have direct acces to the project in Jira, but any user can use the feedback button included in the webpages. This wil automatically create an issue in Jira.
 
 ## Version control
-All content is stored at [GitHub](https://github.com/CapgeminiNorway/AgileArchitect/) in a public repository. You can browse the full history for a single file or the whole repository.
+All content is stored at [<i class="fa fa-github" style="font-size:18px"></i> GitHub](https://github.com/CapgeminiNorway/AgileArchitect/) in a public repository. You can browse the full history for a single file or the whole repository.
 
 ## Branching model
 We have chosen a branching model similar to Google's. We write content directly to a master branch and publish from a release branch.

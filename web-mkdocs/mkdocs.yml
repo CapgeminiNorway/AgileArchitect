@@ -2,7 +2,7 @@ site_name: DEF Architecture
 google_analytics: ['UA-78514643-1', 'agilearchitect.azurewebsites.net']
 docs_dir: ../manuscript/
 theme: readthedocs
-extra_css: [extra.css]
+extra_css: [../css/extra.css]
 pages:
 - Table of Content:
   - Introduction: 'index.md'

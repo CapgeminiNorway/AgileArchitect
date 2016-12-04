@@ -56,8 +56,8 @@
      id="namedview4139"
      showgrid="false"
      inkscape:zoom="0.83561644"
-     inkscape:cx="585.97541"
-     inkscape:cy="328.5"
+     inkscape:cx="146.18033"
+     inkscape:cy="615.71311"
      inkscape:window-x="75"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
@@ -568,229 +568,229 @@
          style="fill:#aade87;stroke:none" />
     </g>
     <g
-       fill="rgb(178,178,178)"
+       id="g4001"
        text-rendering="optimizeLegibility"
        font-family="'Lucida Grande'"
        stroke-linecap="butt"
        stroke="rgb(178,178,178)"
-       id="g4001">
+       fill="rgb(178,178,178)">
       <rect
-         fill="none"
          x="10"
          width="108"
          height="48"
          y="10"
          clip-path="url(#clipPath1)"
          id="rect4003"
-         style="fill:#afdde9" />
+         style="fill:#afdde9"
+         fill="none" />
       <text
-         fill="black"
          x="20"
          xml:space="preserve"
          y="27"
          clip-path="url(#clipPath2)"
+         id="text4005"
          stroke="none"
-         id="text4005">An Idea</text>
+         fill="black">An idea</text>
       <rect
          x="190"
          y="10"
          clip-path="url(#clipPath3)"
-         fill="white"
          width="73"
          height="49"
-         stroke="none"
          id="rect4007"
-         style="fill:#afdde9" />
+         style="fill:#afdde9"
+         stroke="none"
+         fill="white" />
       <rect
-         fill="none"
          x="190"
          width="72"
          height="48"
          y="10"
          clip-path="url(#clipPath3)"
-         id="rect4009" />
+         id="rect4009"
+         fill="none" />
       <text
-         fill="black"
          x="200"
          xml:space="preserve"
          y="27"
          clip-path="url(#clipPath4)"
+         id="text4011"
          stroke="none"
-         id="text4011">Explore</text>
+         fill="black">Explore</text>
       <rect
          x="418"
          y="10"
          clip-path="url(#clipPath5)"
-         fill="white"
          width="157"
          height="49"
-         stroke="none"
          id="rect4013"
-         style="fill:#afdde9" />
+         style="fill:#afdde9"
+         stroke="none"
+         fill="white" />
       <rect
-         fill="none"
          x="418"
          width="156"
          height="48"
          y="10"
          clip-path="url(#clipPath5)"
-         id="rect4015" />
+         id="rect4015"
+         fill="none" />
       <text
-         fill="black"
          x="428"
          xml:space="preserve"
          y="27"
          clip-path="url(#clipPath6)"
+         id="text4017"
          stroke="none"
-         id="text4017">Business Case</text>
+         fill="black">Business Case</text>
       <rect
          x="10"
          y="190"
          clip-path="url(#clipPath7)"
-         fill="white"
          width="565"
          height="61"
+         id="rect4019"
          stroke="none"
-         id="rect4019" />
+         fill="white" />
       <rect
-         fill="none"
          x="10"
          width="564"
          height="60"
          y="190"
          clip-path="url(#clipPath7)"
          id="rect4021"
-         style="fill:#afdde9" />
+         style="fill:#afdde9"
+         fill="none" />
       <text
-         fill="black"
          x="20"
          xml:space="preserve"
          y="207"
          clip-path="url(#clipPath8)"
+         id="text4023"
          stroke="none"
-         id="text4023">Create and design mockups</text>
+         fill="black">Create and design mockups</text>
       <rect
          x="10"
          y="286"
          clip-path="url(#clipPath9)"
-         fill="white"
          width="565"
          height="61"
-         stroke="none"
          id="rect4025"
-         style="fill:#afdde9" />
+         style="fill:#afdde9"
+         stroke="none"
+         fill="white" />
       <rect
-         fill="none"
          x="10"
          width="564"
          height="60"
          y="286"
          clip-path="url(#clipPath9)"
-         id="rect4027" />
+         id="rect4027"
+         fill="none" />
       <text
-         fill="black"
          x="20"
          xml:space="preserve"
          y="303"
          clip-path="url(#clipPath10)"
+         id="text4029"
          stroke="none"
-         id="text4029">Create Architectual Building Blocks</text>
+         fill="black">Create Architectual Building Blocks</text>
       <rect
          x="10"
          y="382"
          clip-path="url(#clipPath11)"
-         fill="white"
          width="565"
          height="61"
-         stroke="none"
          id="rect4031"
-         style="fill:#afdde9" />
+         style="fill:#afdde9"
+         stroke="none"
+         fill="white" />
       <rect
-         fill="none"
          x="10"
          width="564"
          height="60"
          y="382"
          clip-path="url(#clipPath11)"
-         id="rect4033" />
+         id="rect4033"
+         fill="none" />
       <text
-         fill="black"
          x="20"
          xml:space="preserve"
          y="399"
          clip-path="url(#clipPath12)"
+         id="text4035"
          stroke="none"
-         id="text4035">Solution Design</text>
+         fill="black">Solution Design</text>
       <rect
          x="10"
          y="478"
          clip-path="url(#clipPath13)"
-         fill="white"
          width="565"
          height="61"
-         stroke="none"
          id="rect4037"
-         style="fill:#afdde9" />
+         style="fill:#afdde9"
+         stroke="none"
+         fill="white" />
       <rect
-         fill="none"
          x="10"
          width="564"
          height="60"
          y="478"
          clip-path="url(#clipPath13)"
-         id="rect4039" />
+         id="rect4039"
+         fill="none" />
       <text
-         fill="black"
          x="20"
          xml:space="preserve"
          y="495"
          clip-path="url(#clipPath14)"
+         id="text4041"
          stroke="none"
-         id="text4041">Build</text>
+         fill="black">Build</text>
       <rect
          x="10"
          y="574"
          clip-path="url(#clipPath15)"
-         fill="white"
          width="565"
          height="73"
-         stroke="none"
          id="rect4043"
-         style="fill:#afdde9" />
+         style="fill:#afdde9"
+         stroke="none"
+         fill="white" />
       <rect
-         fill="none"
          x="10"
          width="564"
          height="72"
          y="574"
          clip-path="url(#clipPath15)"
-         id="rect4045" />
+         id="rect4045"
+         fill="none" />
       <text
-         fill="black"
          x="20"
          xml:space="preserve"
          y="591"
          clip-path="url(#clipPath16)"
+         id="text4047"
          stroke="none"
-         id="text4047">Run</text>
+         fill="black">Run</text>
       <rect
          x="10"
          y="106"
          clip-path="url(#clipPath17)"
-         fill="white"
          width="565"
          height="49"
+         id="rect4049"
          stroke="none"
-         id="rect4049" />
+         fill="white" />
       <rect
-         fill="none"
          x="10"
          width="564"
          height="48"
          y="106"
          clip-path="url(#clipPath17)"
          id="rect4051"
-         style="fill:#afdde9" />
+         style="fill:#afdde9"
+         fill="none" />
       <text
          x="20"
          xml:space="preserve"
@@ -802,37 +802,37 @@
          x="310"
          y="10"
          clip-path="url(#clipPath19)"
-         fill="white"
          width="85"
          height="49"
-         stroke="none"
          id="rect4055"
-         style="fill:#afdde9" />
+         style="fill:#afdde9"
+         stroke="none"
+         fill="white" />
       <rect
-         fill="none"
          x="310"
          width="84"
          height="48"
          y="10"
          clip-path="url(#clipPath19)"
-         id="rect4057" />
+         id="rect4057"
+         fill="none" />
       <text
-         fill="black"
          x="320"
          xml:space="preserve"
          y="27"
          clip-path="url(#clipPath20)"
+         id="text4059"
          stroke="none"
-         id="text4059">Justify</text>
+         fill="black">Justify</text>
       <rect
          x="586"
          y="106"
          clip-path="url(#clipPath21)"
-         fill="white"
          width="97"
          height="541"
+         id="rect4061"
          stroke="none"
-         id="rect4061" />
+         fill="white" />
       <rect
          x="586"
          width="96"
@@ -843,73 +843,73 @@
          style="fill:#e9ddaf"
          transform="matrix(0.9008029,0,0,1.0000942,58.104076,-0.03540593)" />
       <text
-         fill="black"
          x="596"
          xml:space="preserve"
          y="123"
          clip-path="url(#clipPath22)"
+         id="text4065"
          stroke="none"
-         id="text4065">Branching</text>
+         fill="black">Branching</text>
       <text
-         fill="black"
          x="596"
          xml:space="preserve"
          y="138"
          clip-path="url(#clipPath22)"
+         id="text4067"
          stroke="none"
-         id="text4067">model</text>
+         fill="black">model</text>
       <rect
          x="694"
          y="106"
          clip-path="url(#clipPath23)"
-         fill="white"
          width="85"
          height="541"
-         stroke="none"
          id="rect4069"
-         style="fill:#e3e2db" />
+         style="fill:#e3e2db"
+         stroke="none"
+         fill="white" />
       <rect
-         fill="none"
          x="694"
          width="84"
          height="540"
          y="106"
          clip-path="url(#clipPath23)"
-         id="rect4071" />
+         id="rect4071"
+         fill="none" />
       <text
-         fill="black"
          x="704"
          xml:space="preserve"
          y="123"
          clip-path="url(#clipPath24)"
+         id="text4073"
          stroke="none"
-         id="text4073">Testing</text>
+         fill="black">Testing</text>
       <text
-         fill="black"
          x="704"
          xml:space="preserve"
          y="138"
          clip-path="url(#clipPath24)"
+         id="text4075"
          stroke="none"
-         id="text4075">method</text>
+         fill="black">method</text>
       <rect
          x="586"
          y="10"
          clip-path="url(#clipPath25)"
-         fill="rgb(201,231,183)"
          width="193"
          height="70"
+         id="rect4077"
          stroke="none"
-         id="rect4077" />
+         fill="rgb(201,231,183)" />
       <rect
          x="586"
          y="10"
          clip-path="url(#clipPath25)"
-         fill="none"
          width="192"
          height="69"
+         id="rect4079"
          stroke="rgb(140,161,128)"
-         id="rect4079" />
+         fill="none" />
       <text
          x="596"
          xml:space="preserve"
@@ -926,22 +926,22 @@
        id="g4083">
       <line
          y2="34"
-         fill="none"
          x1="118"
          clip-path="url(#clipPath27)"
          x2="190"
          y1="34"
-         id="line4085" />
+         id="line4085"
+         fill="none" />
       <polygon
          points=" 190 34 180 40 180 28"
          clip-path="url(#clipPath28)"
          stroke="none"
          id="polygon4087" />
       <polygon
-         fill="none"
          points=" 190 34 180 40 180 28"
          clip-path="url(#clipPath28)"
-         id="polygon4089" />
+         id="polygon4089"
+         fill="none" />
       <line
          y2="106"
          fill="none"
