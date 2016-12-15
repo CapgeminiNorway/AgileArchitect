@@ -1,6 +1,5 @@
 <script type="text/javascript" src="https://capgemini.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-T/-ulp2nw/100021/c/1000.0.11/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-UK&collectorId=73c91f30">
 </script>
-<script src="https://use.fontawesome.com/75b201093d.js"></script>
 
 **Going DEF: Digital (architected) enablement**
 

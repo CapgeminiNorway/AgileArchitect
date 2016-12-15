@@ -2,7 +2,7 @@ site_name: DEF Architecture
 google_analytics: ['UA-78514643-1', 'agilearchitect.azurewebsites.net']
 docs_dir: ../manuscript/
 theme: readthedocs
-extra_css: [../css/extra.css]
+extra_css: [extra.css]
 pages:
 - Table of Content:
   - Introduction: 'index.md'
@@ -21,7 +21,7 @@ pages:
 - Architecture Guides:
   - Architecture Repository: 'guides/Architecture_Repository.md'
   - Business Architecture: 'guides/Business_Architecture.md'
-  - Identity Architecture: 'guides/Identity_Architecture.md'
+  - IAM Architecture: 'guides/Identity_Architecture.md'
   - Information Architecture: 'guides/Information_Architecture.md'
   - Integration Architecture: 'guides/Integration_Architecture.md'
   - Project Architecture: 'guides/Project_Architecture.md'
@@ -31,18 +31,18 @@ pages:
   - Stakeholder Communication: 'guides/Stakeholder_Communication.md'
   - Storytelling(UX): 'guides/storytelling.md'
 - Learn about:
-  - Architecture Repository: 'lessons/Architecture_Repository.md'
-  - Business Architecture: 'lessons/Business_Architecture.md'
-  - Collaboration Platform: 'lessons/CollaborationPlatform.md'
-  - Cross functional: 'lessons/CrossFunction.md'
-  - Information Architecture: 'lessons/Information_Architecture.md'
-  - Integration Architecture: 'lessons/Integration_Architecture.md'
-  - Identity Architecture: 'lessons/Identity_Architecture.md'
-  - Project Architecture: 'lessons/Project_Architecture.md'
-  - Security Architecture: 'lessons/Security_Architecture.md'
-  - Software Architecture: 'lessons/Software_Architecture.md'
-  - Stakeholder Communication: 'lessons/Stakeholder_Communication.md'
-  - Storytelling: 'lessons/storytelling.md'
+  - Architecture Repository: 'learn/Architecture_Repository.md'
+  - Business Architecture: 'learn/Business_Architecture.md'
+  - Collaboration Platform: 'learn/CollaborationPlatform.md'
+  - Cross functional: 'learn/CrossFunction.md'
+  - Information Architecture: 'learn/Information_Architecture.md'
+  - Integration Architecture: 'learn/Integration_Architecture.md'
+  - Identity Architecture: 'learn/Identity_Architecture.md'
+  - Project Architecture: 'learn/Project_Architecture.md'
+  - Security Architecture: 'learn/Security_Architecture.md'
+  - Software Architecture: 'learn/Software_Architecture.md'
+  - Stakeholder Communication: 'learn/Stakeholder_Communication.md'
+  - Storytelling: 'learn/storytelling.md'
 - Useful Material:
   - Agile Manifesto: 'useful_material/Agile_Manifesto.md'
   - Archimate: 'useful_material/Archimate.md'

@@ -1,6 +1,6 @@
 # Information Architect
 
-The Information Architecture is currently based on the following book:
+The Information Architecture can based on the following book:
 
 **Information Architecture: For the Web and Beyond 4th Edition: **
 

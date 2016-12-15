@@ -1,5 +1,3 @@
-<script src="https://use.fontawesome.com/75b201093d.js"></script>
-
 # How do we collaborate, contribute and peer review
 This is an introduction to how we develop, share and publish content. The figure below visualizes the workflow:
 
@@ -26,9 +24,10 @@ Markdown, Markdown and then some Markdown......
 
 ## Working with graphics
 SVG is the way to go:
-<i class="fa fa-paw" style="font-size:12px"></i>
-<i class="fa fa-paw" style="font-size:18px"></i>
-<i class="fa fa-paw" style="font-size:24px"></i>
+
+<i class="fa fa-rocket" style="font-size:24px"></i>
+<i class="fa fa-rocket" style="font-size:36px;"></i>
+<i class="fa fa-rocket" style="font-size:48px;color:red"></i>
 
 ## Issue tracking and feedback loop
 We use Jira from Atlassian to track issues and manage the feedback loop. Some authors and contributers have direct acces to the project in Jira, but any user can use the feedback button included in the webpages. This wil automatically create an issue in Jira.
